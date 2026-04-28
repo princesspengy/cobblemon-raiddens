@@ -1,0 +1,19 @@
+{
+  "pokemon": {
+    "species": "urshifu",
+    "moves": [
+      "wickedblow",
+      "brickbreak",
+      "ironhead",
+      "suckerpunch"
+    ]
+  },
+  "boss": {
+    "aspects": [
+      "single_strike"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIGHTING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

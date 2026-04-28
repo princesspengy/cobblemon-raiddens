@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "celesteela",
+    "moves": [
+      "flashcannon",
+      "gigadrain",
+      "metalsound",
+      "irondefense"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "STEEL",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

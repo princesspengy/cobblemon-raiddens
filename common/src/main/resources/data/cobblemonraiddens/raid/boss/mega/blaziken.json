@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "blaziken",
+    "moves": [
+      "flareblitz",
+      "bravebird",
+      "brickbreak",
+      "bulkup"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:blazikenite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/blaziken"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

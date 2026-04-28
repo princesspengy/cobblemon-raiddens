@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "beedrill",
+    "moves": [
+      "poisonjab",
+      "xscissor",
+      "drillrun",
+      "pursuit"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:beedrillite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "POISON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/beedrill"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

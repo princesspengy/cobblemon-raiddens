@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "golurk",
+    "moves": [
+      "earthquake",
+      "phantomforce",
+      "icepunch",
+      "stoneedge"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:golurkite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GROUND",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/golurk"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

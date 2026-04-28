@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "greninja",
+    "moves": [
+      "watershuriken",
+      "darkpulse",
+      "icebeam",
+      "mudshot"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:greninjite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "WATER",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/greninja"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "zeraora",
+    "moves": [
+      "plasmafists",
+      "poweruppunch",
+      "slash",
+      "honeclaws"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ELECTRIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "landorus",
+    "moves": [
+      "sandsearstorm",
+      "psychic",
+      "stoneedge",
+      "focusblast"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FLYING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "set_weather",
+      "weather": "sandstorm"
+    }
+  }
+}

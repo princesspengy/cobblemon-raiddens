@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "zekrom",
+    "moves": [
+      "fusionbolt",
+      "dragonclaw",
+      "zenheadbutt",
+      "nobleroar"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "boltstrike",
+      "target": 1
+    }
+  }
+}

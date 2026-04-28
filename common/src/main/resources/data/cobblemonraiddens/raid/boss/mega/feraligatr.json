@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "feraligatr",
+    "moves": [
+      "thrash",
+      "aquatail",
+      "crunch",
+      "icefang"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:feraligite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "WATER",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/feraligatr"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

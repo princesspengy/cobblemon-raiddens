@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "glalie",
+    "moves": [
+      "crunch",
+      "bodyslam",
+      "blizzard",
+      "chillingwater"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:glalitite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ICE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/glalie"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

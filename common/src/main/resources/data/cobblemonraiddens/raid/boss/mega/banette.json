@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "banette",
+    "moves": [
+      "phantomforce",
+      "suckerpunch",
+      "willowisp",
+      "confuseray"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:banettite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/banette"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

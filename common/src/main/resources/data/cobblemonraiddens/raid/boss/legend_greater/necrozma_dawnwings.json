@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "necrozma",
+    "moves": [
+      "moongeistbeam",
+      "photongeyser",
+      "powergem",
+      "icebeam"
+    ]
+  },
+  "boss": {
+    "form": "dawn-wings"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "GHOST",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

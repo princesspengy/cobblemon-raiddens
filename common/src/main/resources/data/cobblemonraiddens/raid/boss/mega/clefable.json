@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "clefable",
+    "moves": [
+      "moonblast",
+      "psychic",
+      "thunderbolt",
+      "flamethrower"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:clefablite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FAIRY",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/clefable"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

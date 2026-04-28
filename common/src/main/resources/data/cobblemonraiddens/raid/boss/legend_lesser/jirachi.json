@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "jirachi",
+    "moves": [
+      "futuresight",
+      "meteormash",
+      "cosmicpower",
+      "meteorbeam"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "STEEL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "doomdesire",
+      "target": 1
+    }
+  }
+}

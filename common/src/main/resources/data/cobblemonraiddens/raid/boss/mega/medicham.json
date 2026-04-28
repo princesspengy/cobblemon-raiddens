@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "medicham",
+    "moves": [
+      "zenheadbutt",
+      "brickbreak",
+      "thunderpunch",
+      "counter"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:medichamite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "PSYCHIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/medicham"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pokemon": {
+    "species": "terapagos",
+    "moves": [
+      "terastarstorm",
+      "dazzlinggleam",
+      "earthpower",
+      "icebeam"
+    ]
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "NORMAL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "terastallize"
+    }
+  }
+}

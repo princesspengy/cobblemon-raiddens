@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "azelf",
+    "moves": [
+      "mysticalpower",
+      "nastyplot",
+      "uproar",
+      "thunderbolt"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.1": {
+      "type": "use_move",
+      "move": "explosion",
+      "target": 1
+    }
+  }
+}

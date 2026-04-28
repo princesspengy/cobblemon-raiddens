@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "scrafty",
+    "moves": [
+      "throatchop",
+      "brickbreak",
+      "swagger",
+      "ironhead"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:scraftinite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/scrafty"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

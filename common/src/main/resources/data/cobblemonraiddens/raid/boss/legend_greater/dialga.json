@@ -1,0 +1,34 @@
+{
+  "pokemon": {
+    "species": "dialga",
+    "moves": [
+      "roaroftime",
+      "flashcannon",
+      "aurasphere",
+      "earthpower"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "set_terrain",
+      "terrain": "psychicterrain"
+    },
+    "hp:0.75": {
+      "type": "use_move",
+      "move": "futuresight",
+      "target": 1
+    },
+    "hp:0.5": {
+      "type": "set_terrain",
+      "terrain": "psychicterrain"
+    },
+    "hp:0.25": {
+      "type": "use_move",
+      "move": "futuresight",
+      "target": 1
+    }
+  }
+}

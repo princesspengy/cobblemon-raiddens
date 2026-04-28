@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "ironhands",
+    "moves": [
+      "forcepalm",
+      "thunderpunch",
+      "slam",
+      "seismictoss"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ELECTRIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

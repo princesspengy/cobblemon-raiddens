@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "garchomp",
+    "moves": [
+      "dragonpulse",
+      "earthpower",
+      "breakingswipe",
+      "flamethrower"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:garchompitez"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/garchomp_z"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

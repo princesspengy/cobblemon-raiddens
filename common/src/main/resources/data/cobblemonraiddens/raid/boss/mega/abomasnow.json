@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "abomasnow",
+    "moves": [
+      "blizzard",
+      "woodhammer",
+      "rockslide",
+      "iceshard"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:abomasite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ICE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/abomasnow"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "nihilego",
+    "moves": [
+      "powergem",
+      "sludgebomb",
+      "venoshock",
+      "clearsmog"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "POISON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "gengar",
+    "moves": [
+      "shadowball",
+      "sludgewave",
+      "icywind",
+      "foulplay"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:gengarite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/gengar"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

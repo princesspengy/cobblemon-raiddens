@@ -1,0 +1,24 @@
+{
+  "pokemon": {
+    "species": "genesect",
+    "moves": [
+      "technoblast",
+      "flashcannon",
+      "bugbuzz",
+      "flamethrower"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "BUG",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "player_stats",
+      "stats": { "def": 1 }
+    },
+    "hp:0.25": {
+      "type": "player_stats",
+      "stats": { "def": 1 }
+    }
+  }
+}

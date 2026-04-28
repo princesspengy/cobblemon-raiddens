@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "tatsugiri",
+    "moves": [
+      "waterpulse",
+      "dragonpulse",
+      "nastyplot",
+      "icywind"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:tatsugirinite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/tatsugiri"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

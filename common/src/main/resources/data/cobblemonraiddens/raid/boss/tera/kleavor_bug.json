@@ -1,0 +1,24 @@
+{
+  "pokemon": {
+    "species": "kleavor",
+    "moves": [
+      "xscissor",
+      "rockslide",
+      "agility",
+      "focusenergy"
+    ]
+  },
+  "raid_tier": "TIER_THREE",
+  "raid_type": "BUG",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/type/bug"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "terastallize"
+      }
+    ]
+  }
+}

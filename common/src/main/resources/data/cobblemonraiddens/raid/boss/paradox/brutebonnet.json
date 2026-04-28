@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "brutebonnet",
+    "moves": [
+      "payback",
+      "seedbomb",
+      "thrash",
+      "clearsmog"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GRASS",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

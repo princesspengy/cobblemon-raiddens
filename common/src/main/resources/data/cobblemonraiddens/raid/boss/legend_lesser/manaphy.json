@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "manaphy",
+    "moves": [
+      "waterpulse",
+      "acidarmor",
+      "dive",
+      "surf"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "WATER",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "takeheart",
+      "target": 2
+    }
+  }
+}

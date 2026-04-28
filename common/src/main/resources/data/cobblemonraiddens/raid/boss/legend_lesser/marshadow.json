@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "marshadow",
+    "moves": [
+      "spectralthief",
+      "drainpunch",
+      "shadowsneak",
+      "machpunch"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

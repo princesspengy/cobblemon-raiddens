@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "xerneas",
+    "moves": [
+      "geomancy",
+      "moonblast",
+      "hypervoice",
+      "focusblast"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FAIRY",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "ingrain",
+      "target": 2
+    }
+  }
+}

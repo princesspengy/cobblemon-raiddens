@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "pidgeot",
+    "moves": [
+      "hurricane",
+      "featherdance",
+      "uproar",
+      "heatwave"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:pidgeotite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FLYING",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/pidgeot"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

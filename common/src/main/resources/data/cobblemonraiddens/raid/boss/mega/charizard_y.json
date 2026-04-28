@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "charizard",
+    "moves": [
+      "fireblast",
+      "focusblast",
+      "airslash",
+      "solarbeam"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:charizardite_y"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/charizard_y"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

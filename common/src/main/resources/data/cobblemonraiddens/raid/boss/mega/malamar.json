@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "malamar",
+    "moves": [
+      "superpower",
+      "hypnosis",
+      "psychicnoise",
+      "throatchop"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:malamarite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/malamar"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

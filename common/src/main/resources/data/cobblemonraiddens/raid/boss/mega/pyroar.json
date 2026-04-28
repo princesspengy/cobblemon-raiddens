@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "pyroar",
+    "moves": [
+      "flamethrower",
+      "hypervoice",
+      "darkpulse",
+      "nobleroar"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:pyroarite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/pyroar"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

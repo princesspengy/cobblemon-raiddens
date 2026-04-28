@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "barbaracle",
+    "moves": [
+      "crosshop",
+      "stoneedge",
+      "razorshell",
+      "xscissor"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:barbaracite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ROCK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/barbaracle"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

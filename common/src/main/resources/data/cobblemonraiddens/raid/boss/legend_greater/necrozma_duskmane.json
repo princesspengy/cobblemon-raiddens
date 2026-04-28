@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "necrozma",
+    "moves": [
+      "sunsteelstrike",
+      "photongeyser",
+      "rockblast",
+      "brickbreak"
+    ]
+  },
+  "boss": {
+    "form": "dusk-mane"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "STEEL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

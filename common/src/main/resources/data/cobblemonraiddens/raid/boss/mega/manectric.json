@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "manectric",
+    "moves": [
+      "discharge",
+      "flamethrower",
+      "hypervoice",
+      "electricterrain"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:manectite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ELECTRIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/manectric"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

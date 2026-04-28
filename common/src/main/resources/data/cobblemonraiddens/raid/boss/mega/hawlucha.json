@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "hawlucha",
+    "moves": [
+      "flyingpress",
+      "skyattack",
+      "stoneedge",
+      "lunge"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:hawluchanite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FLYING",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/hawlucha"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

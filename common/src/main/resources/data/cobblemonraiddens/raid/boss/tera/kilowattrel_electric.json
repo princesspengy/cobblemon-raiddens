@@ -1,0 +1,24 @@
+{
+  "pokemon": {
+    "species": "kilowattrel",
+    "moves": [
+      "discharge",
+      "agility",
+      "uproar",
+      "hurricane"
+    ]
+  },
+  "raid_tier": "TIER_THREE",
+  "raid_type": "ELECTRIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/type/electric"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "terastallize"
+      }
+    ]
+  }
+}

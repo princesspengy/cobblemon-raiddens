@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "scizor",
+    "moves": [
+      "bulletpunch",
+      "wingattack",
+      "ironhead",
+      "xscissor"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:scizorite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "BUG",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/scizor"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

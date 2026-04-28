@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "koraidon",
+    "moves": [
+      "collisioncourse",
+      "dragonclaw",
+      "flareblitz",
+      "ironhead"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

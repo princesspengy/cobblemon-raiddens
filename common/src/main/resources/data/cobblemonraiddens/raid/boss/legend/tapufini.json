@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "tapufini",
+    "moves": [
+      "naturesmadness",
+      "hydropump",
+      "soak",
+      "moonblast"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FAIRY",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

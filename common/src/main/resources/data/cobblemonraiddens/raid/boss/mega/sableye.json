@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "sableye",
+    "moves": [
+      "foulplay",
+      "nightshade",
+      "knockoff",
+      "reflect"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:sablenite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/sableye"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

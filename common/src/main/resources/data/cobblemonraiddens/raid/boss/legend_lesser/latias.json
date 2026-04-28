@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "latias",
+    "moves": [
+      "mistball",
+      "dragonpulse",
+      "aircutter",
+      "charm"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "tailwind",
+      "target": 2
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pokemon": {
+    "species": "uxie",
+    "moves": [
+      "mysticalpower",
+      "amnesia",
+      "yawn",
+      "energyball"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.8": {
+      "type": "use_move",
+      "move": "metronome",
+      "target": 1
+    },
+    "hp:0.6": {
+      "type": "use_move",
+      "move": "metronome",
+      "target": 1
+    },
+    "hp:0.4": {
+      "type": "use_move",
+      "move": "metronome",
+      "target": 1
+    },
+    "hp:0.2": {
+      "type": "use_move",
+      "move": "metronome",
+      "target": 1
+    }
+  }
+}

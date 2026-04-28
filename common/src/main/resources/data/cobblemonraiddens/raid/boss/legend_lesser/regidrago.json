@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "regidrago",
+    "moves": [
+      "dragonenergy",
+      "thrash",
+      "dragonclaw",
+      "crunch"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "focusnergy",
+      "target": 2
+    }
+  }
+}

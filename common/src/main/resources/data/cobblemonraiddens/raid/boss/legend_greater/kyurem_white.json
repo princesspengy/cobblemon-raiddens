@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "kyurem",
+    "moves": [
+      "iceburn",
+      "fusionflare",
+      "icebeam",
+      "earthpower"
+    ]
+  },
+  "boss": {
+    "form": "white"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

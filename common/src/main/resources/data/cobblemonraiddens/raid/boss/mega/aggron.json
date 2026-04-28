@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "aggron",
+    "moves": [
+      "heavyslam",
+      "irondefense",
+      "earthquake",
+      "rockslide"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:aggronite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "STEEL",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/aggron"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

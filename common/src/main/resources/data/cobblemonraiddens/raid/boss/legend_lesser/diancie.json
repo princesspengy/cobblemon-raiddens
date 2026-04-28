@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "diancie",
+    "moves": [
+      "moonblast",
+      "diamondstorm",
+      "ancientpower",
+      "drainingkiss"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ROCK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "rockpolish",
+      "target": 2
+    }
+  }
+}

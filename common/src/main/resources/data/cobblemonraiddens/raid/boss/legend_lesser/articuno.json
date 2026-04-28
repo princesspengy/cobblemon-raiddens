@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "articuno",
+    "moves": [
+      "icebeam",
+      "aircutter",
+      "featherdance",
+      "icywind"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FLYING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "set_weather",
+      "weather": "snow"
+    }
+  }
+}

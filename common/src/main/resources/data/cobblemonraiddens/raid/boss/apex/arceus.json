@@ -1,0 +1,85 @@
+{
+  "pokemon": {
+    "species": "arceus",
+    "moves": [
+      "judgement",
+      "extremespeed",
+      "cosmicpower",
+      "futuresight"
+    ]
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "NORMAL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "health_multi": 18,
+  "scripts": {
+    "hp:0.9445": {
+      "type": "forme_change",
+      "form": "Arceus-Grass"
+    },
+    "hp:0.889": {
+      "type": "forme_change",
+      "form": "Arceus-Fire"
+    },
+    "hp:0.8335": {
+      "type": "forme_change",
+      "form": "Arceus-Water"
+    },
+    "hp:0.778": {
+      "type": "forme_change",
+      "form": "Arceus-Electric"
+    },
+    "hp:0.7225": {
+      "type": "forme_change",
+      "form": "Arceus-Flying"
+    },
+    "hp:0.667": {
+      "type": "forme_change",
+      "form": "Arceus-Poison"
+    },
+    "hp:0.6115": {
+      "type": "forme_change",
+      "form": "Arceus-Ground"
+    },
+    "hp:0.556": {
+      "type": "forme_change",
+      "form": "Arceus-Ice"
+    },
+    "hp:0.5": {
+      "type": "forme_change",
+      "form": "Arceus-Rock"
+    },
+    "hp:0.4445": {
+      "type": "forme_change",
+      "form": "Arceus-Bug"
+    },
+    "hp:0.389": {
+      "type": "forme_change",
+      "form": "Arceus-Fighting"
+    },
+    "hp:0.3335": {
+      "type": "forme_change",
+      "form": "Arceus-Psychic"
+    },
+    "hp:0.278": {
+      "type": "forme_change",
+      "form": "Arceus-Dark"
+    },
+    "hp:0.2225": {
+      "type": "forme_change",
+      "form": "Arceus-Steel"
+    },
+    "hp:0.167": {
+      "type": "forme_change",
+      "form": "Arceus-Ghost"
+    },
+    "hp:0.1115": {
+      "type": "forme_change",
+      "form": "Arceus-Dragon"
+    },
+    "hp:0.0555": {
+      "type": "forme_change",
+      "form": "Arceus-Fairy"
+    }
+  }
+}

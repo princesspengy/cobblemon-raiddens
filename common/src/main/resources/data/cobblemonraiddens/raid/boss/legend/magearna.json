@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "magearna",
+    "moves": [
+      "fleurcannon",
+      "flashcannon",
+      "calmmind",
+      "thunderbolt"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FAIRY",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

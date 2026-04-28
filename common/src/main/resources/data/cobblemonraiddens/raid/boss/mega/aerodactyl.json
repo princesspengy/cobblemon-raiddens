@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "aerodactyl",
+    "moves": [
+      "stoneedge",
+      "takedown",
+      "ironhead",
+      "crunch"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:aerodactylite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ROCK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/aerodactyl"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

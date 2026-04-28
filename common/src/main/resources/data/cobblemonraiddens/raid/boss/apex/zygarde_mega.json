@@ -1,0 +1,23 @@
+{
+  "pokemon": {
+    "species": "zygarde",
+    "ability": "powerconstruct",
+    "moves": [
+      "coreenforcer",
+      "earthpower",
+      "focusblast",
+      "hypervoice"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:zygardite"
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "mega_evolve"
+    }
+  }
+}

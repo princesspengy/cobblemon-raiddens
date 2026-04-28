@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "diancie",
+    "moves": [
+      "moonblast",
+      "diamondstorm",
+      "ancientpower",
+      "drainingkiss"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:diancite"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "ROCK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "mega_evolve"
+    },
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "rockpolish",
+      "target": 2
+    }
+  }
+}

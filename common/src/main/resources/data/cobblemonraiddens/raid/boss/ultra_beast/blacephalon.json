@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "blacephalon",
+    "moves": [
+      "shadowball",
+      "mysticalfire",
+      "hypnosis",
+      "confuseray"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

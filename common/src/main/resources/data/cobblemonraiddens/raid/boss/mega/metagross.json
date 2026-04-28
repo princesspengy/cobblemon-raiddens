@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "metagross",
+    "moves": [
+      "zenheadbutt",
+      "meteormash",
+      "hammerarm",
+      "bulletpunch"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:metagrossite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "STEEL",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/metagross"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

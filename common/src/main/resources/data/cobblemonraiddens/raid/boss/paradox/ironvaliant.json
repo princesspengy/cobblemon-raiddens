@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "ironvaliant",
+    "moves": [
+      "spiritbreak",
+      "brickbreak",
+      "nightslash",
+      "psychocut"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FAIRY",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

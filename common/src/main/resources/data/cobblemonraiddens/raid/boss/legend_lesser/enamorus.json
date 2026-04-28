@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "enamorus",
+    "moves": [
+      "moonblast",
+      "dazzlinggleam",
+      "uproar",
+      "weatherball"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FLYING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "set_weather",
+      "weather": "raindance"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pokemon": {
+    "species": "ninetales",
+    "moves": [
+      "dazzlinggleam",
+      "icebeam",
+      "spite",
+      "extrasensory"
+    ],
+    "custom_properties": [
+      {
+        "name": "alolan",
+        "value": true
+      }
+    ]
+  },
+  "raid_tier": "TIER_THREE",
+  "raid_type": "ICE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/type/ice"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "terastallize"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "typenull",
+    "moves": [
+      "doubleedge",
+      "ironhead",
+      "xscissor",
+      "scaryface"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "NORMAL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

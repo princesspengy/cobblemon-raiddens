@@ -1,0 +1,31 @@
+{
+  "pokemon": {
+    "species": "mesprit",
+    "moves": [
+      "mysticalpower",
+      "charm",
+      "flatter",
+      "playrough"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "teeterdance",
+      "target": 1
+    },
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "encore",
+      "target": 1
+    },
+    "hp:0.25": {
+      "type": "use_move",
+      "move": "swagger",
+      "target": 1
+    }
+  }
+}

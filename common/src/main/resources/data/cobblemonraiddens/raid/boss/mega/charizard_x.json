@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "charizard",
+    "moves": [
+      "dragonclaw",
+      "flareblitz",
+      "dragondance",
+      "breakingswipe"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:charizardite_x"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/charizard_x"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

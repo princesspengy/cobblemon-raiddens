@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "delphox",
+    "moves": [
+      "mysticalfire",
+      "psychic",
+      "shadowball",
+      "dazzlinggleam"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:delphoxite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/delphox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

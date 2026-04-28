@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "gallade",
+    "moves": [
+      "sacredsword",
+      "psychocut",
+      "aquacutter",
+      "leafblade"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:galladite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "PSYCHIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/gallade"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

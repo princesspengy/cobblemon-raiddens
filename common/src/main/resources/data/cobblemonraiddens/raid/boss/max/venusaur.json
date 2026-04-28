@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "venusaur",
+    "moves": [
+      "energyball",
+      "sludgebomb",
+      "earthquake",
+      "protect"
+    ]
+  },
+  "boss": {
+    "gmax": true
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GRASS",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/max"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "dynamax"
+      }
+    ]
+  }
+}

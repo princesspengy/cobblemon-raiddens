@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "alakazam",
+    "moves": [
+      "psychic",
+      "shadowball",
+      "futuresight",
+      "calmmind"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:alakazite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "STEEL",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/alakazam"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

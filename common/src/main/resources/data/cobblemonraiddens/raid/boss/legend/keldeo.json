@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "keldeo",
+    "moves": [
+      "secretsword",
+      "surf",
+      "vacuumwave",
+      "calmmind"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FIGHTING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "boss_stats",
+      "stats": { "spa": 2 }
+    }
+  }
+}

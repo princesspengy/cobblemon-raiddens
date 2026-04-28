@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "calyrex",
+    "moves": [
+      "energyball",
+      "psychic",
+      "gigadrain",
+      "psyshock"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

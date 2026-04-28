@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "raichu",
+    "moves": [
+      "irontail",
+      "thunderpunch",
+      "playrough",
+      "brickbreak"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:raichunitex"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ELECTRIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/raichu_x"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

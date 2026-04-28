@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "excadrill",
+    "moves": [
+      "drillrun",
+      "ironhead",
+      "brickbreak",
+      "xscissor"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:excadrite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GROUND",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/excadrill"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

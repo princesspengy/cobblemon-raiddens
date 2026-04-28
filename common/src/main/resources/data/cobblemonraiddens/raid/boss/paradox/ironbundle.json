@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "ironbundle",
+    "moves": [
+      "hydropump",
+      "icebeam",
+      "freezedry",
+      "whirlpool"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ICE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

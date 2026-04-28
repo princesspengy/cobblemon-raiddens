@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "victini",
+    "moves": [
+      "searingshot",
+      "zenheadbutt",
+      "focusenergy",
+      "doubleedge"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "vcreate",
+      "target": 1
+    }
+  }
+}

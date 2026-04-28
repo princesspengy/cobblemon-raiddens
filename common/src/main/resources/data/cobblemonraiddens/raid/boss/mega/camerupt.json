@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "camerupt",
+    "moves": [
+      "earthpower",
+      "lavaplume",
+      "flashcannon",
+      "irondefense"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:cameruptite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/camerupt"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

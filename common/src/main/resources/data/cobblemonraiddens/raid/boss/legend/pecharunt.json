@@ -1,0 +1,26 @@
+{
+  "pokemon": {
+    "species": "pecharunt",
+    "moves": [
+      "malignantchain",
+      "hex",
+      "nastyplot",
+      "protect"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "POISON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.99": {
+      "type": "use_move",
+      "move": "faketears",
+      "target": 1
+    },
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "toxic",
+      "target": 1
+    }
+  }
+}

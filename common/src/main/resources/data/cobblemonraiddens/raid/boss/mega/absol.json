@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "absol",
+    "moves": [
+      "nightslash",
+      "slash",
+      "xscissor",
+      "playrough"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:absolite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/absol"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

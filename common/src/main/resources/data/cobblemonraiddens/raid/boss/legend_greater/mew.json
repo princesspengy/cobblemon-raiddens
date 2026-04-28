@@ -1,0 +1,11 @@
+{
+  "pokemon": {
+    "species": "mew",
+    "moves": [
+      "metronome"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

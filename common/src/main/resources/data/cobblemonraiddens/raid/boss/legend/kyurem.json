@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "kyurem",
+    "moves": [
+      "glaciate",
+      "outrage",
+      "earthpower",
+      "scaryface"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "set_weather",
+      "weather": "snow"
+    }
+  }
+}

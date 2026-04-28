@@ -1,0 +1,28 @@
+{
+  "pokemon": {
+    "species": "meowstic",
+    "gender": "FEMALE",
+    "moves": [
+      "psychic",
+      "darkpulse",
+      "thunderbolt",
+      "calmmind"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:meowsticite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "PSYCHIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/meowstic_f"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

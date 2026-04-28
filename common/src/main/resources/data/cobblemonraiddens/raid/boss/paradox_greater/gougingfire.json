@@ -1,0 +1,23 @@
+{
+  "pokemon": {
+    "species": "gougingfire",
+    "moves": [
+      "burningbulwark",
+      "dragonrush",
+      "nobleroar",
+      "flareblitz"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox_greater"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "set_weather",
+      "weather": "sunnyday"
+    }
+  }
+}

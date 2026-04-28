@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "scovillain",
+    "moves": [
+      "flamethrower",
+      "seedbomb",
+      "stompingtantrum",
+      "gigadrain"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:scovillainite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GRASS",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/scovillain"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

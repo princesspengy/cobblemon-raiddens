@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "stakataka",
+    "moves": [
+      "ironhead",
+      "rockslide",
+      "magnetrise",
+      "stomp"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ROCK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

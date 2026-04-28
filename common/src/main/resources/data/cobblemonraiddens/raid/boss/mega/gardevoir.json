@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "gardevoir",
+    "moves": [
+      "psychic",
+      "hypervoice",
+      "focusblast",
+      "mysticalfire"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:gardevoirite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FAIRY",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/gardevoir"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

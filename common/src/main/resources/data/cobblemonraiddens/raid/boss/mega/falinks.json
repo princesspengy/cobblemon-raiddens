@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "falinks",
+    "moves": [
+      "brickbreak",
+      "megahorn",
+      "smartstrike",
+      "bulkup"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:falinksite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIGHTING",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/falinks"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

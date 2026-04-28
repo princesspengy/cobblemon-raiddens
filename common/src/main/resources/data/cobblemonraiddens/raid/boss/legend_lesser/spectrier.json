@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "spectrier",
+    "moves": [
+      "shadowball",
+      "darkpulse",
+      "nightshade",
+      "confuseray"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

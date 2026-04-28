@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "lugia",
+    "moves": [
+      "aeroblast",
+      "extrasensory",
+      "calmmind",
+      "hypervoice"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "whirlpool",
+      "target": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "yveltal",
+    "moves": [
+      "oblivionwing",
+      "darkpulse",
+      "dragonrush",
+      "phantomforce"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DARK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.05": {
+      "type": "use_move",
+      "move": "destinybond",
+      "target": 2
+    }
+  }
+}

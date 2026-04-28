@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "pheromosa",
+    "moves": [
+      "bounce",
+      "lunge",
+      "doublekick",
+      "stomp"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "BUG",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

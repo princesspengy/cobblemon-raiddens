@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "ironmoth",
+    "moves": [
+      "fierydance",
+      "sludgewave",
+      "discharge",
+      "acidspray"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

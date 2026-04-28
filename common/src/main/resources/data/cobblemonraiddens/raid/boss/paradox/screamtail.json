@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "screamtail",
+    "moves": [
+      "psychicfangs",
+      "playrough",
+      "hypervoice",
+      "nobleroar"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FAIRY",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

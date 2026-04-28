@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "gyarados",
+    "moves": [
+      "crunch",
+      "waterfall",
+      "thrash",
+      "dragondance"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:gyaradosite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "WATER",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/gyarados"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "golisopod",
+    "moves": [
+      "xscissor",
+      "ironhead",
+      "liquidation",
+      "brickbreak"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:golisopite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "BUG",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/golisopod"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

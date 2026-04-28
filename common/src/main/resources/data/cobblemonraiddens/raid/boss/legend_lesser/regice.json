@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "regice",
+    "moves": [
+      "blizzard",
+      "superpower",
+      "hammerarm",
+      "icywind"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ICE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "curse",
+      "target": 2
+    }
+  }
+}

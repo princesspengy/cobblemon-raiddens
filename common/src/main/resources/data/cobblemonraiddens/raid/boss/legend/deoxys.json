@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "deoxys",
+    "moves": [
+      "psychic",
+      "cosmicpower",
+      "focusblast",
+      "meteorbeam"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.25": {
+      "type": "use_move",
+      "move": "psychoboost",
+      "target": 1
+    }
+  }
+}

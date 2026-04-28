@@ -1,0 +1,44 @@
+{
+  "pokemon": {
+    "species": "darkrai",
+    "moves": [
+      "nastyplot",
+      "darkpulse",
+      "sludgebomb",
+      "icebeam"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:darkranite"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "DARK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      },
+      {
+        "type": "use_move",
+        "move": "darkvoid",
+        "target": 1
+      }
+    ],
+    "hp:0.75": {
+      "type": "use_move",
+      "move": "darkvoid",
+      "target": 1
+    },
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "darkvoid",
+      "target": 1
+    },
+    "hp:0.25": {
+      "type": "use_move",
+      "move": "darkvoid",
+      "target": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pokemon": {
+    "species": "regigigas",
+    "moves": [
+      "crushgrip",
+      "gigaimpact",
+      "heavyslam",
+      "zenheadbutt"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DARK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:6": [
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      },
+      {
+        "type": "shield",
+        "apply": true
+      }
+    ]
+  }
+}

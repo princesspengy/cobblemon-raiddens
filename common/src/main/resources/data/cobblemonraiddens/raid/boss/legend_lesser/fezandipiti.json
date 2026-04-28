@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "fezandipiti",
+    "moves": [
+      "crosspoison",
+      "alluringvoice",
+      "tailslap",
+      "poisongas"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "POISON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "swagger",
+      "target": 1
+    }
+  }
+}

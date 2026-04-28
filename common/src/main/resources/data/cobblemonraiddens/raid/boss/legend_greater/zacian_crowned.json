@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "zacian",
+    "moves": [
+      "ironhead",
+      "playrough",
+      "swordsdance",
+      "crunch"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "FAIRY",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "forme_change",
+      "form": "crowned"
+    }
+  }
+}

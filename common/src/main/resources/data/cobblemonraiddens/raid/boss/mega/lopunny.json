@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "lopunny",
+    "moves": [
+      "megakick",
+      "lowsweep",
+      "bounce",
+      "flatter"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:lopunnite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "NORMAL",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/lopunny"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

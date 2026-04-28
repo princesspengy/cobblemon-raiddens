@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "regirock",
+    "moves": [
+      "stoneedge",
+      "superpower",
+      "hammerarm",
+      "rocktomb"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ROCK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "curse",
+      "target": 2
+    }
+  }
+}

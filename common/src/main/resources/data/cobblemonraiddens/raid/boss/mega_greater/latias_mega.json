@@ -1,0 +1,29 @@
+{
+  "pokemon": {
+    "species": "latias",
+    "moves": [
+      "mistball",
+      "dragonpulse",
+      "icebeam",
+      "charm"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:latiasite"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      },
+      {
+        "type": "use_move",
+        "move": "tailwind",
+        "target": 2
+      }
+    ]
+  }
+}

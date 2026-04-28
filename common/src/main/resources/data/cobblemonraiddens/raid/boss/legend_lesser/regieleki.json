@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "regieleki",
+    "moves": [
+      "thundercage",
+      "thunderwave",
+      "electroball",
+      "extremespeed"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ELECTRIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "magnetrise",
+      "target": 2
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pokemon": {
+    "species": "heatran",
+    "moves": [
+      "magmastorm",
+      "flashcannon",
+      "earthpower",
+      "dragonpulse"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:heatranite"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "FIRE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      },
+      {
+        "type": "use_move",
+        "move": "firespin",
+        "target": 1
+      }
+    ]
+  }
+}

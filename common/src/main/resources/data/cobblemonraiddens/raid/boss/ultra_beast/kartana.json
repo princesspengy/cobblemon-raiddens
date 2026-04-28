@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "kartana",
+    "moves": [
+      "leafblade",
+      "smartstrike",
+      "nightslash",
+      "aerialace"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GRASS",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

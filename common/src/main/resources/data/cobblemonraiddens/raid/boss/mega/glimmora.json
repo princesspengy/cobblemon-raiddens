@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "glimmora",
+    "moves": [
+      "sludgewave",
+      "powergem",
+      "earthpower",
+      "energyball"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:glimmoranite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "POISON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/glimmora"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

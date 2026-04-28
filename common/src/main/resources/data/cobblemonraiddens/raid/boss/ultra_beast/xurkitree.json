@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "xurkitree",
+    "moves": [
+      "discharge",
+      "eerieimpulse",
+      "magnetrise",
+      "hypnosis"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ELECTRIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/ultra_beast"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

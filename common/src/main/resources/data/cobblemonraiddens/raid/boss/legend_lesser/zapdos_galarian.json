@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "zapdos",
+    "moves": [
+      "thunderouskick",
+      "drillpeck",
+      "bulkup",
+      "lowsweep"
+    ],
+    "custom_properties": [
+      {
+        "name": "galarian",
+        "value": true
+      }
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FLYING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "closecombat",
+      "target": 1
+    }
+  }
+}

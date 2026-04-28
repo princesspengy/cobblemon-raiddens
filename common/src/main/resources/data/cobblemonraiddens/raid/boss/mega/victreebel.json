@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "victreebel",
+    "moves": [
+      "powership",
+      "gastroacid",
+      "sludgebomb",
+      "toxic"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:victreebelite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GRASS",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/victreebel"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "zarude",
+    "moves": [
+      "powerwhip",
+      "thrash",
+      "crunch",
+      "lashout"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

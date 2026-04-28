@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "solgaleo",
+    "moves": [
+      "sunsteelstrike",
+      "zenheadbutt",
+      "crunch",
+      "wildcharge"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "STEEL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

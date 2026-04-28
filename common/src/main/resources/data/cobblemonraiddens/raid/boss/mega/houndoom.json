@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "houndoom",
+    "moves": [
+      "fireblast",
+      "darkpulse",
+      "sludgebomb",
+      "snarl"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:houndoominite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/houndoom"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

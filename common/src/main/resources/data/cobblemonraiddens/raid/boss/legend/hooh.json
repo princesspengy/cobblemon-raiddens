@@ -1,0 +1,23 @@
+{
+  "pokemon": {
+    "species": "hooh",
+    "moves": [
+      "sacredfire",
+      "skyattack",
+      "calmmind",
+      "earthpower"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FIRE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "use_move",
+        "move": "firespin",
+        "target": 1
+      }
+    ]
+  }
+}

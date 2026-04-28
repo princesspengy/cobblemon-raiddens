@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "grimmsnarl",
+    "moves": [
+      "foulplay",
+      "playrough",
+      "hammerarm",
+      "protect"
+    ]
+  },
+  "boss": {
+    "gmax": true
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/max"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "dynamax"
+      }
+    ]
+  }
+}

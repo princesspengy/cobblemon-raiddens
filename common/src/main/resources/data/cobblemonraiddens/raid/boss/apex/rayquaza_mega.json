@@ -1,0 +1,19 @@
+{
+  "pokemon": {
+    "species": "rayquaza",
+    "moves": [
+      "dragonascent",
+      "earthquake",
+      "extremespeed",
+      "dragondance"
+    ]
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "FLYING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "mega_evolve"
+    }
+  }
+}

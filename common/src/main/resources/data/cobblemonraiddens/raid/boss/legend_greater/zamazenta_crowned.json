@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "zamazenta",
+    "moves": [
+      "ironhead",
+      "bodypress",
+      "irondefense",
+      "crunch"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "FIGHTING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "forme_change",
+      "form": "crowned"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "crabominable",
+    "moves": [
+      "icehammer",
+      "dynamicpunch",
+      "thunderpunch",
+      "stompingtantrum"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:crabominite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "ICE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/crabominable"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

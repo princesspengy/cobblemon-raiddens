@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "drampa",
+    "moves": [
+      "dragonpulse",
+      "hypervoice",
+      "thunder",
+      "hurricane"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:drampanite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/drampa"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

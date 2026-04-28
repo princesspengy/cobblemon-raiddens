@@ -1,0 +1,20 @@
+{
+  "pokemon": {
+    "species": "eternatus",
+    "moves": [
+      "dynamaxcannon",
+      "sludgewave",
+      "fireblast",
+      "cosmicpower"
+    ]
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "POISON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "forme_change",
+      "form": "eternamax"
+    }
+  }
+}

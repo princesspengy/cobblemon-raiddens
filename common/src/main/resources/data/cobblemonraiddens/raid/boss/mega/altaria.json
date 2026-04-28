@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "altaria",
+    "moves": [
+      "dragonpulse",
+      "hypervoice",
+      "skyattack",
+      "sing"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:altarianite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/altaria"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

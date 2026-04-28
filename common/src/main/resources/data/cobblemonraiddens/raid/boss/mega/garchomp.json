@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "garchomp",
+    "moves": [
+      "earthquake",
+      "dragonrush",
+      "sandstorm",
+      "crunch"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:garchompite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GROUND",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/garchomp"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

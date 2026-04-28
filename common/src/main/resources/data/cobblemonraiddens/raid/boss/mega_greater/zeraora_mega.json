@@ -1,0 +1,22 @@
+{
+  "pokemon": {
+    "species": "zeraora",
+    "moves": [
+      "plasmafists",
+      "brickbreak",
+      "knockoff",
+      "bulkup"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:zeraorite"
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "ELECTRIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "mega_evolve"
+    }
+  }
+}

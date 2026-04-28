@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "calyrex",
+    "moves": [
+      "glaciallance",
+      "zenheadbutt",
+      "highhorsepower",
+      "heavyslam"
+    ]
+  },
+  "boss": {
+    "form": "ice"
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "ICE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

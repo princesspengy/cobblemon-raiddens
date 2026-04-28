@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "audino",
+    "moves": [
+      "hypervoice",
+      "safeguard",
+      "dazzlinggleam",
+      "mistyterrain"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:audinite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "NORMAL",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/audino"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

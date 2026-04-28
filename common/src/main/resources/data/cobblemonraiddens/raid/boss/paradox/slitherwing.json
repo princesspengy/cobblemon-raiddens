@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "slitherwing",
+    "moves": [
+      "lunge",
+      "lowsweep",
+      "flamecharge",
+      "poisonpowder"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "BUG",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

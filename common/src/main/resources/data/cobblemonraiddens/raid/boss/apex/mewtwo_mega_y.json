@@ -1,0 +1,22 @@
+{
+  "pokemon": {
+    "species": "mewtwo",
+    "moves": [
+      "psystrike",
+      "icebeam",
+      "fireblast",
+      "focusblast"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:mewtwonite_y"
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "mega_evolve"
+    }
+  }
+}

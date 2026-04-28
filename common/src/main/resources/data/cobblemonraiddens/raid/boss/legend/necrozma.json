@@ -1,0 +1,31 @@
+{
+  "pokemon": {
+    "species": "necrozma",
+    "moves": [
+      "photongeyser",
+      "meteorbeam",
+      "darkpulse",
+      "flashcannon"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "flash",
+      "target": 1
+    },
+    "hp:0.66": {
+      "type": "use_move",
+      "move": "flash",
+      "target": 1
+    },
+    "hp:0.33": {
+      "type": "use_move",
+      "move": "flash",
+      "target": 1
+    }
+  }
+}

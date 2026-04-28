@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "necrozma",
+    "moves": [
+      "photongeyser",
+      "dragonpulse",
+      "earthquake",
+      "heatwave"
+    ]
+  },
+  "boss": {
+    "form": "ultra"
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "GROUND",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

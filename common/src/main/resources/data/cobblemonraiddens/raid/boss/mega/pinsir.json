@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "pinsir",
+    "moves": [
+      "xscissor",
+      "strength",
+      "submission",
+      "swordsdance"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:pinsirite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "BUG",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/pinsir"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

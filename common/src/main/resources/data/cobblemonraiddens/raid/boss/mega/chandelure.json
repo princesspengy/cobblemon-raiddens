@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "chandelure",
+    "moves": [
+      "flamethrower",
+      "hex",
+      "willowisp",
+      "darkpulse"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:chandelurite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/chandelure"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

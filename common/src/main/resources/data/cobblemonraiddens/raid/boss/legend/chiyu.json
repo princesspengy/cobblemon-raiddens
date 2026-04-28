@@ -1,0 +1,24 @@
+{
+  "pokemon": {
+    "species": "chiyu",
+    "moves": [
+      "ruination",
+      "fireblast",
+      "darkpulse",
+      "psychic"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "DARK",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "player_stats",
+      "stats": { "spd": 1 }
+    },
+    "hp:0.25": {
+      "type": "player_stats",
+      "stats": { "spd": 1 }
+    }
+  }
+}

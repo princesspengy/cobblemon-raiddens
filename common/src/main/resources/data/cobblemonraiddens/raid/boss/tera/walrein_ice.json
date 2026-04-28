@@ -1,0 +1,24 @@
+{
+  "pokemon": {
+    "species": "walrein",
+    "moves": [
+      "surf",
+      "aurorabeam",
+      "brine",
+      "encore"
+    ]
+  },
+  "raid_tier": "TIER_THREE",
+  "raid_type": "ICE",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/type/ice"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "terastallize"
+      }
+    ]
+  }
+}

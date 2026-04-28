@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "mewtwo",
+    "moves": [
+      "psystrike",
+      "shadowball",
+      "fireblast",
+      "icebeam"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "PSYCHIC",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

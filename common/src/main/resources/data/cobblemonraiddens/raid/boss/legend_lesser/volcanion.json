@@ -1,0 +1,26 @@
+{
+  "pokemon": {
+    "species": "volcanion",
+    "moves": [
+      "steameruption",
+      "incinerate",
+      "firespin",
+      "scaryface"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "mist",
+      "target": 2
+    },
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "haze",
+      "target": 1
+    }
+  }
+}

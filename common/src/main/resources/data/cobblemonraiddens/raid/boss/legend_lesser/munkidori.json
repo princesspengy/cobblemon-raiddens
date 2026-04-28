@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "munkidori",
+    "moves": [
+      "sludgewave",
+      "psychic",
+      "clearsmog",
+      "spite"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "POISON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "fakeout",
+      "target": 1
+    }
+  }
+}

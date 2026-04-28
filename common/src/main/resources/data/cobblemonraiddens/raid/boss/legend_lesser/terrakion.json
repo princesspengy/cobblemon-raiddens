@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "terrakion",
+    "moves": [
+      "sacredsword",
+      "stoneedge",
+      "takedown",
+      "rockslide"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIGHTING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "swordsdance",
+      "target": 2
+    }
+  }
+}

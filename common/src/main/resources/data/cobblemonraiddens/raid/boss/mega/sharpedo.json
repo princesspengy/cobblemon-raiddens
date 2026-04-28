@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "sharpedo",
+    "moves": [
+      "crunch",
+      "icefang",
+      "psychicfangs",
+      "liquidation"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:sharpedonite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "WATER",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/sharpedo"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "salamence",
+    "moves": [
+      "doubleedge",
+      "dragonclaw",
+      "zenheadbutt",
+      "dragondance"
+    ]
+  },
+  "boss": {
+    "held_item": "mega_showdown:salamencite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/salamence"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "ironthorns",
+    "moves": [
+      "wildcharge",
+      "rockslide",
+      "icefang",
+      "firefang"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GROUND",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

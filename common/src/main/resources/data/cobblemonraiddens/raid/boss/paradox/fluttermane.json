@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "fluttermane",
+    "moves": [
+      "dazzlinggleam",
+      "shadowball",
+      "mysticalfire",
+      "psyshock"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "ogerpon",
+    "moves": [
+      "ivycudgel",
+      "playrough",
+      "lowsweep",
+      "throatchop"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "GRASS",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

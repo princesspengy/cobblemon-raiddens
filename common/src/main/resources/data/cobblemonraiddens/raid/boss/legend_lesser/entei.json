@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "entei",
+    "moves": [
+      "firefang",
+      "flamecharge",
+      "crunch",
+      "howl"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIRE",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "agility",
+      "target": 2
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pokemon": {
+    "species": "ironjugulis",
+    "moves": [
+      "darkpulse",
+      "airslash",
+      "dragonpulse",
+      "snarl"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DARK",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/paradox"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

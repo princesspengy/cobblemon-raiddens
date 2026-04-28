@@ -1,0 +1,89 @@
+{
+  "pokemon": {
+    "species": "palkia",
+    "moves": [
+      "spacialrend",
+      "hydropump",
+      "fireblast",
+      "earthpower"
+    ]
+  },
+  "raid_tier": "TIER_SEVEN",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "forme_change",
+        "form": "origin"
+      },
+      {
+        "type": "use_move",
+        "move": "gravity",
+        "target": 1
+      }
+    ],
+    "hp:0.9": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.8": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.75": {
+      "type": "use_move",
+      "move": "magicroom",
+      "target": 1
+    },
+    "hp:0.7": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.6": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "gravity",
+        "target": 1
+      },
+      {
+        "type": "use_move",
+        "move": "defog",
+        "target": 1
+      }
+    ],
+    "hp:0.4": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.3": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.25": {
+      "type": "use_move",
+      "move": "magicroom",
+      "target": 1
+    },
+    "hp:0.2": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    },
+    "hp:0.1": {
+      "type": "use_move",
+      "move": "defog",
+      "target": 1
+    }
+  }
+}

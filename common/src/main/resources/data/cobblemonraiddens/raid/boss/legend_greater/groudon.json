@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "species": "groudon",
+    "moves": [
+      "precipiceblades",
+      "heatcrash",
+      "stoneedge",
+      "heavyslam"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "GROUND",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

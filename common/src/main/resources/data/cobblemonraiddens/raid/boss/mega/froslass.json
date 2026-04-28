@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "froslass",
+    "moves": [
+      "blizzard",
+      "shadowball",
+      "icywind",
+      "willowisp"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:froslassite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "GHOST",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/froslass"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

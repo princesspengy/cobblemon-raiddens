@@ -1,0 +1,30 @@
+{
+  "pokemon": {
+    "species": "slowking",
+    "moves": [
+      "psychic",
+      "surf",
+      "sludgebomb",
+      "amnesia"
+    ],
+    "custom_properties": [
+      {
+        "name": "galarian",
+        "value": true
+      }
+    ]
+  },
+  "raid_tier": "TIER_THREE",
+  "raid_type": "PSYCHIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/type/psychic"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "terastallize"
+      }
+    ]
+  }
+}

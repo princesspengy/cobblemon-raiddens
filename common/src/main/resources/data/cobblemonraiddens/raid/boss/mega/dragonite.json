@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "dragonite",
+    "moves": [
+      "hurricane",
+      "dragonpulse",
+      "surf",
+      "thunder"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:dragoninite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "DRAGON",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/dragonite"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

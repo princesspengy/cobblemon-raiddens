@@ -1,0 +1,32 @@
+{
+  "pokemon": {
+    "species": "articuno",
+    "moves": [
+      "freezingglare",
+      "airslash",
+      "hypnosis",
+      "reflect"
+    ],
+    "custom_properties": [
+      {
+        "name": "galarian",
+        "value": true
+      }
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FLYING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "hp:0.5": {
+      "type": "use_move",
+      "move": "doubleteam",
+      "target": 2
+    },
+    "hp:0.25": {
+      "type": "use_move",
+      "move": "doubleteam",
+      "target": 2
+    }
+  }
+}

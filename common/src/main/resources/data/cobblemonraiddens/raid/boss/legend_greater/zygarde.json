@@ -1,0 +1,15 @@
+{
+  "pokemon": {
+    "species": "zygarde",
+    "ability": "powerconstruct",
+    "moves": [
+      "thousandarrows",
+      "coreenforcer",
+      "dragondance",
+      "glare"
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "DRAGON",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}

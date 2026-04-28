@@ -1,0 +1,21 @@
+{
+  "pokemon": {
+    "species": "registeel",
+    "moves": [
+      "ironhead",
+      "superpower",
+      "hammerarm",
+      "bulldoze"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "STEEL",
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": {
+      "type": "use_move",
+      "move": "curse",
+      "target": 2
+    }
+  }
+}

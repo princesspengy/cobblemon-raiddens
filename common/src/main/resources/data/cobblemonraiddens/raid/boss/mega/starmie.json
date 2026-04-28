@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "starmie",
+    "moves": [
+      "waterfall",
+      "psychocut",
+      "rollout",
+      "gigaimpact"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:starminite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "WATER",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/starmie"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

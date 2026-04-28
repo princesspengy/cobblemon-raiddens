@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "chimecho",
+    "moves": [
+      "psyshock",
+      "dazzlinggleam",
+      "icywind",
+      "uproar"
+    ]
+  },
+  "boss": {
+    "held_item": "zamega:chimechite"
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "PSYCHIC",
+  "loot_table": {
+    "id": "cobblemonraiddens:raid/boss/mega/chimecho"
+  },
+  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "script": {
+    "turn:1": [
+      {
+        "type": "mega_evolve"
+      }
+    ]
+  }
+}

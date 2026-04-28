@@ -1,0 +1,19 @@
+{
+  "pokemon": {
+    "species": "urshifu",
+    "moves": [
+      "surgingstrikes",
+      "brickbreak",
+      "ironhead",
+      "aquajet"
+    ]
+  },
+  "boss": {
+    "aspects": [
+      "rapid_strike"
+    ]
+  },
+  "raid_tier": "TIER_FOUR",
+  "raid_type": "FIGHTING",
+  "music": "pokefirma_raids:battle.raid.galarian_bird"
+}
