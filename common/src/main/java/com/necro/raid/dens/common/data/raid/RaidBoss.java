@@ -333,18 +333,18 @@ public class RaidBoss {
         else height = pokemon.getExposedSpecies().getForm(pokemon.getAspects()).getHeight();
 
         EntityDimensions dimension = pokemon.getExposedSpecies().getForm(pokemon.getAspects()).getHitbox();
-        float hitbox = Math.max(dimension.height(), dimension.width() / 1.5F);
+        float hitbox = Math.max(dimension.height(), dimension.width());
         float baseScale = pokemon.getExposedSpecies().getForm(pokemon.getAspects()).getBaseScale();
 
         float scaleFactor;
-        if (hitbox == 1F && baseScale == 1F) scaleFactor = height / 10F;
+        if (hitbox == 1F && baseScale == 1F) scaleFactor = height;
         else scaleFactor = hitbox * baseScale;
 
         return this.applyScaling(scaleFactor);
     }
 
     private float applyScaling(float scale) {
-        return Mth.clamp(10F / scale, 1.0F, 6.0F);
+        return Mth.clamp(1F / scale, 1.0F, 6.0F);
     }
 
     public Pokemon getRewardPokemon(ServerPlayer player) {
