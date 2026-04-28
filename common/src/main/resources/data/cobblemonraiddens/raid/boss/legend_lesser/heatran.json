@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIRE",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.pla_legendary",
   "script": {
     "hp:0.5": {
       "type": "use_move",

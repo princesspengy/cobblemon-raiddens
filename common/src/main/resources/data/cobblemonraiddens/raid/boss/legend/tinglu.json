@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "DARK",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.treasures_of_ruin",
   "script": {
     "hp:0.5": {
       "type": "player_stats",

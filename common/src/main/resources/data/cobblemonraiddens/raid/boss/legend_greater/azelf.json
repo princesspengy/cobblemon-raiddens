@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "PSYCHIC",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.pla_lake_guardians",
   "script": {
     "hp:0.1": {
       "type": "use_move",

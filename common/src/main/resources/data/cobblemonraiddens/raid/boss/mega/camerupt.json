@@ -16,7 +16,7 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/boss/mega/camerupt"
   },
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.galarian_bird",
   "script": {
     "turn:1": [
       {

@@ -19,7 +19,7 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/type/fairy"
   },
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.tera_raid",
   "script": {
     "turn:1": [
       {

@@ -1,72 +1,191 @@
 {
-    "battle.raid.default": {
+    "battle.raid.galarian_bird": {
         "sounds": [
             {
-                "name": "cobblemon:battle.pvw.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/aether_foundation_battle",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_one": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/aura_trio",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_two": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/battle_tree_boss",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_three": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/bw_legendary",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_four": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/colress",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_five": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/deoxys",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_six": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/entei",
                 "stream": true
-            }
-        ]
-    },
-    "battle.raid.tier_seven": {
-        "sounds": [
+            },
             {
-                "name": "cobblemonraiddens:battle.raid.default",
-                "type": "event",
+                "name": "cobblemonraiddens:battle/raid/eternatus",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/frlg_legendary",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/galarian_bird",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/ho-oh",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/sv_final_boss",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/kyurem_fused",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/light_trio",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/lugia",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/lusamine_1",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/lusamine_2",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/max_raid",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/oras_regi",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/oras_rival",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/paradox_battle",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_arceus",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_dialga_palkia",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_dialga_palkia_origin",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_giratina",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_lake_guardians",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_legendary",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_wild_battle",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/primal_reversion",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/raikou",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/suicune",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/swsh_battle_tower",
+                "stream": true
+            },            {
+                "name": "cobblemonraiddens:battle/raid/tao_trio",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/tapu",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/tera_raid",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/treasures_of_ruin",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/ultra_beast",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/ultra_necrozma",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/usum_champion",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/usum_giovanni",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/weather_trio",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/xy_champion",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/xp_elite4",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/xy_kanto_legendary",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/zacian_zamazenta_1",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/zacian_zamazenta_2",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/zinnia",
                 "stream": true
             }
         ]

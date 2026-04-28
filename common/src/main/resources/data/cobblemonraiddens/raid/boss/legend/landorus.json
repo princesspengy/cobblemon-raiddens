@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "FLYING",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.bw_legendary",
   "script": {
     "turn:1": {
       "type": "set_weather",

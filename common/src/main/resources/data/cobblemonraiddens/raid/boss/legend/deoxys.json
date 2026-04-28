@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "PSYCHIC",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.deoxys",
   "script": {
     "hp:0.25": {
       "type": "use_move",

@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "ICE",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.oras_regi",
   "script": {
     "turn:1": {
       "type": "use_move",

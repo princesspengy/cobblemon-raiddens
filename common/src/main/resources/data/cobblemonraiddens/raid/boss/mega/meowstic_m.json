@@ -17,7 +17,7 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/boss/mega/meowstic_m"
   },
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.galarian_bird",
   "script": {
     "turn:1": [
       {

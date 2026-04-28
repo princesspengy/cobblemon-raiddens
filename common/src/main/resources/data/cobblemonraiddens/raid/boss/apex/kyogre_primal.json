@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "WATER",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.primal_reversion",
   "script": {
     "turn:1": {
       "type": "forme_change",

@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "ROCK",
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.xy_elite4",
   "script": {
     "hp:0.5": {
       "type": "use_move",

@@ -13,7 +13,7 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/paradox_greater"
   },
-  "music": "pokefirma_raids:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.paradox_battle",
   "script": {
     "turn:1": {
       "type": "set_terrain",
