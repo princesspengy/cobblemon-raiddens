@@ -1,5 +1,4 @@
 {
-  "parent": "cobblemonraiddens:tier_two",
   "criteria": {
     "completed_tier_three": {
       "conditions": {

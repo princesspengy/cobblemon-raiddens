@@ -87,7 +87,7 @@ public enum RaidTier implements StringRepresentable {
             if (!CobblemonRaidDens.CONFIG.dimension_tier_weights.isEmpty()) {
                 weights = CobblemonRaidDens.CONFIG.dimension_tier_weights.values().iterator().next();
             } else {
-                weights = new double[]{9.0, 15.0, 25.0, 25.0, 20.0, 5.0, 1.0};
+                weights = new double[]{0.0, 0.0, 25.0, 25.0, 20.0, 5.0, 1.0};
             }
             RaidTier.addWeightedMap("minecraft:overworld", weights);
         }
