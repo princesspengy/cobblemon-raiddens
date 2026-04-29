@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "FIGHTING",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.pokken_tellur_town_autumn",
   "script": {
     "turn:1": {
       "type": "boss_stats",

@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIRE",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.pokken_phos_volcano",
   "script": {
     "turn:1": {
       "type": "use_move",

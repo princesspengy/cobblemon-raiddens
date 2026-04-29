@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "NORMAL",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.pmd_old_ferrum_town",
   "script": {
     "hp:0.75": {
       "type": "use_move",

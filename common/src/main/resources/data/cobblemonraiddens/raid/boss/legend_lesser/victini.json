@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIRE",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.bw_champion",
   "script": {
     "hp:0.5": {
       "type": "use_move",

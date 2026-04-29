@@ -14,7 +14,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "DRAGON",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.plza_zygarde_complete",
   "script": {
     "turn:1": {
       "type": "mega_evolve"

@@ -251,6 +251,46 @@
             {
                 "name": "cobblemonraiddens:battle/raid/terapagos",
                 "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pmd_defy_the_legends",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pmd_primal_dialga",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_old_ferrum_town",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_phos_volcano",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_regi_ruins",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_tellur_town_autumn",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/usum_necrozma",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pbr_waterfall_colosseum",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/bw_champion",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/unite_remoat_island",
+                "stream": true
             }
         ]
     }
