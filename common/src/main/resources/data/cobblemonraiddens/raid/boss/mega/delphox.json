@@ -16,7 +16,7 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/boss/mega/delphox"
   },
-  "music": "cobblemonraiddens:battle.raid.cobblemonraiddens:battle.raid.plza_rogue_mega",
+  "music": "cobblemonraiddens:battle.raid.plza_rogue_mega",
   "script": {
     "turn:1": [
       {

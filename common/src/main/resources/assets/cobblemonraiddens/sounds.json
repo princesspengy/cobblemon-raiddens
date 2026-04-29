@@ -1,295 +1,584 @@
 {
-    "battle.raid.galarian_bird": {
+    "battle.raid.aether_foundation_battle": {
         "sounds": [
             {
                 "name": "cobblemonraiddens:battle/raid/aether_foundation_battle",
                 "stream": true
-            },
+            }
+        ]
+    },
+    "battle.raid.aura_trio": {
+        "sounds": [
             {
                 "name": "cobblemonraiddens:battle/raid/aura_trio",
                 "stream": true
-            },
+            }
+        ]
+    },
+    "battle.raid.battle_tree_boss": {
+        "sounds": [
             {
                 "name": "cobblemonraiddens:battle/raid/battle_tree_boss",
                 "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/bw_legendary",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/colress",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/deoxys",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/entei",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/eternatus",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/frlg_legendary",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/galarian_bird",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/ho-oh",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/sv_final_boss",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/kyurem_fused",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/light_trio",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/lugia",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/lusamine_1",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/lusamine_2",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/max_raid",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/oras_regi",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/oras_rival",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/paradox_battle",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_arceus",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_dialga_palkia",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_dialga_palkia_origin",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_giratina",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_lake_guardians",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_legendary",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pla_wild_battle",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/primal_reversion",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/raikou",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/suicune",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/swsh_battle_tower",
-                "stream": true
-            },            {
-                "name": "cobblemonraiddens:battle/raid/tao_trio",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/tapu",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/tera_raid",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/treasures_of_ruin",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/ultra_beast",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/ultra_necrozma",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/usum_champion",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/usum_giovanni",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/weather_trio",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/xy_champion",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/xp_elite4",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/xy_kanto_legendary",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/zacian_zamazenta_1",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/zacian_zamazenta_2",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/zinnia",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/calyrex_1",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/calyrex_2",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/glastrier_spectrier",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/hyperspace_lumiose_alpha_battle",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/hyperspace_lumiose_wild_battle",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/loyal_three",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/mega_darkrai",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/mustard_final",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/ogerpon",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pecharunt",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/plza_mega_rayquaza",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/plza_rogue_mega",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/plza_zygarde_50",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/plza_zygarde_complete",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/swsh_regi",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/terapagos",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pmd_defy_the_legends",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pmd_primal_dialga",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pokken_old_ferrum_town",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pokken_phos_volcano",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pokken_regi_ruins",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pokken_tellur_town_autumn",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/usum_necrozma",
-                "stream": true
-            },
-            {
-                "name": "cobblemonraiddens:battle/raid/pbr_waterfall_colosseum",
-                "stream": true
-            },
+            }
+        ]
+    },
+    "battle.raid.bw_champion": {
+        "sounds": [
             {
                 "name": "cobblemonraiddens:battle/raid/bw_champion",
                 "stream": true
-            },
+            }
+        ]
+    },
+    "battle.raid.bw_legendary": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/bw_legendary",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.calyrex_1": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/calyrex_1",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.calyrex_2": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/calyrex_2",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.colress": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/colress",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.deoxys": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/deoxys",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.entei": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/entei",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.eternatus": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/eternatus",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.frlg_legendary": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/frlg_legendary",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.galarian_bird": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/galarian_bird",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.glastrier_spectrier": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/glastrier_spectrier",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.ho-oh": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/ho-oh",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.hyperspace_lumiose_alpha_battle": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/hyperspace_lumiose_alpha_battle",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.hyperspace_lumiose_wild_battle": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/hyperspace_lumiose_wild_battle",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.kyurem_fused": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/kyurem_fused",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.light_trio": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/light_trio",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.loyal_three": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/loyal_three",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.lugia": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/lugia",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.lusamine_1": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/lusamine_1",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.lusamine_2": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/lusamine_2",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.max_raid": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/max_raid",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.mega_darkrai": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/mega_darkrai",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.mustard_final": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/mustard_final",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.ogerpon": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/ogerpon",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.oras_regi": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/oras_regi",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.oras_rival": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/oras_rival",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.paradox_battle": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/paradox_battle",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pbr_waterfall_colosseum": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pbr_waterfall_colosseum",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pecharunt": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pecharunt",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_arceus": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_arceus",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_dialga_palkia": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_dialga_palkia",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_dialga_palkia_origin": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_dialga_palkia_origin",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_giratina": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_giratina",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_lake_guardians": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_lake_guardians",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_legendary": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_legendary",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pla_wild_battle": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pla_wild_battle",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.plza_mega_rayquaza": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_mega_rayquaza",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.plza_rogue_mega": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_rogue_mega",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.plza_zygarde_50": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_zygarde_50",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.plza_zygarde_complete": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_zygarde_complete",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pmd_defy_the_legends": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pmd_defy_the_legends",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pmd_primal_dialga": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pmd_primal_dialga",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pokken_old_ferrum_town": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_old_ferrum_town",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pokken_phos_volcano": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_phos_volcano",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pokken_regi_ruins": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_regi_ruins",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.pokken_tellur_town_autumn": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_tellur_town_autumn",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.primal_reversion": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/primal_reversion",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.raikou": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/raikou",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.suicune": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/suicune",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.sv_final_boss": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/sv_final_boss",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.swsh_battle_tower": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/swsh_battle_tower",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.swsh_regi": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/swsh_regi",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.tao_trio": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/tao_trio",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.tapu": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/tapu",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.tera_raid": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/tera_raid",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.terapagos": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/terapagos",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.treasures_of_ruin": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/treasures_of_ruin",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.ultra_beast": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/ultra_beast",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.ultra_necrozma": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/ultra_necrozma",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.unite_remoat_island": {
+        "sounds": [
             {
                 "name": "cobblemonraiddens:battle/raid/unite_remoat_island",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.usum_champion": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/usum_champion",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.usum_giovanni": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/usum_giovanni",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.usum_necrozma": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/usum_necrozma",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.weather_trio": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/weather_trio",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.xy_champion": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/xy_champion",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.xy_elite4": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/xy_elite4",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.xy_kanto_legendary": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/xy_kanto_legendary",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.zacian_zamazenta_1": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/zacian_zamazenta_1",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.zacian_zamazenta_2": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/zacian_zamazenta_2",
+                "stream": true
+            }
+        ]
+    },
+    "battle.raid.zinnia": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/zinnia",
                 "stream": true
             }
         ]
