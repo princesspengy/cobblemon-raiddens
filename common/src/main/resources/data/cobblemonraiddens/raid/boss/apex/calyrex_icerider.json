@@ -9,7 +9,12 @@
     ]
   },
   "boss": {
-    "form": "ice"
+    "custom_properties": [
+      {
+        "name": "king_steed",
+        "value": "ice"
+      }
+    ]
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "ICE",

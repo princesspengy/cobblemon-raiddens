@@ -9,8 +9,11 @@
     ]
   },
   "boss": {
-    "aspects": [
-      "single_strike"
+    "custom_properties": [
+      {
+        "value": "wushu_style",
+        "name": "single_strike"
+      }
     ]
   },
   "raid_tier": "TIER_FOUR",

@@ -9,7 +9,7 @@
     ]
   },
   "raid_tier": "TIER_SEVEN",
-  "raid_type": "NORMAL",
+  "raid_type": "STELLAR",
   "music": "cobblemonraiddens:battle.raid.terapagos",
   "script": {
     "turn:1": {

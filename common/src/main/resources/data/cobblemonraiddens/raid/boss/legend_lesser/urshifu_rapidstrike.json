@@ -9,8 +9,11 @@
     ]
   },
   "boss": {
-    "aspects": [
-      "rapid_strike"
+    "custom_properties": [
+      {
+        "value": "wushu_style",
+        "name": "rapid_strike"
+      }
     ]
   },
   "raid_tier": "TIER_FOUR",

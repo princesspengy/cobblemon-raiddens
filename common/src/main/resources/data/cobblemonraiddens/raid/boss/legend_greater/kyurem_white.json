@@ -9,7 +9,12 @@
     ]
   },
   "boss": {
-    "form": "white"
+    "custom_properties": [
+      {
+        "name": "absofusion",
+        "value": "white"
+      }
+    ]
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "DRAGON",

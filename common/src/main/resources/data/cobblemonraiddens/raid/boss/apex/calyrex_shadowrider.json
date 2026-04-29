@@ -9,7 +9,12 @@
     ]
   },
   "boss": {
-    "form": "shadow"
+    "custom_properties": [
+      {
+        "name": "king_steed",
+        "value": "shadow"
+      }
+    ]
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "GHOST",

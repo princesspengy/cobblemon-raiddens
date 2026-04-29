@@ -9,7 +9,12 @@
     ]
   },
   "boss": {
-    "form": "dusk-mane"
+    "custom_properties": [
+      {
+        "name": "prism_fusion",
+        "value": "dusk"
+      }
+    ]
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "STEEL",

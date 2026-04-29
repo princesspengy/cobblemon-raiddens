@@ -9,7 +9,12 @@
     ]
   },
   "boss": {
-    "form": "dawn-wings"
+    "custom_properties": [
+      {
+        "name": "prism_fusion",
+        "value": "dawn"
+      }
+    ]
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "GHOST",
