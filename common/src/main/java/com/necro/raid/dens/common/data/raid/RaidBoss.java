@@ -319,7 +319,7 @@ public class RaidBoss {
         CustomRaidRegistries.FEATURE_REGISTRY.get(this.raidFeature).applyToBoss(pokemon, pokemonEntity);
 
         ((IRaidAccessor) pokemonEntity).crd_setRaidBoss(this.id);
-        pokemonEntity.getPokemon().setScaleModifier(this.scale == null ? this.calculateScale(pokemonEntity) : this.scale);
+//        pokemonEntity.getPokemon().setScaleModifier(this.scale == null ? this.calculateScale(pokemonEntity) : this.scale);
 
         pokemonEntity.refreshDimensions();
         pokemon.onChange(null);
