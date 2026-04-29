@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "FLYING",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.plza_mega_rayquaza",
   "script": {
     "turn:1": {
       "type": "mega_evolve"

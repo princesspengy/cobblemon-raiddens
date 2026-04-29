@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "NORMAL",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.terapagos",
   "script": {
     "turn:1": {
       "type": "terastallize"

@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "PSYCHIC",
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.hyperspace_lumiose_alpha_battle",
   "script": {
     "turn:1": {
       "type": "forme_change",

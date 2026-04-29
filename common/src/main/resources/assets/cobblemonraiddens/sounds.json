@@ -187,6 +187,70 @@
             {
                 "name": "cobblemonraiddens:battle/raid/zinnia",
                 "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/calyrex_1",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/calyrex_2",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/glastrier_spectrier",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/hyperspace_lumiose_alpha_battle",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/hyperspace_lumiose_wild_battle",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/loyal_three",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/mega_darkrai",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/mustard_final",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/ogerpon",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/pecharunt",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_mega_rayquaza",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_rogue_mega",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_zygarde_50",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/plza_zygarde_complete",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/swsh_regi",
+                "stream": true
+            },
+            {
+                "name": "cobblemonraiddens:battle/raid/terapagos",
+                "stream": true
             }
         ]
     }

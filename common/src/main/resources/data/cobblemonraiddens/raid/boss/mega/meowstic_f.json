@@ -17,7 +17,7 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/boss/mega/meowstic_f"
   },
-  "music": "cobblemonraiddens:battle.raid.galarian_bird",
+  "music": "cobblemonraiddens:battle.raid.cobblemonraiddens:battle.raid.plza_rogue_mega",
   "script": {
     "turn:1": [
       {
