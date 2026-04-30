@@ -10,11 +10,5 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "PSYCHIC",
-  "music": "cobblemonraiddens:battle.raid.pmd_primal_dialga",
-  "script": {
-    "turn:1": {
-      "type": "set_weather",
-      "move": "snow"
-    }
-  }
+  "music": "cobblemonraiddens:battle.raid.pmd_primal_dialga"
 }

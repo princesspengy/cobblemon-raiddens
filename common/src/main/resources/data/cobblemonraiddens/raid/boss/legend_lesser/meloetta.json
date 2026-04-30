@@ -10,19 +10,22 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "NORMAL",
-  "music": "cobblemonraiddens:battle.raid.pmd_old_ferrum_town",
+  "music": "cobblemonraiddens:battle.raid.pokken_old_ferrum_town",
   "script": {
     "hp:0.75": {
       "type": "use_move",
-      "move": "relicsong"
+      "move": "relicsong",
+      "target": 1
     },
     "hp:0.5": {
       "type": "use_move",
-      "move": "relicsong"
+      "move": "relicsong",
+      "target": 1
     },
     "hp:0.25": {
       "type": "use_move",
-      "move": "relicsong"
+      "move": "relicsong",
+      "target": 1
     }
   }
 }

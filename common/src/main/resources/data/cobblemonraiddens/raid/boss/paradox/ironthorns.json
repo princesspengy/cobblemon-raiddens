@@ -9,7 +9,7 @@
     ]
   },
   "raid_tier": "TIER_FOUR",
-  "raid_type": "GROUND",
+  "raid_type": "ROCK",
   "loot_table": {
     "id": "cobblemonraiddens:raid/paradox"
   },

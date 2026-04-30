@@ -14,7 +14,7 @@
   "script": {
     "hp:0.5": {
       "type": "use_move",
-      "move": "focusnergy",
+      "move": "focusenergy",
       "target": 2
     }
   }

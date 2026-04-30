@@ -12,7 +12,7 @@
     "held_item": "mega_showdown:alakazite"
   },
   "raid_tier": "TIER_FOUR",
-  "raid_type": "STEEL",
+  "raid_type": "PSYCHIC",
   "loot_table": {
     "id": "cobblemonraiddens:raid/boss/mega/alakazam"
   },

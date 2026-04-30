@@ -9,7 +9,7 @@
     ]
   },
   "raid_tier": "TIER_FIVE",
-  "raid_type": "DARK",
+  "raid_type": "DRAGON",
   "music": "cobblemonraiddens:battle.raid.tao_trio",
   "script": {
     "hp:0.5": {
