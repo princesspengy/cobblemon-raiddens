@@ -10,11 +10,5 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "POISON",
-  "music": "cobblemonraiddens:battle.raid.eternatus",
-  "script": {
-    "turn:1": {
-      "type": "forme_change",
-      "form": "eternamax"
-    }
-  }
+  "music": "cobblemonraiddens:battle.raid.eternatus"
 }

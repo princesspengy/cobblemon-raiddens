@@ -2,7 +2,7 @@
   "pokemon": {
     "species": "zacian",
     "moves": [
-      "ironhead",
+      "behemothblade",
       "playrough",
       "swordsdance",
       "crunch"
@@ -14,7 +14,7 @@
   "script": {
     "turn:1": {
       "type": "forme_change",
-      "form": "crowned"
+      "form": "Zacian-Crowned"
     }
   }
 }

@@ -2,7 +2,7 @@
   "pokemon": {
     "species": "zamazenta",
     "moves": [
-      "ironhead",
+      "behemothbash",
       "bodypress",
       "irondefense",
       "crunch"
@@ -14,7 +14,7 @@
   "script": {
     "turn:1": {
       "type": "forme_change",
-      "form": "crowned"
+      "form": "Zamazenta-Crowned"
     }
   }
 }

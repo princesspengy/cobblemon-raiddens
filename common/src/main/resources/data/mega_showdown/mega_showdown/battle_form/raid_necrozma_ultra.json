@@ -6,7 +6,10 @@
             "aspects": ["prism_fusion=ultra"]
         },
         "revert": {
-            "aspects": ["prism_fusion=dawn"]
+            "aspects": [
+                "prism_fusion=dawn",
+                "prism_fusion=dusk"
+            ]
         }
     },
     "effect": "mega_showdown:ultra_burst"

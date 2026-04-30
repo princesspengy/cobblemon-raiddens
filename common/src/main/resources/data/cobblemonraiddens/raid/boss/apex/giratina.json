@@ -8,14 +8,20 @@
       "earthpower"
     ]
   },
-  "raid_tier": "TIER_SIX",
+  "raid_tier": "TIER_SEVEN",
   "raid_type": "DRAGON",
   "music": "cobblemonraiddens:battle.raid.pla_legendary",
   "script": {
-    "turn:1": {
-      "type": "player_stats",
-      "stats": { "atk": 1, "def": 1, "spa": 1, "spd": 1, "spe": 1, "acc": 1, "eva": 1 }
-    },
+    "turn:1": [
+      {
+        "type": "forme_change",
+        "form": "Giratina-Origin"
+      },
+      {
+        "type": "player_stats",
+        "stats": { "atk": 1, "def": 1, "spa": 1, "spd": 1, "spe": 1, "acc": 1, "eva": 1 }
+      }
+    ],
     "hp:0.5": {
       "type": "player_stats",
       "stats": { "atk": 1, "def": 1, "spa": 1, "spd": 1, "spe": 1, "acc": 1, "eva": 1 }
