@@ -9,9 +9,20 @@
     ]
   },
   "boss": {
-    "form": "ultra"
+    "custom_properties": [
+      {
+        "name": "prism_fusion",
+        "value": "dawn"
+      }
+    ]
   },
   "raid_tier": "TIER_SEVEN",
-  "raid_type": "GROUND",
-  "music": "cobblemonraiddens:battle.raid.ultra_necrozma"
+  "raid_type": "PSYCHIC",
+  "music": "cobblemonraiddens:battle.raid.ultra_necrozma",
+  "script": {
+    "turn:1": {
+      "type": "forme_change",
+      "form": "Necrozma-Ultra"
+    }
+  }
 }

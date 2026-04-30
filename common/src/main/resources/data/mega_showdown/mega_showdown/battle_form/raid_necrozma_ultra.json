@@ -1,0 +1,13 @@
+{
+    "pokemons": ["Necrozma"],
+    "showdown_form_change_id": "ultra",
+    "aspect_conditions": {
+        "apply": {
+            "aspects": ["prism_fusion=ultra"]
+        },
+        "revert": {
+            "aspects": ["prism_fusion=dawn"]
+        }
+    },
+    "effect": "mega_showdown:ultra_burst"
+}
