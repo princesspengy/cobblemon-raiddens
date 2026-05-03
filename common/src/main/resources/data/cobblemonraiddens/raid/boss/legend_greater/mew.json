@@ -7,5 +7,8 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "PSYCHIC",
-  "music": "cobblemonraiddens:battle.raid.xy_kanto_legendary"
+  "music": "cobblemonraiddens:battle.raid.xy_kanto_legendary",
+  "den": [
+    "cobblemonraiddens:raid_den/mew"
+  ]
 }
