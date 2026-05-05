@@ -11,6 +11,10 @@
   "raid_tier": "TIER_FIVE",
   "raid_type": "PSYCHIC",
   "music": "cobblemonraiddens:battle.raid.lugia",
+  "den": [
+    "cobblemonraiddens:raid_den/lugia"
+  ],
+  "movement": "flying",
   "script": {
     "turn:1": {
       "type": "use_move",

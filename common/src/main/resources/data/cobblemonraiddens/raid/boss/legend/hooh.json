@@ -14,6 +14,7 @@
   "den": [
     "cobblemonraiddens:raid_den/hooh"
   ],
+  "movement": "flying",
   "script": {
     "turn:1": [
       {

@@ -98,6 +98,8 @@ public class RaidBoss {
     private Float requiredDamage;
     @SerializedName("catch_rate")
     private Float catchRate;
+    @SerializedName("movement")
+    private String movement;
 
     private transient PokemonProperties cachedBossProperties;
     private transient List<ResourceLocation> densActual;
@@ -113,7 +115,7 @@ public class RaidBoss {
                     Integer maxClears, Double haRate, Integer maxCheers, Integer raidPartySize, Integer healthMulti,
                     Float multiplayerHealthMulti, Float shinyRate, Integer currency, Integer maxCatches, Map<String, Script> script,
                     String raidAI, List<String> marks, Integer lives, Boolean playersShareLives, Integer energy, Float requiredDamage,
-                    Float catchRate) {
+                    Float catchRate, String movement) {
         this.reward = reward;
         this.boss = boss;
         this.raidTier = raidTier;
@@ -146,6 +148,7 @@ public class RaidBoss {
         this.energy = energy;
         this.requiredDamage = requiredDamage;
         this.catchRate = catchRate;
+        this.movement = movement;
 
         this.cachedBossProperties = null;
         this.densActual = new ArrayList<>();
@@ -187,6 +190,7 @@ public class RaidBoss {
         this.energy = null;
         this.requiredDamage = null;
         this.catchRate = null;
+        this.movement = null;
 
         this.cachedBossProperties = null;
         this.densActual = new ArrayList<>();
@@ -537,6 +541,8 @@ public class RaidBoss {
         return this.catchRate;
     }
 
+    public String getMovement() { return this.movement; }
+
     public Species getDisplaySpecies() {
         if (this.displaySpecies == null) return null;
         return PokemonSpecies.getByIdentifier(this.displaySpecies);
@@ -706,6 +712,8 @@ public class RaidBoss {
         this.catchRate = catchRate;
     }
 
+    public void setMovement(String movement) { this.movement = movement; }
+
     public void clearCaches() {
         this.cachedBossProperties = null;
         if (this.lootTable != null) this.lootTable.clearCache();
@@ -751,7 +759,8 @@ public class RaidBoss {
             this.playersShareLives,
             this.energy,
             this.requiredDamage,
-            this.catchRate
+            this.catchRate,
+            this.movement
         );
     }
 

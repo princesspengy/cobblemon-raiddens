@@ -50,6 +50,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.Objects;
 
 public abstract class RaidCrystalBlock extends BaseEntityBlock {
     public static final EnumProperty<RaidType> RAID_TYPE = EnumProperty.create("raid_type", RaidType.class);
@@ -171,6 +172,12 @@ public abstract class RaidCrystalBlock extends BaseEntityBlock {
         RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region);
         blockEntity.syncAspects((ServerPlayer) player);
         player.displayClientMessage(ComponentUtils.getSystemMessage(Component.translatable("message.cobblemonraiddens.raid.raid_start", raid.getBossEntity().getDisplayName())), true);
+
+        String movement = blockEntity.getRaidBoss().getMovement();
+        if (Objects.equals(movement, "flying")) raid.getBossEntity().setFlying(true);
+        if (Objects.equals(movement, "swimming")) raid.getBossEntity().setSwimming(true);
+        if (Objects.equals(movement, "roaming")) raid.getBossEntity().setNoAi(false);
+
         return true;
     }
 

@@ -10,5 +10,6 @@
   "music": "cobblemonraiddens:battle.raid.xy_kanto_legendary",
   "den": [
     "cobblemonraiddens:raid_den/mew"
-  ]
+  ],
+  "movement": "roaming"
 }
