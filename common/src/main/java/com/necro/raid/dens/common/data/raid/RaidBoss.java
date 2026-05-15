@@ -100,6 +100,8 @@ public class RaidBoss {
     private Float catchRate;
     @SerializedName("movement")
     private String movement;
+    @SerializedName("dimension")
+    private String dimension;
 
     private transient PokemonProperties cachedBossProperties;
     private transient List<ResourceLocation> densActual;
@@ -115,7 +117,7 @@ public class RaidBoss {
                     Integer maxClears, Double haRate, Integer maxCheers, Integer raidPartySize, Integer healthMulti,
                     Float multiplayerHealthMulti, Float shinyRate, Integer currency, Integer maxCatches, Map<String, Script> script,
                     String raidAI, List<String> marks, Integer lives, Boolean playersShareLives, Integer energy, Float requiredDamage,
-                    Float catchRate, String movement) {
+                    Float catchRate, String movement, String dimension) {
         this.reward = reward;
         this.boss = boss;
         this.raidTier = raidTier;
@@ -149,6 +151,7 @@ public class RaidBoss {
         this.requiredDamage = requiredDamage;
         this.catchRate = catchRate;
         this.movement = movement;
+        this.dimension = dimension;
 
         this.cachedBossProperties = null;
         this.densActual = new ArrayList<>();
@@ -191,6 +194,7 @@ public class RaidBoss {
         this.requiredDamage = null;
         this.catchRate = null;
         this.movement = null;
+        this.dimension = null;
 
         this.cachedBossProperties = null;
         this.densActual = new ArrayList<>();
@@ -543,6 +547,8 @@ public class RaidBoss {
 
     public String getMovement() { return this.movement; }
 
+    public String getDimension() { return this.dimension; }
+
     public Species getDisplaySpecies() {
         if (this.displaySpecies == null) return null;
         return PokemonSpecies.getByIdentifier(this.displaySpecies);
@@ -760,7 +766,8 @@ public class RaidBoss {
             this.energy,
             this.requiredDamage,
             this.catchRate,
-            this.movement
+            this.movement,
+            this.dimension
         );
     }
 

@@ -12,6 +12,7 @@ import com.necro.raid.dens.common.blocks.BlockTags;
 import com.necro.raid.dens.common.blocks.entity.RaidCrystalBlockEntity;
 import com.necro.raid.dens.common.components.ModComponents;
 import com.necro.raid.dens.common.data.dimension.RaidRegion;
+import com.necro.raid.dens.common.data.raid.RaidBoss;
 import com.necro.raid.dens.common.dimensions.ModDimensions;
 import com.necro.raid.dens.common.items.ItemTags;
 import com.necro.raid.dens.common.network.RaidDenNetworkMessages;
@@ -79,8 +80,8 @@ public class RaidUtils {
         return level.canSeeSky(blockPos);
     }
 
-    public static void teleportPlayerToRaid(ServerPlayer player, MinecraftServer server, RaidRegion region) {
-        ServerLevel level = ModDimensions.getRaidDimension(server);
+    public static void teleportPlayerToRaid(ServerPlayer player, MinecraftServer server, RaidRegion region, RaidBoss raidBoss) {
+        ServerLevel level = ModDimensions.getRaidDimension(server, raidBoss);
         if (level == null) return;
 
         ((IRaidTeleporter) player).crd_setHomePos(player.position());
@@ -111,9 +112,6 @@ public class RaidUtils {
             return;
         }
 
-        ServerLevel level = ModDimensions.getRaidDimension(player.getServer());
-        if (level == null) return;
-
         RaidInstance instance = RaidHelper.ACTIVE_RAIDS.get(raid);
         if (instance == null) {
             leaveRaidFallback(player);
@@ -123,6 +121,9 @@ public class RaidUtils {
             instance.removePlayer((ServerPlayer) player);
             return;
         }
+
+        ServerLevel level = ModDimensions.getRaidDimension(player.getServer(), instance.getRaidBoss());
+        if (level == null) return;
 
         int players = level.getEntitiesOfClass(Player.class, region.bound(), p -> RaidJoinHelper.isParticipating(p, false)).size();
         if (players > (isRaidDimension(player.level()) ? 1 : 0)) return;
@@ -147,7 +148,10 @@ public class RaidUtils {
     }
 
     public static boolean isRaidDimension(Level level) {
-        return level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE);
+        if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_DAY)) return true;
+        if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_NIGHT)) return true;
+        if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_VOID)) return true;
+        else return false;
     }
 
     public static boolean cannotBreak(Player player, Level level) {

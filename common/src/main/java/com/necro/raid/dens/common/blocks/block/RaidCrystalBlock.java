@@ -113,7 +113,7 @@ public abstract class RaidCrystalBlock extends BaseEntityBlock {
         RaidRegion region = RaidRegionHelper.getRegion(blockEntity.getUuid());
         if (region != null && blockEntity.isPlayerParticipating(player)) {
             RaidDenNetworkMessages.JOIN_RAID.accept((ServerPlayer) player, true);
-            RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region);
+            RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region, blockEntity.getRaidBoss());
             blockEntity.syncAspects((ServerPlayer) player);
             return true;
         }
@@ -169,7 +169,7 @@ public abstract class RaidCrystalBlock extends BaseEntityBlock {
 
         RaidInstance raid = RaidHelper.ACTIVE_RAIDS.get(blockEntity.getUuid());
         raid.addPlayer((ServerPlayer) player);
-        RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region);
+        RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region, blockEntity.getRaidBoss());
         blockEntity.syncAspects((ServerPlayer) player);
         player.displayClientMessage(ComponentUtils.getSystemMessage(Component.translatable("message.cobblemonraiddens.raid.raid_start", raid.getBossEntity().getDisplayName())), true);
 

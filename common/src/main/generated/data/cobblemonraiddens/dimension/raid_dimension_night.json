@@ -1,0 +1,6 @@
+{
+  "type": "cobblemonraiddens:raid_dimension_type_night",
+  "generator": {
+    "type": "cobblemonraiddens:raid_dimension_chunk"
+  }
+}

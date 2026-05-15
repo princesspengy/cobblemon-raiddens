@@ -68,7 +68,7 @@ public record RequestResponsePacket(boolean accept, String player) implements Cu
             if (!RaidJoinHelper.addParticipant(player, blockEntity.getUuid(), false, true)) return;
 
             RaidHelper.ACTIVE_RAIDS.get(blockEntity.getUuid()).addPlayer((ServerPlayer) player);
-            RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region);
+            RaidUtils.teleportPlayerToRaid((ServerPlayer) player, player.getServer(), region, blockEntity.getRaidBoss());
             blockEntity.syncAspects((ServerPlayer) player);
         }
         else {

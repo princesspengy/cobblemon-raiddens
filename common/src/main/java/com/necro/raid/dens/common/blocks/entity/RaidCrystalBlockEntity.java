@@ -214,7 +214,7 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
         if (this.getLevel() == null) return false;
         RaidBoss raidBoss = this.getRaidBoss();
         RaidRegion region = RaidRegionHelper.getRegion(this.getUuid());
-        ServerLevel level = ModDimensions.getRaidDimension(this.getLevel().getServer());
+        ServerLevel level = ModDimensions.getRaidDimension(this.getLevel().getServer(), raidBoss);
         if (raidBoss == null || region == null || level == null) {
             CobblemonRaidDens.LOGGER.error("Could not load Raid Boss {}", this.raidBoss);
             this.setRaidBoss(null, 0);
@@ -272,7 +272,7 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
 
     public void closeRaid() {
         if (this.getLevel() == null) return;
-        ServerLevel level = ModDimensions.getRaidDimension(this.getLevel().getServer());
+        ServerLevel level = ModDimensions.getRaidDimension(this.getLevel().getServer(), this.getRaidBoss());
         if (level == null) return;
 
         RaidState raidState = RaidHelper.getRaidState(this.getUuid());
@@ -364,7 +364,7 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
         RaidRegion region = RaidRegionHelper.getRegion(this.getUuid());
         if (region == null) return true;
 
-        ServerLevel level = ModDimensions.getRaidDimension(this.getLevel().getServer());
+        ServerLevel level = ModDimensions.getRaidDimension(this.getLevel().getServer(), this.getRaidBoss());
         if (level == null) return false;
 
         int activePlayers = level.getEntitiesOfClass(Player.class, region.bound()).size();
