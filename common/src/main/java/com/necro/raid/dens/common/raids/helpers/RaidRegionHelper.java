@@ -44,7 +44,7 @@ public class RaidRegionHelper {
     }
 
     private static BlockPos coordFromIndex(int index) {
-        if (index == 0) return BlockPos.ZERO;
+        if (index == 0) return new BlockPos(0, 80, 0);
 
         int k = (int) Math.ceil((Math.sqrt(index + 1) - 1) / 2);
         int side = 2 * k;
@@ -71,6 +71,6 @@ public class RaidRegionHelper {
             z = -k;
         }
 
-        return new BlockPos(x * SPACING, 0, z * SPACING);
+        return new BlockPos(x * SPACING, 80, z * SPACING);
     }
 }

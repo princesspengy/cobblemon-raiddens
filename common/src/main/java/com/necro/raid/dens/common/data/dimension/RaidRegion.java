@@ -34,7 +34,7 @@ public class RaidRegion {
 
     public RaidRegion(BlockPos centre, ResourceLocation structure) {
         this.centre = centre;
-        this.bound = new AABB(centre.getX() - RADIUS, -64, centre.getZ() - RADIUS, centre.getX() + RADIUS, 128, centre.getZ() + RADIUS);
+        this.bound = new AABB(centre.getX() - RADIUS, -64, centre.getZ() - RADIUS, centre.getX() + RADIUS, 208, centre.getZ() + RADIUS);
         this.structure = structure;
     }
 
