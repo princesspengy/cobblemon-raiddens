@@ -56,8 +56,7 @@ public class ModDimensions {
         String dimension = raidBoss.getDimension();
         if (Objects.equals(dimension, "day")) return server.getLevel(RAID_DIMENSION_DAY);
         if (Objects.equals(dimension, "night")) return server.getLevel(RAID_DIMENSION_NIGHT);
-        if (Objects.equals(dimension, "void")) return server.getLevel(RAID_DIMENSION_VOID);
-        else return null;
+        else return server.getLevel(RAID_DIMENSION_VOID);
     }
 
     public static void onDimensionChange(ServerPlayer player, ServerLevel from, ServerLevel to) {

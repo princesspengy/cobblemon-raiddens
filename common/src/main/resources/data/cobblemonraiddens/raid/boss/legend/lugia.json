@@ -15,7 +15,6 @@
     "cobblemonraiddens:raid_den/lugia"
   ],
   "movement": "flying",
-  "dimension": "void",
   "script": {
     "turn:1": {
       "type": "use_move",
