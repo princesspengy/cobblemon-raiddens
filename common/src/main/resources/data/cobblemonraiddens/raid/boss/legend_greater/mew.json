@@ -11,5 +11,6 @@
   "den": [
     "cobblemonraiddens:raid_den/mew"
   ],
-  "movement": "roaming"
+  "movement": "roaming",
+  "dimension": "day"
 }

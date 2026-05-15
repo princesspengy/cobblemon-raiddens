@@ -15,6 +15,7 @@
     "cobblemonraiddens:raid_den/hooh"
   ],
   "movement": "flying",
+  "dimension": "night",
   "script": {
     "turn:1": [
       {
