@@ -11,6 +11,9 @@
   "raid_tier": "TIER_SEVEN",
   "raid_type": "NORMAL",
   "music": "cobblemonraiddens:battle.raid.pla_arceus",
+  "den": [
+    "cobblemonraiddens:raid_den/arceus"
+  ],
   "health_multi": 18,
   "scripts": {
     "hp:0.9445": {
