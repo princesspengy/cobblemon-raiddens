@@ -9,8 +9,7 @@
   "raid_type": "PSYCHIC",
   "music": "cobblemonraiddens:battle.raid.xy_kanto_legendary",
   "den": [
-    "cobblemonraiddens:raid_den/mew"
+    "cobblemonraiddens:raid_den/basic"
   ],
-  "movement": "roaming",
   "dimension": "day"
 }

@@ -12,7 +12,7 @@
   "raid_type": "FIRE",
   "music": "cobblemonraiddens:battle.raid.ho-oh",
   "den": [
-    "cobblemonraiddens:raid_den/hooh"
+    "cobblemonraiddens:raid_den/basic"
   ],
   "movement": "flying",
   "dimension": "day",

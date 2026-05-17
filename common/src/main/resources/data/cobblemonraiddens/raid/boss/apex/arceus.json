@@ -12,7 +12,7 @@
   "raid_type": "NORMAL",
   "music": "cobblemonraiddens:battle.raid.pla_arceus",
   "den": [
-    "cobblemonraiddens:raid_den/arceus"
+    "cobblemonraiddens:raid_den/basic"
   ],
   "health_multi": 18,
   "scripts": {

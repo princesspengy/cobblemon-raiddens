@@ -12,7 +12,7 @@
   "raid_type": "PSYCHIC",
   "music": "cobblemonraiddens:battle.raid.lugia",
   "den": [
-    "cobblemonraiddens:raid_den/lugia"
+    "cobblemonraiddens:raid_den/basic"
   ],
   "movement": "flying",
   "script": {
