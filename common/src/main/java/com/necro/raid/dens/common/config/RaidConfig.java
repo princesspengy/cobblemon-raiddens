@@ -14,7 +14,7 @@ public class RaidConfig implements ConfigData {
     public boolean enable_spawning = true;
     @Comment("Weighted probability of each raid tier from Tier 1 to Tier 7 per dimension. Leave empty to use overworld/default. Default: {\"minecraft:overworld\": [9.0, 15.0, 25.0, 25.0, 20.0, 5.0, 1.0]}")
     public Map<String, double[]> dimension_tier_weights = new HashMap<>(Map.of(
-        "minecraft:overworld", new double[]{0.0, 0.0, 25.0, 25.0, 20.0, 5.0, 1.0}
+        "minecraft:overworld", new double[]{0.0, 0.0, 50.0, 30.0, 15.0, 5.0, 1.0}
     ));
     @Comment("The chance of a raid den spawning per dimension as 1 in X. Leave empty to use overworld/default. Default: {\"minecraft:overworld\": 256}")
     public Map<String, Integer> dimension_spawn_rate = new HashMap<>(Map.of(
