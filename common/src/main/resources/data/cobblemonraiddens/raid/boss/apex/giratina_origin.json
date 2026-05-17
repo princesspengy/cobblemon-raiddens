@@ -10,7 +10,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "DRAGON",
-  "music": "cobblemonraiddens:battle.raid.pla_legendary",
+  "music": "cobblemonraiddens:battle.raid.pla_giratina",
   "script": {
     "turn:1": [
       {
