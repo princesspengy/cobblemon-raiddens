@@ -66,6 +66,8 @@ public class RaidBoss {
     @SerializedName("force_dynamax")
     private Boolean forceDynamax;
     private ResourceLocation music;
+    @SerializedName("no_ai")
+    private Boolean noAi;
 
     @SerializedName("max_players")
     private Integer maxPlayers;
@@ -113,7 +115,7 @@ public class RaidBoss {
 
     public RaidBoss(PokemonProperties reward,PokemonProperties boss, RaidTier raidTier, RaidType raidType,
                     String raidFeature, BossLootTable lootTable, Double weight, List<String> den, UniqueKey key,
-                    Component bossBarText, Float scale, Boolean forceDynamax, ResourceLocation music, Integer maxPlayers,
+                    Component bossBarText, Float scale, Boolean forceDynamax, ResourceLocation music, Boolean noAi, Integer maxPlayers,
                     Integer maxClears, Double haRate, Integer maxCheers, Integer raidPartySize, Integer healthMulti,
                     Float multiplayerHealthMulti, Float shinyRate, Integer currency, Integer maxCatches, Map<String, Script> script,
                     String raidAI, List<String> marks, Integer lives, Boolean playersShareLives, Integer energy, Float requiredDamage,
@@ -131,6 +133,7 @@ public class RaidBoss {
         this.scale = scale;
         this.forceDynamax = forceDynamax;
         this.music = music;
+        this.noAi = noAi;
 
         this.maxPlayers = maxPlayers;
         this.maxClears = maxClears;
@@ -174,6 +177,7 @@ public class RaidBoss {
         this.scale = null;
         this.forceDynamax = null;
         this.music = null;
+        this.noAi = null;
 
         this.maxPlayers = null;
         this.maxClears = null;
@@ -234,6 +238,7 @@ public class RaidBoss {
         if (this.key == null) this.key = new UniqueKey();
         if (this.forceDynamax == null) this.forceDynamax = false;
         if (this.music == null) this.music = ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "battle.raid." + this.raidTier.getSerializedName());
+        if (this.noAi == null) this.noAi = true;
 
         if (this.maxPlayers == null) this.maxPlayers = tierConfig.maxPlayers();
         if (this.maxClears == null) this.maxClears = tierConfig.maxClears();
@@ -471,6 +476,10 @@ public class RaidBoss {
         return this.music;
     }
 
+    public Boolean getNoAi() {
+        return this.noAi;
+    }
+
     public Integer getMaxPlayers() {
         return this.maxPlayers;
     }
@@ -648,6 +657,10 @@ public class RaidBoss {
         this.music = music;
     }
 
+    public void setNoAi(Boolean noAi) {
+        this.noAi = noAi;
+    }
+
     public void setMaxPlayers(Integer maxPlayers) {
         this.maxPlayers = maxPlayers;
     }
@@ -750,6 +763,7 @@ public class RaidBoss {
             this.scale,
             this.forceDynamax,
             this.music,
+            this.noAi,
             this.maxPlayers,
             this.maxClears,
             this.haRate,
