@@ -229,13 +229,14 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
             CobblemonRaidDens.LOGGER.error("Failed to parse raid boss {}: ", this.raidBoss, e);
             return false;
         }
-        pokemonEntity.setNoAi(true);
+        if (raidBoss.getNoAi()) pokemonEntity.setNoAi(true);
         pokemonEntity.setInvulnerable(true);
         pokemonEntity.setPersistenceRequired();
         ((IRaidAccessor) pokemonEntity).crd_setRaidId(this.getUuid());
 
         if (CobblemonRaidDens.CONFIG.sync_rewards && this.aspects == null) {
             this.aspects = pokemonEntity.getAspects();
+            this.setChanged();
         }
 
         RaidInstance raid = new RaidInstance(pokemonEntity, playerId);
@@ -253,7 +254,10 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
 
     public void clearRaid(boolean wasWin) {
         this.clears++;
-        if (wasWin) this.aspects = null;
+        if (wasWin) {
+            this.aspects = null;
+            this.setChanged();
+        }
         if (this.isAtMaxClears()) {
             RaidHelper.resetClearedRaids(this.getUuid());
             if (this.getLevel() != null) this.getLevel().setBlock(
@@ -310,7 +314,7 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
     public int getPlayerCount() {
         RaidInstance raid = RaidHelper.ACTIVE_RAIDS.get(this.getUuid());
         if (raid == null) return 0;
-        return raid.getPlayers().size();
+        return raid.getPlayerCount();
     }
 
     public long getTicksUntilNextReset() {
