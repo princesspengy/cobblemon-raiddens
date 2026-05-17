@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "DARK",
+  "raid_feature": "PARADOX",
+  "catch_rate": 1.0,
   "loot_table": {
     "id": "cobblemonraiddens:raid/paradox"
   },

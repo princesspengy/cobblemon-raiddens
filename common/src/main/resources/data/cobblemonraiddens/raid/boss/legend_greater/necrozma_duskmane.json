@@ -18,6 +18,7 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "STEEL",
+  "raid_feature": "LEGEND_GREATER",
   "music": "cobblemonraiddens:battle.raid.usum_necrozma",
   "script": {
     "hp:0.6": {

@@ -176,7 +176,6 @@ public abstract class RaidCrystalBlock extends BaseEntityBlock {
         String movement = blockEntity.getRaidBoss().getMovement();
         if (Objects.equals(movement, "flying")) raid.getBossEntity().setFlying(true);
         if (Objects.equals(movement, "swimming")) raid.getBossEntity().setSwimming(true);
-        if (Objects.equals(movement, "roaming")) raid.getBossEntity().setNoAi(false);
 
         return true;
     }

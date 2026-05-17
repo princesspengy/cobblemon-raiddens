@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "PSYCHIC",
+  "raid_feature": "LEGEND_GREATER",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pla_lake_guardians",
   "script": {
     "hp:0.8": {

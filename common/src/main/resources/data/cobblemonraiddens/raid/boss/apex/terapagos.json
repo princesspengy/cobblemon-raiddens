@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "STELLAR",
+  "raid_feature": "APEX",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.terapagos",
   "script": {
     "turn:1": {

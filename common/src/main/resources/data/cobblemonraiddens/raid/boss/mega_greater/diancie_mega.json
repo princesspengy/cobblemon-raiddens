@@ -13,6 +13,7 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "ROCK",
+  "raid_feature": "MEGA_GREATER",
   "music": "cobblemonraiddens:battle.raid.xy_champion",
   "script": {
     "turn:1": {

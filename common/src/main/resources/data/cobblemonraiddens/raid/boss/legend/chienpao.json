@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "DARK",
+  "raid_feature": "LEGEND",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.treasures_of_ruin",
   "script": {
     "hp:0.5": [

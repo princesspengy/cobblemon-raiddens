@@ -16,6 +16,8 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FLYING",
+  "raid_feature": "LEGEND_LESSER",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.galarian_bird",
   "script": {
     "hp:0.5": [

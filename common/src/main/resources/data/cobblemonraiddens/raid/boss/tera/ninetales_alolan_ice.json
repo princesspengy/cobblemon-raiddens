@@ -16,6 +16,7 @@
   },
   "raid_tier": "TIER_THREE",
   "raid_type": "ICE",
+  "raid_feature": "TERA",
   "loot_table": {
     "id": "cobblemonraiddens:raid/type/ice"
   },

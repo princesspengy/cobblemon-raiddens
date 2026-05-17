@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "NORMAL",
+  "raid_feature": "LEGEND_LESSER",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pokken_old_ferrum_town",
   "script": {
     "hp:0.75": {

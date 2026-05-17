@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "GROUND",
+  "raid_feature": "LEGEND_GREATER",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.weather_trio",
   "script": {
     "hp:0.6": {

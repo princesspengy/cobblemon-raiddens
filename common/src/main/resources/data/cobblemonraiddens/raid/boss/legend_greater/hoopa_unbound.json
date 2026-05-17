@@ -10,6 +10,7 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "PSYCHIC",
+  "raid_feature": "LEGEND_GREATER",
   "music": "cobblemonraiddens:battle.raid.hyperspace_lumiose_alpha_battle",
   "script": {
     "turn:1": {

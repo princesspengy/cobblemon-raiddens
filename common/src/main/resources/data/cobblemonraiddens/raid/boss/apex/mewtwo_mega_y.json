@@ -13,6 +13,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "PSYCHIC",
+  "raid_feature": "APEX",
   "music": "cobblemonraiddens:battle.raid.usum_giovanni",
   "script": {
     "turn:1": {

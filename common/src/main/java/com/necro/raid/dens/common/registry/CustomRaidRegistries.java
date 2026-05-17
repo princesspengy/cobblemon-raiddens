@@ -204,5 +204,13 @@ public class CustomRaidRegistries {
         FEATURE_REGISTRY.register(RaidFeature.Base.TERA.getId(), RaidFeature.Base.TERA);
         FEATURE_REGISTRY.register(RaidFeature.Base.DYNAMAX.getId(), RaidFeature.Base.DYNAMAX);
         FEATURE_REGISTRY.register(RaidFeature.Base.SHADOW.getId(), RaidFeature.Base.SHADOW);
+        FEATURE_REGISTRY.register(RaidFeature.Base.PARADOX.getId(), RaidFeature.Base.PARADOX);
+        FEATURE_REGISTRY.register(RaidFeature.Base.LEGEND_LESSER.getId(), RaidFeature.Base.LEGEND_LESSER);
+        FEATURE_REGISTRY.register(RaidFeature.Base.ULTRA_BEAST.getId(), RaidFeature.Base.ULTRA_BEAST);
+        FEATURE_REGISTRY.register(RaidFeature.Base.PARADOX_GREATER.getId(), RaidFeature.Base.PARADOX_GREATER);
+        FEATURE_REGISTRY.register(RaidFeature.Base.LEGEND.getId(), RaidFeature.Base.LEGEND);
+        FEATURE_REGISTRY.register(RaidFeature.Base.LEGEND_GREATER.getId(), RaidFeature.Base.LEGEND_GREATER);
+        FEATURE_REGISTRY.register(RaidFeature.Base.MEGA_GREATER.getId(), RaidFeature.Base.MEGA_GREATER);
+        FEATURE_REGISTRY.register(RaidFeature.Base.APEX.getId(), RaidFeature.Base.APEX);
     }
 }

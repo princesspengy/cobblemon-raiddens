@@ -54,9 +54,9 @@ public interface RaidFeature {
 
             @Override
             public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {
-                if (customProperties.stream().filter(SpeciesFeature.class::isInstance).noneMatch(prop -> ((SpeciesFeature) prop).getName().equals("mega_evolution"))) {
-                    customProperties.add(new StringSpeciesFeature("mega_evolution", "mega"));
-                }
+//                if (customProperties.stream().filter(SpeciesFeature.class::isInstance).noneMatch(prop -> ((SpeciesFeature) prop).getName().equals("mega_evolution"))) {
+//                    customProperties.add(new StringSpeciesFeature("mega_evolution", "mega"));
+//                }
             }
 
             @Override
@@ -77,7 +77,7 @@ public interface RaidFeature {
 
             @Override
             public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {
-                if (ModCompat.MEGA_SHOWDOWN.isLoaded()) RaidDensMSDCompat.setupTera(pokemon);
+//                if (ModCompat.MEGA_SHOWDOWN.isLoaded()) RaidDensMSDCompat.setupTera(pokemon);
             }
 
             @Override
@@ -92,20 +92,20 @@ public interface RaidFeature {
 
             @Override
             public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {
-                if (customProperties.stream().filter(SpeciesFeature.class::isInstance).noneMatch(prop -> ((SpeciesFeature) prop).getName().equals("dynamax_form"))) {
-                    customProperties.add(new StringSpeciesFeature("dynamax_form", "none"));
-                }
+//                if (customProperties.stream().filter(SpeciesFeature.class::isInstance).noneMatch(prop -> ((SpeciesFeature) prop).getName().equals("dynamax_form"))) {
+//                    customProperties.add(new StringSpeciesFeature("dynamax_form", "none"));
+//                }
             }
 
             @Override
             public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {
-                if (ModCompat.MEGA_SHOWDOWN.isLoaded()) RaidDensMSDCompat.setupDmax(pokemonEntity, pokemon);
+//                if (ModCompat.MEGA_SHOWDOWN.isLoaded()) RaidDensMSDCompat.setupDmax(pokemonEntity, pokemon);
             }
 
             @Override
             public void applyToReward(Pokemon pokemon) {
-                pokemon.setDmaxLevel(Cobblemon.config.getMaxDynamaxLevel());
-                if (new StringSpeciesFeature("dynamax_form", "gmax").matches(pokemon)) pokemon.setGmaxFactor(true);
+//                pokemon.setDmaxLevel(Cobblemon.config.getMaxDynamaxLevel());
+//                if (new StringSpeciesFeature("dynamax_form", "gmax").matches(pokemon)) pokemon.setGmaxFactor(true);
             }
         },
 
@@ -127,6 +127,134 @@ public interface RaidFeature {
             public void applyToReward(Pokemon pokemon) {
                 if (ModCompat.SHADOWED_HEARTS.isLoaded()) RaidDensShadowedHeartsCompat.setShadowReward(pokemon);
             }
+        },
+
+        PARADOX{
+            @Override
+            public String getId() {
+                return "paradox";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        LEGEND_LESSER{
+            @Override
+            public String getId() {
+                return "legend_lesser";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        ULTRA_BEAST{
+            @Override
+            public String getId() {
+                return "ultra_beast";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        PARADOX_GREATER{
+            @Override
+            public String getId() {
+                return "paradox_greater";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        LEGEND{
+            @Override
+            public String getId() {
+                return "legend";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        LEGEND_GREATER{
+            @Override
+            public String getId() {
+                return "legend_greater";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        MEGA_GREATER{
+            @Override
+            public String getId() {
+                return "mega_greater";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
+        },
+
+        APEX{
+            @Override
+            public String getId() {
+                return "apex";
+            }
+
+            @Override
+            public void applyAspects(Set<String> aspects, List<CustomPokemonProperty> customProperties) {}
+
+            @Override
+            public void applyToBoss(Pokemon pokemon, PokemonEntity pokemonEntity) {}
+
+            @Override
+            public void applyToReward(Pokemon pokemon) {}
         }
     }
 }

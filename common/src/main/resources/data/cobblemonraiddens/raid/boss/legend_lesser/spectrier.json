@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "GHOST",
+  "raid_feature": "LEGEND_LESSER",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.glastrier_spectrier",
   "script": {
     "hp:0.5": {

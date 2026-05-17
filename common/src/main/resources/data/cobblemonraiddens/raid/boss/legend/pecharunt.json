@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "POISON",
+  "raid_feature": "LEGEND",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pecharunt",
   "script": {
     "hp:0.99": {

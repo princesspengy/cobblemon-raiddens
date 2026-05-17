@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "DRAGON",
+  "raid_feature": "ULTRA_BEAST",
+  "catch_rate": 1.0,
   "loot_table": {
     "id": "cobblemonraiddens:raid/ultra_beast"
   },

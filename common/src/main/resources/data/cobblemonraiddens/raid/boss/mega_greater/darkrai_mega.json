@@ -13,6 +13,7 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "DARK",
+  "raid_feature": "MEGA_GREATER",
   "music": "cobblemonraiddens:battle.raid.mega_darkrai",
   "script": {
     "turn:1": [

@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "POISON",
+  "raid_feature": "APEX",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.eternatus",
   "script": {
     "hp:0.8": {

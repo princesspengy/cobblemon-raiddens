@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "PSYCHIC",
+  "raid_feature": "LEGEND",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.hyperspace_lumiose_wild_battle",
   "script": {
     "hp:0.5": {

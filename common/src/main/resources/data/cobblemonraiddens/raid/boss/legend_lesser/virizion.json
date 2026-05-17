@@ -10,6 +10,8 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIGHTING",
+  "raid_feature": "LEGEND_LESSER",
+  "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.bw_legendary",
   "script": {
     "turn:1": {

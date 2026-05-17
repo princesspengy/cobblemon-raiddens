@@ -18,6 +18,7 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "ICE",
+  "raid_feature": "APEX",
   "music": "cobblemonraiddens:battle.raid.calyrex_2",
   "script": {
     "hp:0.8": {

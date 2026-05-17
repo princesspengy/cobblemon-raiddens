@@ -18,6 +18,7 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIGHTING",
+  "raid_feature": "LEGEND_LESSER",
   "music": "cobblemonraiddens:battle.raid.mustard_final",
   "script": {
     "hp:0.5": {
