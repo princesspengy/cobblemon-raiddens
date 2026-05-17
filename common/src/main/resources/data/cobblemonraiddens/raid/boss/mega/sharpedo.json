@@ -17,6 +17,7 @@
     "id": "cobblemonraiddens:raid/boss/mega/sharpedo"
   },
   "music": "cobblemonraiddens:battle.raid.plza_rogue_mega",
+  "movement": "swimming",
   "script": {
     "turn:1": [
       {
