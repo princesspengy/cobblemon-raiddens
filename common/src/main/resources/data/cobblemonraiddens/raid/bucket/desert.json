@@ -1,0 +1,36 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:tera/salazzle_fire",
+      "cobblemonraiddens:tera/salazzle_poison",
+      "cobblemonraiddens:legend_lesser/moltres_galarian",
+      "cobblemonraiddens:legend_lesser/regieleki",
+      "cobblemonraiddens:legend_lesser/victini",
+      "cobblemonraiddens:max/duraludon",
+      "cobblemonraiddens:max/gengar",
+      "cobblemonraiddens:max/sandaconda",
+      "cobblemonraiddens:mega/aggron",
+      "cobblemonraiddens:mega/camerupt",
+      "cobblemonraiddens:mega/excadrill",
+      "cobblemonraiddens:mega/falinks",
+      "cobblemonraiddens:mega/gengar",
+      "cobblemonraiddens:mega/golurk",
+      "cobblemonraiddens:mega/metagross",
+      "cobblemonraiddens:mega/scovillain",
+      "cobblemonraiddens:mega/tyranitar",
+      "cobblemonraiddens:paradox/iron_thorns",
+      "cobblemonraiddens:ultra_beast/blacephalon",
+      "cobblemonraiddens:ultra_beast/guzzlord",
+      "cobblemonraiddens:ultra_beast/stakataka",
+      "cobblemonraiddens:legend/chi-yu",
+      "cobblemonraiddens:legend/deoxys",
+      "cobblemonraiddens:legend/hooh",
+      "cobblemonraiddens:legend/magearna",
+      "cobblemonraiddens:legend/yveltal",
+      "cobblemonraiddens:mega_greater/magearna"
+    ]
+  },
+  "biome": [
+    "#cobblemon:is_desert"
+  ]
+}

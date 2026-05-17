@@ -1,0 +1,24 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:legend_lesser/latias",
+      "cobblemonraiddens:legend_lesser/latios",
+      "cobblemonraiddens:legend_lesser/meloetta",
+      "cobblemonraiddens:legend_lesser/typenull",
+      "cobblemonraiddens:max/garbodor",
+      "cobblemonraiddens:legend/genesect",
+      "cobblemonraiddens:legend/hoopa",
+      "cobblemonraiddens:mega_greater/latias_mega",
+      "cobblemonraiddens:mega_greater/latias_mega",
+      "cobblemonraiddens:legend_greater/mew",
+      "cobblemonraiddens:legend_greater/mewtwo",
+      "cobblemonraiddens:legend_greater/hoopa_unbound",
+      "cobblemonraiddens:apex/mewtwo_mega_x",
+      "cobblemonraiddens:apex/mewtwo_mega_y"
+    ]
+  },
+  "biome": [
+    "*"
+  ],
+  "weight": 1.0
+}

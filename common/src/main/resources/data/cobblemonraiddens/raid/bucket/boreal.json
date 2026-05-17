@@ -1,0 +1,39 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:tera/forretress_bug",
+      "cobblemonraiddens:tera/forretress_steel",
+      "cobblemonraiddens:tera/ninetales_alolan_fairy",
+      "cobblemonraiddens:tera/ninetales_alolan_ice",
+      "cobblemonraiddens:legend_lesser/articuno_galarian",
+      "cobblemonraiddens:legend_lesser/regidrago",
+      "cobblemonraiddens:max/alcremie",
+      "cobblemonraiddens:max/grimmsnarl",
+      "cobblemonraiddens:max/hatterene",
+      "cobblemonraiddens:max/slorax",
+      "cobblemonraiddens:mega/banette",
+      "cobblemonraiddens:mega/chandelure",
+      "cobblemonraiddens:mega/chimecho",
+      "cobblemonraiddens:mega/lucario",
+      "cobblemonraiddens:mega/lucario_z",
+      "cobblemonraiddens:mega/mawile",
+      "cobblemonraiddens:paradox/flutter_mane",
+      "cobblemonraiddens:paradox/great_tusk",
+      "cobblemonraiddens:paradox/iron_jugulis",
+      "cobblemonraiddens:paradox_greater/gouging_fire",
+      "cobblemonraiddens:legend/calyrex",
+      "cobblemonraiddens:legend/xerneas",
+      "cobblemonraiddens:legend/zacian",
+      "cobblemonraiddens:legend/zamazenta",
+      "cobblemonraiddens:legend_greater/uxie",
+      "cobblemonraiddens:legend_greater/zacian_crowned",
+      "cobblemonraiddens:legend_greater/zamazenta_crowned",
+      "cobblemonraiddens:apex/calyrex_icerider",
+      "cobblemonraiddens:apex/calyrex_shadowrider"
+    ]
+  },
+  "biome": [
+    "#cobblemon:is_taiga",
+    "#cobblemon:is_tundra"
+  ]
+}

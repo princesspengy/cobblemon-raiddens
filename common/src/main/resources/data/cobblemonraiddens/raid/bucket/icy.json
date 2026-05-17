@@ -1,0 +1,34 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:tera/walrein_ice",
+      "cobblemonraiddens:tera/walrein_water",
+      "cobblemonraiddens:legend_lesser/articuno",
+      "cobblemonraiddens:legend_lesser/glastrier",
+      "cobblemonraiddens:legend_lesser/regice",
+      "cobblemonraiddens:legend_lesser/spectrier",
+      "cobblemonraiddens:mega/abomasnow",
+      "cobblemonraiddens:mega/absol",
+      "cobblemonraiddens:mega/absol_z",
+      "cobblemonraiddens:mega/baxcalibur",
+      "cobblemonraiddens:mega/froslass",
+      "cobblemonraiddens:mega/glalie",
+      "cobblemonraiddens:paradox/iron_bundle",
+      "cobblemonraiddens:paradox/sandy_shocks",
+      "cobblemonraiddens:ultra_beast/celesteela",
+      "cobblemonraiddens:legend/chien-pao",
+      "cobblemonraiddens:legend/kyurem",
+      "cobblemonraiddens:legend/necrozma",
+      "cobblemonraiddens:legend/reshiram",
+      "cobblemonraiddens:legend/zekrom",
+      "cobblemonraiddens:legend_greater/kyurem_black",
+      "cobblemonraiddens:legend_greater/kyurem_white",
+      "cobblemonraiddens:legend_greater/necrozma_dawnwings",
+      "cobblemonraiddens:legend_greater/necrozma_duskmane",
+      "cobblemonraiddens:apex/necrozma_ultra"
+    ]
+  },
+  "biome": [
+    "#cobblemon:is_snowy"
+  ]
+}

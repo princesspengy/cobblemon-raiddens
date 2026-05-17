@@ -1,0 +1,39 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:tera/farigiraf_normal",
+      "cobblemonraiddens:tera/farigiraf_psychic",
+      "cobblemonraiddens:tera/togedemaru_electric",
+      "cobblemonraiddens:tera/togedemaru_steel",
+      "cobblemonraiddens:legend_lesser/entei",
+      "cobblemonraiddens:legend_lesser/fezandipiti",
+      "cobblemonraiddens:legend_lesser/zapdos_galarian",
+      "cobblemonraiddens:legend_lesser/regirock",
+      "cobblemonraiddens:legend_lesser/virizion",
+      "cobblemonraiddens:legend_lesser/zeraora",
+      "cobblemonraiddens:max/charizard",
+      "cobblemonraiddens:max/cinderace",
+      "cobblemonraiddens:mega/beedrill",
+      "cobblemonraiddens:mega/blaziken",
+      "cobblemonraiddens:mega/charizard_x",
+      "cobblemonraiddens:mega/charizard_y",
+      "cobblemonraiddens:mega/delphox",
+      "cobblemonraiddens:mega/hawlucha",
+      "cobblemonraiddens:mega/houndoom",
+      "cobblemonraiddens:mega/kangaskhan",
+      "cobblemonraiddens:mega/scolipede",
+      "cobblemonraiddens:mega/scrafty",
+      "cobblemonraiddens:mega/staraptor",
+      "cobblemonraiddens:paradox/iron_moth",
+      "cobblemonraiddens:ultra_beast/pheromosa",
+      "cobblemonraiddens:paradox_greater/iron_leaves",
+      "cobblemonraiddens:legend/koraidon",
+      "cobblemonraiddens:legend/miraidon",
+      "cobblemonraiddens:legend/ting-lu",
+      "cobblemonraiddens:mega_greater/zeraora"
+    ]
+  },
+  "biome": [
+    "#cobblemon:is_savanna"
+  ]
+}

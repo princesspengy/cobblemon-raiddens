@@ -1,0 +1,34 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:tera/kommoo_dragon",
+      "cobblemonraiddens:tera/kommoo_fighting",
+      "cobblemonraiddens:tera/pangoro_dark",
+      "cobblemonraiddens:tera/pangoro_fighting",
+      "cobblemonraiddens:tera/turtonator_dragon",
+      "cobblemonraiddens:tera/turtonator_fire",
+      "cobblemonraiddens:legend_lesser/munkidori",
+      "cobblemonraiddens:legend_lesser/okidogi",
+      "cobblemonraiddens:legend_lesser/raikou",
+      "cobblemonraiddens:legend_lesser/zarude",
+      "cobblemonraiddens:max/copperajah",
+      "cobblemonraiddens:max/venusaur",
+      "cobblemonraiddens:mega/heracross",
+      "cobblemonraiddens:mega/medicham",
+      "cobblemonraiddens:mega/pinsir",
+      "cobblemonraiddens:mega/pyroar",
+      "cobblemonraiddens:mega/sceptile",
+      "cobblemonraiddens:mega/venusaur",
+      "cobblemonraiddens:mega/victreebel",
+      "cobblemonraiddens:paradox/scream_tail",
+      "cobblemonraiddens:paradox/slither_wing",
+      "cobblemonraiddens:ultra_beast/buzzwole",
+      "cobblemonraiddens:ultra_beast/naganadel",
+      "cobblemonraiddens:paradox_greater/raging_bolt",
+      "cobblemonraiddens:legend/pecharunt"
+    ]
+  },
+  "biome": [
+    "#cobblemon:is_jungle"
+  ]
+}

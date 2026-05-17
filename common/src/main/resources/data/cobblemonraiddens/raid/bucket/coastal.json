@@ -1,0 +1,41 @@
+{
+  "include": {
+    "boss": [
+      "cobblemonraiddens:tera/drifblim_flying",
+      "cobblemonraiddens:tera/drifblim_ghost",
+      "cobblemonraiddens:tera/kilowattrel_electric",
+      "cobblemonraiddens:tera/kilowattrel_flying",
+      "cobblemonraiddens:tera/slowking_galarian_poison",
+      "cobblemonraiddens:tera/slowking_galarian_psychic",
+      "cobblemonraiddens:legend_lesser/manaphy",
+      "cobblemonraiddens:max/blastoise",
+      "cobblemonraiddens:max/kingler",
+      "cobblemonraiddens:max/lapras",
+      "cobblemonraiddens:mega/barbaracle",
+      "cobblemonraiddens:mega/blastoise",
+      "cobblemonraiddens:mega/dragalge",
+      "cobblemonraiddens:mega/dragonite",
+      "cobblemonraiddens:mega/malamar",
+      "cobblemonraiddens:mega/salamence",
+      "cobblemonraiddens:mega/sharpedo",
+      "cobblemonraiddens:mega/slowbro",
+      "cobblemonraiddens:mega/starmie",
+      "cobblemonraiddens:paradox/roaring_moon",
+      "cobblemonraiddens:ultra_beast/nihilego",
+      "cobblemonraiddens:ultra_beast/xurkitree",
+      "cobblemonraiddens:legend/cresselia",
+      "cobblemonraiddens:legend/darkrai",
+      "cobblemonraiddens:legend/lugia",
+      "cobblemonraiddens:legend/tapubulu",
+      "cobblemonraiddens:legend/tapufini",
+      "cobblemonraiddens:legend/tapukoko",
+      "cobblemonraiddens:legend/tapulele",
+      "cobblemonraiddens:legend_greater/kyogre",
+      "cobblemonraiddens:mega_greater/darkrai",
+      "cobblemonraiddens:apex/kyogre_primal"
+    ]
+  },
+  "biome": [
+    "#cobblemon:is_coast"
+  ]
+}
