@@ -1,6 +1,5 @@
 {
     "values": [
-        "#minecraft:is_nether",
         {
             "id": "#deeperdarker:is_deeperdarker",
             "required": false
