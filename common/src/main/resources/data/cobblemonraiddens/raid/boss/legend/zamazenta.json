@@ -10,5 +10,19 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "FIGHTING",
-  "music": "cobblemonraiddens:battle.raid.zacian_zamazenta_1"
+  "music": "cobblemonraiddens:battle.raid.zacian_zamazenta_1",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
 }

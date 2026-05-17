@@ -12,10 +12,20 @@
   "raid_type": "WATER",
   "music": "cobblemonraiddens:battle.raid.pbr_waterfall_colosseum",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "takeheart",
-      "target": 2
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "takeheart",
+        "target": 2
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     }
   }
 }

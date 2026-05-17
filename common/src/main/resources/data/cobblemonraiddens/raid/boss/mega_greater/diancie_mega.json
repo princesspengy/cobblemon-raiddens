@@ -18,10 +18,24 @@
     "turn:1": {
       "type": "mega_evolve"
     },
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "rockpolish",
-      "target": 2
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "rockpolish",
+        "target": 2
+      },
+      {
+        "type": "reset_stats",
+        "target": "player"
+      }
+    ],
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

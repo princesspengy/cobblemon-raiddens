@@ -18,6 +18,30 @@
   "script": {
     "turn:1": {
       "type": "mega_evolve"
+    },
+    "hp:0.8": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.75": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

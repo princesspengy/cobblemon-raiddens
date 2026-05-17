@@ -12,13 +12,29 @@
   "raid_type": "DARK",
   "music": "cobblemonraiddens:battle.raid.treasures_of_ruin",
   "script": {
-    "hp:0.5": {
-      "type": "player_stats",
-      "stats": { "spd": 1 }
+    "hp:0.5": [
+      {
+        "type": "player_stats",
+        "stats": { "spd": 1 }
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     },
-    "hp:0.25": {
-      "type": "player_stats",
-      "stats": { "spd": 1 }
-    }
+    "hp:0.25": [
+      {
+        "type": "player_stats",
+        "stats": { "spd": 1 }
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ]
   }
 }

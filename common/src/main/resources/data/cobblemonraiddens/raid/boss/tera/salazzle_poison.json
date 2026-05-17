@@ -19,6 +19,10 @@
       {
         "type": "terastallize"
       }
-    ]
+    ],
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
   }
 }

@@ -12,10 +12,20 @@
   "raid_type": "GRASS",
   "music": "cobblemonraiddens:battle.raid.pla_wild_battle",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "seedflare",
-      "target": 1
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "seedflare",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     }
   }
 }

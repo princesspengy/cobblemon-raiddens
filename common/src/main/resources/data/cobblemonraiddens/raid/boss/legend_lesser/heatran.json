@@ -12,10 +12,20 @@
   "raid_type": "FIRE",
   "music": "cobblemonraiddens:battle.raid.pla_legendary",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "magmastorm",
-      "target": 1
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "magmastorm",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     }
   }
 }

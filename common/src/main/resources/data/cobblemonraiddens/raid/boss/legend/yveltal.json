@@ -12,10 +12,17 @@
   "raid_type": "DARK",
   "music": "cobblemonraiddens:battle.raid.aura_trio",
   "script": {
-    "hp:0.05": {
-      "type": "use_move",
-      "move": "destinybond",
-      "target": 2
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

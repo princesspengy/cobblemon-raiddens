@@ -10,5 +10,19 @@
   },
   "raid_tier": "TIER_FIVE",
   "raid_type": "STEEL",
-  "music": "cobblemonraiddens:battle.raid.light_trio"
+  "music": "cobblemonraiddens:battle.raid.light_trio",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
 }

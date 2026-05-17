@@ -16,6 +16,10 @@
       "type": "player_stats",
       "stats": { "def": 1 }
     },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
     "hp:0.25": {
       "type": "player_stats",
       "stats": { "def": 1 }

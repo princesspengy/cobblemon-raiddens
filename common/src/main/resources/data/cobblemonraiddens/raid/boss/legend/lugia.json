@@ -20,6 +20,18 @@
       "type": "use_move",
       "move": "whirlpool",
       "target": 1
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

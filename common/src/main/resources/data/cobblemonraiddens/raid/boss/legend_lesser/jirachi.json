@@ -12,10 +12,20 @@
   "raid_type": "STEEL",
   "music": "cobblemonraiddens:battle.raid.pmd_defy_the_legends",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "doomdesire",
-      "target": 1
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "doomdesire",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     }
   }
 }

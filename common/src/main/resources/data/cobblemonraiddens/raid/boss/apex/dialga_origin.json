@@ -22,19 +22,49 @@
         "terrain": "psychicterrain"
       }
     ],
-    "hp:0.75": {
-      "type": "use_move",
-      "move": "futuresight",
-      "target": 1
+    "hp:0.8": {
+      "type": "reset_stats",
+      "target": "boss"
     },
-    "hp:0.5": {
-      "type": "set_terrain",
-      "terrain": "psychicterrain"
+    "hp:0.75": [
+      {
+        "type": "use_move",
+        "move": "futuresight",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "player"
+      }
+    ],
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
     },
-    "hp:0.25": {
-      "type": "use_move",
-      "move": "futuresight",
-      "target": 1
-    }
+    "hp:0.5": [
+      {
+        "type": "set_terrain",
+        "terrain": "psychicterrain"
+      },
+      {
+        "type": "reset_stats",
+        "target": "player"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.25": [
+      {
+        "type": "use_move",
+        "move": "futuresight",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ]
   }
 }

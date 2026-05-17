@@ -10,5 +10,31 @@
   },
   "raid_tier": "TIER_SEVEN",
   "raid_type": "POISON",
-  "music": "cobblemonraiddens:battle.raid.eternatus"
+  "music": "cobblemonraiddens:battle.raid.eternatus",
+  "script": {
+    "hp:0.8": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.75": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
 }

@@ -37,11 +37,17 @@
       "move": "defog",
       "target": 1
     },
-    "hp:0.6": {
-      "type": "use_move",
-      "move": "defog",
-      "target": 1
-    },
+    "hp:0.6": [
+      {
+        "type": "use_move",
+        "move": "defog",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
     "hp:0.5": [
       {
         "type": "use_move",
@@ -52,6 +58,10 @@
         "type": "use_move",
         "move": "defog",
         "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "player"
       }
     ],
     "hp:0.4": {
@@ -64,11 +74,17 @@
       "move": "defog",
       "target": 1
     },
-    "hp:0.25": {
-      "type": "use_move",
-      "move": "magicroom",
-      "target": 1
-    },
+    "hp:0.25": [
+      {
+        "type": "use_move",
+        "move": "magicroom",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
     "hp:0.2": {
       "type": "use_move",
       "move": "defog",

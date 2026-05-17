@@ -14,8 +14,8 @@
   "den": [
     "cobblemonraiddens:raid_den/basic"
   ],
-  "health_multi": 18,
-  "scripts": {
+  "health_multi": 36,
+  "script": {
     "hp:0.9445": {
       "type": "forme_change",
       "form": "Arceus-Grass"
@@ -28,9 +28,17 @@
       "type": "forme_change",
       "form": "Arceus-Water"
     },
+    "hp:0.8": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
     "hp:0.778": {
       "type": "forme_change",
       "form": "Arceus-Electric"
+    },
+    "hp:0.75": {
+      "type": "reset_stats",
+      "target": "player"
     },
     "hp:0.7225": {
       "type": "forme_change",
@@ -44,17 +52,31 @@
       "type": "forme_change",
       "form": "Arceus-Ground"
     },
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
     "hp:0.556": {
       "type": "forme_change",
       "form": "Arceus-Ice"
     },
-    "hp:0.5": {
-      "type": "forme_change",
-      "form": "Arceus-Rock"
-    },
+    "hp:0.5": [
+      {
+        "type": "forme_change",
+        "form": "Arceus-Rock"
+      },
+      {
+        "type": "reset_stats",
+        "target": "player"
+      }
+    ],
     "hp:0.4445": {
       "type": "forme_change",
       "form": "Arceus-Bug"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "boss"
     },
     "hp:0.389": {
       "type": "forme_change",
@@ -67,6 +89,10 @@
     "hp:0.278": {
       "type": "forme_change",
       "form": "Arceus-Dark"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     },
     "hp:0.2225": {
       "type": "forme_change",

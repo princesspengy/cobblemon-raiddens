@@ -18,5 +18,19 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "STEEL",
-  "music": "cobblemonraiddens:battle.raid.usum_necrozma"
+  "music": "cobblemonraiddens:battle.raid.usum_necrozma",
+  "script": {
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
 }

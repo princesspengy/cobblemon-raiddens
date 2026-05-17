@@ -15,22 +15,22 @@ public class TierSixConfig implements ConfigData, TierConfig {
     public boolean all_require_unique = true;
     @Comment("Maximum number of players in a raid (Set to -1 for no limit). Default: 4")
     public int max_players = 4;
-    @Comment("Number of clears until the raid den deactivates (Set to -1 for no limit). Default: 3")
-    public int max_clears = 3;
+    @Comment("Number of clears until the raid den deactivates (Set to -1 for no limit). Default: 1")
+    public int max_clears = 1;
     @Comment("The max number of cheers a player can use per raid. Default: 3")
     public int max_cheers = 3;
-    @Comment("The chance for raid bosses to have their hidden ability. Default: 0.20")
-    public double ha_rate = 0.20;
+    @Comment("The chance for raid bosses to have their hidden ability. Default: 0.00")
+    public double ha_rate = 0.00;
     @Comment("The max number Pokemon a player can use in a raid. Default: 1")
     public int raid_party_size = 1;
     @Comment("Raid boss HP multiplier. Default: 25")
     public int health_multiplier = 25;
     @Comment("Bonus raid boss HP multiplier for each extra player that joins the raid battle. Default: 1.0")
     public float multiplayer_health_multiplier = 1.0f;
-    @Comment("Raid boss level. Default: 75")
-    public int boss_level = 75;
-    @Comment("Reward Pokemon level. Default: 75")
-    public int reward_level = 75;
+    @Comment("Raid boss level. Default: 90")
+    public int boss_level = 90;
+    @Comment("Reward Pokemon level. Default: 90")
+    public int reward_level = 90;
     @Comment("Reward Pokemon number of max IVs. Default: 5")
     public int ivs = 5;
     @Comment("The default shiny chance for raid bosses as 1 in X (Set to -1 to use the Cobblemon rate). Default: -1.0")
@@ -41,8 +41,8 @@ public class TierSixConfig implements ConfigData, TierConfig {
     public int max_catches = -1;
     @Comment("The default script to add to raid bosses without a script. Default: {}")
     public Map<String, Script> default_scripts = new HashMap<>();
-    @Comment("The battle AI used by the raid boss (Options: random, strong, rct). Default: random")
-    public String raid_ai = "random";
+    @Comment("The battle AI used by the raid boss (Options: random, strong, rct). Default: strong")
+    public String raid_ai = "strong";
     @Comment("The list of marks the reward Pokemon will have. Default: [].")
     public String[] marks = {};
     @Comment("The number of lives a player has per raid battle. Default: 1")
@@ -53,8 +53,8 @@ public class TierSixConfig implements ConfigData, TierConfig {
     public int energy = 15;
     @Comment("The required damage percentage contribution a player needs to do to get rewards. Default: 0.0")
     public float required_damage = 0f;
-    @Comment("The base catch rate of the raid boss. Default: 1.0")
-    public float catch_rate = 1.0f;
+    @Comment("The base catch rate of the raid boss. Default: 0.0")
+    public float catch_rate = 0.0f;
 
     public boolean requiresKey() {
         return this.requires_key;

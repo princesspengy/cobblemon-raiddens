@@ -12,9 +12,23 @@
   "raid_type": "DRAGON",
   "music": "cobblemonraiddens:battle.raid.tao_trio",
   "script": {
-    "hp:0.5": {
-      "type": "set_weather",
-      "weather": "snow"
+    "hp:0.5": [
+      {
+        "type": "set_weather",
+        "weather": "snow"
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

@@ -18,5 +18,15 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIGHTING",
-  "music": "cobblemonraiddens:battle.raid.mustard_final"
+  "music": "cobblemonraiddens:battle.raid.mustard_final",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    }
+  }
 }

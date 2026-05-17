@@ -16,9 +16,21 @@
       "type": "player_stats",
       "stats": { "atk": 1, "def": 1, "spa": 1, "spd": 1, "spe": 1, "acc": 1, "eva": 1 }
     },
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
     "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.45": {
       "type": "player_stats",
       "stats": { "atk": 1, "def": 1, "spa": 1, "spd": 1, "spe": 1, "acc": 1, "eva": 1 }
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

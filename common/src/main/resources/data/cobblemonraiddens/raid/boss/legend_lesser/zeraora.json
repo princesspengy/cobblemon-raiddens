@@ -10,5 +10,15 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "ELECTRIC",
-  "music": "cobblemonraiddens:battle.raid.unite_remoat_island"
+  "music": "cobblemonraiddens:battle.raid.unite_remoat_island",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    }
+  }
 }

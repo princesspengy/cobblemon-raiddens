@@ -12,10 +12,24 @@
   "raid_type": "FAIRY",
   "music": "cobblemonraiddens:battle.raid.aura_trio",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "ingrain",
-      "target": 2
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "ingrain",
+        "target": 2
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

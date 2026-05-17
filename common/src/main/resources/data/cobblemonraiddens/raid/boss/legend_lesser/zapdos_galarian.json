@@ -18,10 +18,20 @@
   "raid_type": "FLYING",
   "music": "cobblemonraiddens:battle.raid.galarian_bird",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "closecombat",
-      "target": 1
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "closecombat",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     }
   }
 }

@@ -13,5 +13,15 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/ultra_beast"
   },
-  "music": "cobblemonraiddens:battle.raid.ultra_beast"
+  "music": "cobblemonraiddens:battle.raid.ultra_beast",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    }
+  }
 }

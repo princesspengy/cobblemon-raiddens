@@ -10,5 +10,15 @@
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "DARK",
-  "music": "cobblemonraiddens:battle.raid.swsh_battle_tower"
+  "music": "cobblemonraiddens:battle.raid.swsh_battle_tower",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    }
+  }
 }

@@ -10,5 +10,19 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "FLYING",
-  "music": "cobblemonraiddens:battle.raid.weather_trio"
+  "music": "cobblemonraiddens:battle.raid.weather_trio",
+  "script": {
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
 }

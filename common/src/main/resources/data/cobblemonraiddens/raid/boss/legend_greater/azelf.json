@@ -12,10 +12,17 @@
   "raid_type": "PSYCHIC",
   "music": "cobblemonraiddens:battle.raid.pla_lake_guardians",
   "script": {
-    "hp:0.1": {
-      "type": "use_move",
-      "move": "explosion",
-      "target": 1
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
     }
   }
 }

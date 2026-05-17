@@ -13,5 +13,15 @@
   "loot_table": {
     "id": "cobblemonraiddens:raid/paradox"
   },
-  "music": "cobblemonraiddens:battle.raid.paradox_battle"
+  "music": "cobblemonraiddens:battle.raid.paradox_battle",
+  "script": {
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
+    }
+  }
 }

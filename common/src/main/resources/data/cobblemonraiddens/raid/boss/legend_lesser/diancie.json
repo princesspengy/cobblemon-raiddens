@@ -12,10 +12,20 @@
   "raid_type": "ROCK",
   "music": "cobblemonraiddens:battle.raid.xy_elite4",
   "script": {
-    "hp:0.5": {
-      "type": "use_move",
-      "move": "rockpolish",
-      "target": 2
+    "hp:0.5": [
+      {
+        "type": "use_move",
+        "move": "rockpolish",
+        "target": 2
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
+    "hp:0.4": {
+      "type": "reset_stats",
+      "target": "player"
     }
   }
 }

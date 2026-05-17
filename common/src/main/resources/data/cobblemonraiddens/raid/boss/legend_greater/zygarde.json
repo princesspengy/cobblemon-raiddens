@@ -11,5 +11,19 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "DRAGON",
-  "music": "cobblemonraiddens:battle.raid.plza_zygarde_50"
+  "music": "cobblemonraiddens:battle.raid.plza_zygarde_50",
+  "script": {
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
 }
