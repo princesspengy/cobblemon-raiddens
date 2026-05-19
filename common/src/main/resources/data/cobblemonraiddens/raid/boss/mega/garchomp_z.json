@@ -15,7 +15,7 @@
   "raid_type": "DRAGON",
   "raid_feature": "MEGA",
   "loot_table": {
-    "id": "cobblemonraiddens:raid/boss/mega/garchomp_z"
+    "id": "cobblemonraiddens:raid/mega"
   },
   "music": "cobblemonraiddens:battle.raid.plza_rogue_mega",
   "script": {

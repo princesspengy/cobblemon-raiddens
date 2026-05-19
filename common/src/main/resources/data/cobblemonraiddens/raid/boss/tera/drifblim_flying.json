@@ -12,7 +12,7 @@
   "raid_type": "FLYING",
   "raid_feature": "TERA",
   "loot_table": {
-    "id": "cobblemonraiddens:raid/type/flying"
+    "id": "cobblemonraiddens:raid/tera"
   },
   "music": "cobblemonraiddens:battle.raid.tera_raid",
   "script": {
