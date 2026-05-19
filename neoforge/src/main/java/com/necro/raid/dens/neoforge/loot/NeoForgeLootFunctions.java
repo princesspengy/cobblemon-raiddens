@@ -24,5 +24,7 @@ public class NeoForgeLootFunctions {
         RaidLootFunctions.GEM_TYPE_FUNCTION = register("gem_type_function", GemTypeFunction.CODEC);
         RaidLootFunctions.SHADOW_SHARDS_FUNCTION = register("shadow_shards_function", ShadowShardsFunction.CODEC);
         RaidLootFunctions.SCENTS_FUNCTION = register("scents_function", ScentsFunction.CODEC);
+        RaidLootFunctions.Z_CRYSTAL_FUNCTION = register("z_crystal_function", ZCrystalFunction.CODEC);
+        RaidLootFunctions.MEGA_STONE_FUNCTION = register("mega_stone_function", MegaStoneFunction.CODEC);
     }
 }

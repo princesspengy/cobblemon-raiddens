@@ -8,6 +8,7 @@ import com.necro.raid.dens.common.components.ModComponents;
 import com.necro.raid.dens.common.data.raid.RaidTier;
 import com.necro.raid.dens.common.data.raid.RaidType;
 import com.necro.raid.dens.common.loot.context.RaidLootContexts;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction;
@@ -17,17 +18,17 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class ZCrystalFunction extends LootItemConditionalFunction {
-    public static final MapCodec<ZCrystalFunction> CODEC = RecordCodecBuilder.mapCodec((instance) -> commonFields(instance)
-        .apply(instance, ZCrystalFunction::new));
+public class MegaStoneFunction extends LootItemConditionalFunction {
+    public static final MapCodec<MegaStoneFunction> CODEC = RecordCodecBuilder.mapCodec((instance) -> commonFields(instance)
+        .apply(instance, MegaStoneFunction::new));
 
-    protected ZCrystalFunction(List<LootItemCondition> list) {
+    protected MegaStoneFunction(List<LootItemCondition> list) {
         super(list);
     }
 
     @Override
-    public @NotNull LootItemFunctionType<ZCrystalFunction> getType() {
-        return RaidLootFunctions.Z_CRYSTAL_FUNCTION.value();
+    public @NotNull LootItemFunctionType<MegaStoneFunction> getType() {
+        return RaidLootFunctions.MEGA_STONE_FUNCTION.value();
     }
 
     @Override
@@ -37,13 +38,12 @@ public class ZCrystalFunction extends LootItemConditionalFunction {
         ItemStack raidPouch = lootContext.getParamOrNull(RaidLootContexts.RAID_POUCH);
         if (raidPouch == null) return itemStack;
 
-        RaidTier raidTier = raidPouch.get(ModComponents.TIER_COMPONENT.value());
-        RaidType raidType = raidPouch.get(ModComponents.TYPE_COMPONENT.value());
-        if (raidTier == null || raidType == null || raidType == RaidType.NONE) return itemStack;
-        return RaidDensMSDCompat.getZCrystal(raidType);
+        ResourceLocation raidBoss = raidPouch.get(ModComponents.BOSS_COMPONENT.value());
+        if (raidBoss == null ) return itemStack;
+        return RaidDensMSDCompat.getMegaStone(raidBoss);
     }
 
     public static Builder<?> apply() {
-        return simpleBuilder(ZCrystalFunction::new);
+        return simpleBuilder(MegaStoneFunction::new);
     }
 }

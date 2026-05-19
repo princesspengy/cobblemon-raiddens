@@ -10,4 +10,5 @@ public class RaidLootFunctions {
     public static Holder<LootItemFunctionType<ShadowShardsFunction>> SHADOW_SHARDS_FUNCTION;
     public static Holder<LootItemFunctionType<ScentsFunction>> SCENTS_FUNCTION;
     public static Holder<LootItemFunctionType<ZCrystalFunction>> Z_CRYSTAL_FUNCTION;
+    public static Holder<LootItemFunctionType<MegaStoneFunction>> MEGA_STONE_FUNCTION;
 }

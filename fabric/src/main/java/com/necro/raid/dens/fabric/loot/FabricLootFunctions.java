@@ -22,5 +22,6 @@ public class FabricLootFunctions {
         RaidLootFunctions.SHADOW_SHARDS_FUNCTION = register("shadow_shards_function", ShadowShardsFunction.CODEC);
         RaidLootFunctions.SCENTS_FUNCTION = register("scents_function", ScentsFunction.CODEC);
         RaidLootFunctions.Z_CRYSTAL_FUNCTION = register("z_crystal_function", ZCrystalFunction.CODEC);
+        RaidLootFunctions.MEGA_STONE_FUNCTION = register("mega_stone_function", MegaStoneFunction.CODEC);
     }
 }
