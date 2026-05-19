@@ -3,6 +3,8 @@ package com.necro.raid.dens.common.compat;
 public enum ModCompat {
     COBBLEDOLLARS("cobbledollars"),
     MEGA_SHOWDOWN("mega_showdown"),
+    ZA_MEGA("zamega"),
+    SIMPLE_TMS("simpletms"),
     RCT_API("rctapi"),
     SIZE_VARIATIONS("cobblemonsizevariation"),
     IRIS("iris"),

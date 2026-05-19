@@ -38,6 +38,13 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
     maven { url 'https://maven.impactdev.net/repository/development/' }
 }
 
@@ -82,6 +89,9 @@ dependencies {
 
     modCompileOnly "dev.emi:emi-neoforge:1.1.22+1.21.1:api"
     // modRuntimeOnly "dev.emi:emi-neoforge:1.1.22+1.21.1"
+
+    modCompileOnly "maven.modrinth:navas-zamega:8QRsAEga"
+    modCompileOnly "maven.modrinth:simpletms-tms-and-trs-for-cobblemon:uaKfPMYS"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')

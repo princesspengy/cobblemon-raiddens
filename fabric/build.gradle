@@ -34,6 +34,13 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
     mavenCentral()
 }
 
@@ -75,6 +82,9 @@ dependencies {
 
     modCompileOnly "dev.emi:emi-fabric:1.1.22+1.21.1:api"
     // modRuntimeOnly "dev.emi:emi-fabric:1.1.22+1.21.1"
+
+    modCompileOnly "maven.modrinth:navas-zamega:x5u68zHH"
+    modCompileOnly "maven.modrinth:simpletms-tms-and-trs-for-cobblemon:uWiIETYV"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
