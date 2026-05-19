@@ -54,7 +54,6 @@ dependencies {
     modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin:16.0.799"
 
     modCompileOnly "maven.modrinth:navas-zamega:x5u68zHH"
-    modCompileOnly "maven.modrinth:simpletms-tms-and-trs-for-cobblemon:uWiIETYV"
 
     compileOnly "dev.emi:emi-xplat-mojmap:1.1.22+1.21.1:api"
 
