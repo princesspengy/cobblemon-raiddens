@@ -59,6 +59,29 @@ public abstract class RaidDensMSDCompat {
         };
     }
 
+    public static ItemStack getZCrystal(RaidType raidType) {
+        return switch (raidType) {
+            case FIGHTING -> MegaShowdownItems.FIGHTINIUM_Z.get().getDefaultInstance();
+            case FLYING -> MegaShowdownItems.FLYINIUM_Z.get().getDefaultInstance();
+            case POISON -> MegaShowdownItems.POISONIUM_Z.get().getDefaultInstance();
+            case GROUND -> MegaShowdownItems.GROUNDIUM_Z.get().getDefaultInstance();
+            case ROCK -> MegaShowdownItems.ROCKIUM_Z.get().getDefaultInstance();
+            case BUG -> MegaShowdownItems.BUGINIUM_Z.get().getDefaultInstance();
+            case GHOST -> MegaShowdownItems.GHOSTIUM_Z.get().getDefaultInstance();
+            case STEEL -> MegaShowdownItems.STEELIUM_Z.get().getDefaultInstance();
+            case FIRE -> MegaShowdownItems.FIRIUM_Z.get().getDefaultInstance();
+            case WATER -> MegaShowdownItems.WATERIUM_Z.get().getDefaultInstance();
+            case GRASS -> MegaShowdownItems.GRASSIUM_Z.get().getDefaultInstance();
+            case ELECTRIC -> MegaShowdownItems.ELECTRIUM_Z.get().getDefaultInstance();
+            case PSYCHIC -> MegaShowdownItems.PSYCHIUM_Z.get().getDefaultInstance();
+            case ICE -> MegaShowdownItems.ICIUM_Z.get().getDefaultInstance();
+            case DRAGON -> MegaShowdownItems.DRAGONIUM_Z.get().getDefaultInstance();
+            case DARK -> MegaShowdownItems.DARKINIUM_Z.get().getDefaultInstance();
+            case FAIRY -> MegaShowdownItems.FAIRIUM_Z.get().getDefaultInstance();
+            default -> MegaShowdownItems.NORMALIUM_Z.get().getDefaultInstance();
+        };
+    }
+
     public static ItemStack getMaxMushroom() {
         return MegaShowdownBlocks.MAX_MUSHROOM.get().asItem().getDefaultInstance();
     }
