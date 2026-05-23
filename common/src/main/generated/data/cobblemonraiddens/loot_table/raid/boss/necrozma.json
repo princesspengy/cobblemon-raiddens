@@ -6,22 +6,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mega_showdown:max_mushroom"
+          "name": "mega_showdown:blank_z"
         }
       ]
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.3
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mega_showdown:wishing_star"
+          "name": "mega_showdown:sparkling_stone_light"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:sparkling_stone_dark"
         }
       ]
     }
