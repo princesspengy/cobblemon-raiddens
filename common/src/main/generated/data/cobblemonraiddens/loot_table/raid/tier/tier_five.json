@@ -130,7 +130,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemon:raid/paradox_greater"
+          "name": "cobblemonraiddens:raid/paradox_greater"
         }
       ]
     }

@@ -115,7 +115,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemon:raid/tera"
+          "name": "cobblemonraiddens:raid/tera"
         }
       ]
     }

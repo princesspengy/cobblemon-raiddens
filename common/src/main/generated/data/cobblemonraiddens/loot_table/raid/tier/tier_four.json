@@ -130,7 +130,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemon:raid/max"
+          "name": "cobblemonraiddens:raid/max"
         }
       ]
     },
@@ -145,7 +145,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemon:raid/mega"
+          "name": "cobblemonraiddens:raid/mega"
         }
       ]
     },
@@ -160,7 +160,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemon:raid/ultra_beast"
+          "name": "cobblemonraiddens:raid/ultra_beast"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemon:raid/paradox"
+          "name": "cobblemonraiddens:raid/paradox"
         }
       ]
     }
