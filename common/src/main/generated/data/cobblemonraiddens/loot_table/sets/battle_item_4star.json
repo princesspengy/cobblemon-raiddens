@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:assault_vest"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:choice_band"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:choice_scarf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:choice_specs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:eviolite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:focus_sash"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:heavy_duty_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:leftovers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:life_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:lucky_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rocky_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:safety_goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:soothe_bell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:weakness_policy"
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,116 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
+          "name": "cobblemon:exp_candy_s",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "gem_type_function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:relic_coin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemon:fossils",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemon:sets/any_evo_stone",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemonraiddens:sets/music_discs",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemonraiddens:sets/battle_item_4star",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:tag",
+          "value": "cobblemonraiddens:reward_trs",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:tag",
+          "value": "cobblemonraiddens:reward_tms",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "value": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     }

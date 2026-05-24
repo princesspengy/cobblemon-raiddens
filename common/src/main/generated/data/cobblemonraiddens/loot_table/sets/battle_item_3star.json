@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:air_balloon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:clear_amulet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:covert_cloak"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:damp_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:heat_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:icy_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:smooth_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:eject_button"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:eject_pack"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:everstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:light_clay"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:loaded_dice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:protective_pads"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:punching_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:red_card"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:shell_bell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:terrain_extender"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:utility_umbrella"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_herb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:white_herb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:mental_herb"
+        }
+      ]
+    }
+  ]
+}
