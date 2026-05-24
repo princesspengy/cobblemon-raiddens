@@ -12,9 +12,6 @@
   "raid_type": "ELECTRIC",
   "raid_feature": "ULTRA_BEAST",
   "catch_rate": 1.0,
-  "loot_table": {
-    "id": "cobblemonraiddens:raid/ultra_beast"
-  },
   "music": "cobblemonraiddens:battle.raid.ultra_beast",
   "script": {
     "hp:0.5": {

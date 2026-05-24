@@ -14,9 +14,6 @@
   "raid_tier": "TIER_FOUR",
   "raid_type": "DARK",
   "raid_feature": "DYNAMAX",
-  "loot_table": {
-    "id": "cobblemonraiddens:raid/max"
-  },
   "music": "cobblemonraiddens:battle.raid.max_raid",
   "script": {
     "turn:1": [

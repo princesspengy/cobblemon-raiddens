@@ -12,9 +12,6 @@
   "raid_type": "DARK",
   "raid_feature": "PARADOX",
   "catch_rate": 1.0,
-  "loot_table": {
-    "id": "cobblemonraiddens:raid/paradox"
-  },
   "music": "cobblemonraiddens:battle.raid.paradox_battle",
   "script": {
     "hp:0.5": {

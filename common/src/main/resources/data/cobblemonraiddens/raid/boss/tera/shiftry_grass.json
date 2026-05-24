@@ -11,9 +11,6 @@
   "raid_tier": "TIER_THREE",
   "raid_type": "GRASS",
   "raid_feature": "TERA",
-  "loot_table": {
-    "id": "cobblemonraiddens:raid/tera"
-  },
   "music": "cobblemonraiddens:battle.raid.tera_raid",
   "script": {
     "turn:1": [
