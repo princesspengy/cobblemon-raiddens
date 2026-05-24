@@ -74,7 +74,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "value": "cobblemon:fossils",
+          "name": "cobblemon:fossils",
           "weight": 10
         },
         {
@@ -94,12 +94,12 @@
         },
         {
           "type": "minecraft:tag",
-          "value": "cobblemonraiddens:reward_trs",
+          "name": "cobblemonraiddens:reward_trs",
           "weight": 25
         },
         {
           "type": "minecraft:tag",
-          "value": "cobblemonraiddens:reward_tms",
+          "name": "cobblemonraiddens:reward_tms",
           "weight": 10
         }
       ]
@@ -115,7 +115,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemonraiddens:raid/tera"
+          "value": "cobblemonraiddens:raid/tera"
         }
       ]
     }

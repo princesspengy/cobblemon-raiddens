@@ -87,12 +87,12 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "value": "cobblemonraiddens:reward_tms",
+          "name": "cobblemonraiddens:reward_tms",
           "weight": 40
         },
         {
           "type": "minecraft:item",
-          "value": "minecraft:echo_shard",
+          "name": "minecraft:echo_shard",
           "weight": 30,
           "functions": [
             {
@@ -107,7 +107,7 @@
         },
         {
           "type": "minecraft:item",
-          "value": "minecraft:netherite_scrap",
+          "name": "minecraft:netherite_scrap",
           "weight": 30,
           "functions": [
             {

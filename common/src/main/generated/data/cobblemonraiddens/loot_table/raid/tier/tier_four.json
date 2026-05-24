@@ -94,17 +94,17 @@
         },
         {
           "type": "minecraft:tag",
-          "value": "cobblemonraiddens:reward_trs",
+          "name": "cobblemonraiddens:reward_trs",
           "weight": 25
         },
         {
           "type": "minecraft:tag",
-          "value": "cobblemonraiddens:reward_tms",
+          "name": "cobblemonraiddens:reward_tms",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "value": "minecraft:echo_shard",
+          "name": "minecraft:echo_shard",
           "weight": 10,
           "functions": [
             {
@@ -130,7 +130,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemonraiddens:raid/max"
+          "value": "cobblemonraiddens:raid/max"
         }
       ]
     },
@@ -145,7 +145,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemonraiddens:raid/mega"
+          "value": "cobblemonraiddens:raid/mega"
         }
       ]
     },
@@ -160,7 +160,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemonraiddens:raid/ultra_beast"
+          "value": "cobblemonraiddens:raid/ultra_beast"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemonraiddens:raid/paradox"
+          "value": "cobblemonraiddens:raid/paradox"
         }
       ]
     }
