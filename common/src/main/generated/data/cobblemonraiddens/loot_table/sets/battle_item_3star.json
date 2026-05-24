@@ -18,19 +18,19 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:damp_stone"
+          "name": "cobblemon:damp_rock"
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:heat_stone"
+          "name": "cobblemon:heat_rock"
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:icy_stone"
+          "name": "cobblemon:icy_rock"
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:smooth_stone"
+          "name": "cobblemon:smooth_rock"
         },
         {
           "type": "minecraft:item",
