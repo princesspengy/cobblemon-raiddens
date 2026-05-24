@@ -20,12 +20,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "conditions": [
-            {
-              "condition": "cobblemonraiddens:raid_pouch_condition",
-              "feature": "tera"
-            }
-          ],
           "name": "minecraft:air"
         }
       ]
@@ -43,14 +37,31 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
-            },
-            {
-              "condition": "cobblemonraiddens:raid_pouch_condition",
-              "feature": "tera"
+              "chance": 0.25
             }
           ],
           "name": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:sparkling_stone_light",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:sparkling_stone_dark",
+          "weight": 1
         }
       ]
     }
