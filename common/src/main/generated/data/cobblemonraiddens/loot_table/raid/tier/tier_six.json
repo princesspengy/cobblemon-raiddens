@@ -44,7 +44,7 @@
           "name": "minecraft:air",
           "functions": [
             {
-              "function": "gem_type_function"
+              "function": "cobblemonraiddens:gem_type_function"
             },
             {
               "function": "minecraft:set_count",
