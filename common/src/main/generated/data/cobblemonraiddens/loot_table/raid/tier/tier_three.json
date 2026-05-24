@@ -103,6 +103,21 @@
           "weight": 10
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "cobblemonraiddens:raid_pouch_condition",
+          "feature": "TERA"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cobblemon:raid/tera"
+        }
+      ]
     }
   ]
 }

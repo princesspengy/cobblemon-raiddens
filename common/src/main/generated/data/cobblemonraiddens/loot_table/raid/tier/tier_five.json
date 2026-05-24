@@ -118,6 +118,21 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "cobblemonraiddens:raid_pouch_condition",
+          "feature": "PARADOX_GREATER"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cobblemon:raid/paradox_greater"
+        }
+      ]
     }
   ]
 }
