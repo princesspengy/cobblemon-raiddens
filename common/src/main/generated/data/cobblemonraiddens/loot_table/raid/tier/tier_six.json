@@ -79,6 +79,7 @@
         {
           "type": "minecraft:tag",
           "name": "cobblemonraiddens:reward_tms",
+          "expand": true,
           "weight": 50
         },
         {

@@ -75,6 +75,7 @@
         {
           "type": "minecraft:tag",
           "name": "cobblemon:fossils",
+          "expand": true,
           "weight": 10
         },
         {
@@ -95,11 +96,13 @@
         {
           "type": "minecraft:tag",
           "name": "cobblemonraiddens:reward_trs",
+          "expand": true,
           "weight": 25
         },
         {
           "type": "minecraft:tag",
           "name": "cobblemonraiddens:reward_tms",
+          "expand": true,
           "weight": 10
         }
       ]
