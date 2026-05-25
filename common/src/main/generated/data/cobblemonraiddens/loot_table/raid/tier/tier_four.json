@@ -73,8 +73,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "cobblemon:fossils",
+          "type": "minecraft:tag",
+          "name": "cobblemon:fossils",
+          "expand": true,
           "weight": 10
         },
         {

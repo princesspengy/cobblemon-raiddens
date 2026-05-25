@@ -130,7 +130,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "cobblemon:raid/mega_greater"
+          "value": "cobblemonraiddens:raid/mega_greater"
         }
       ]
     }
