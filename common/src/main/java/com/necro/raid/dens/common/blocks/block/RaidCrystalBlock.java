@@ -96,8 +96,8 @@ public abstract class RaidCrystalBlock extends BaseEntityBlock {
         else if (!this.handleKey(player, raidCrystal, itemStack)) return ItemInteractionResult.FAIL;
 
         boolean success = this.startOrJoinRaid(player, blockState, raidCrystal, itemStack);
-        if (success) itemStack.consume(1, player);
-        return success ? ItemInteractionResult.CONSUME : ItemInteractionResult.FAIL;
+        // if (success) itemStack.consume(1, player);
+        return success ? ItemInteractionResult.SUCCESS : ItemInteractionResult.FAIL;
     }
 
     private boolean startOrJoinRaid(Player player, BlockState blockState, RaidCrystalBlockEntity blockEntity, @Nullable ItemStack key) {

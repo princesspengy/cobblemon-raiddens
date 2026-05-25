@@ -1,3 +1,4 @@
 {
-  "values": []
+  "replace": false,
+  "values": [ "minecraft:diamond" ]
 }
