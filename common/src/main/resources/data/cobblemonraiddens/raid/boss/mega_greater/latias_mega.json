@@ -14,6 +14,7 @@
   "raid_tier": "TIER_SIX",
   "raid_type": "DRAGON",
   "raid_feature": "MEGA_GREATER",
+  "key": "cobblemonraiddens:red_eon_charm",
   "music": "cobblemonraiddens:battle.raid.zinnia",
   "script": {
     "turn:1": [

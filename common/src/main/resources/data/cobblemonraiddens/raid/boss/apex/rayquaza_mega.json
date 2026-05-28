@@ -11,6 +11,7 @@
   "raid_tier": "TIER_SEVEN",
   "raid_type": "FLYING",
   "raid_feature": "APEX",
+  "key": "cobblemonraiddens:sky_high_charm",
   "music": "cobblemonraiddens:battle.raid.plza_mega_rayquaza",
   "script": {
     "turn:1": {

@@ -11,6 +11,7 @@
   "raid_tier": "TIER_SEVEN",
   "raid_type": "DRAGON",
   "raid_feature": "APEX",
+  "key": "mega_showdown:adamant_orb",
   "music": "cobblemonraiddens:battle.raid.pla_dialga_palkia_origin",
   "script": {
     "turn:1": [

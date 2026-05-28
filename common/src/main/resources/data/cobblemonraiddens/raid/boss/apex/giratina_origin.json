@@ -11,6 +11,7 @@
   "raid_tier": "TIER_SEVEN",
   "raid_type": "DRAGON",
   "raid_feature": "APEX",
+  "key": "mega_showdown:griseous_orb",
   "music": "cobblemonraiddens:battle.raid.pla_giratina",
   "script": {
     "turn:1": [

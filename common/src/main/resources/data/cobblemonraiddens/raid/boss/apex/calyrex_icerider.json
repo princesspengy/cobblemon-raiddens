@@ -19,6 +19,7 @@
   "raid_tier": "TIER_SEVEN",
   "raid_type": "ICE",
   "raid_feature": "APEX",
+  "key": "cobblemonraiddens:high_king_charm",
   "music": "cobblemonraiddens:battle.raid.calyrex_2",
   "script": {
     "hp:0.8": {

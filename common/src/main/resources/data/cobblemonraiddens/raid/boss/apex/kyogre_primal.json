@@ -11,6 +11,7 @@
   "raid_tier": "TIER_SEVEN",
   "raid_type": "WATER",
   "raid_feature": "APEX",
+  "key": "cobblemonraiddens:continent_charm",
   "music": "cobblemonraiddens:battle.raid.primal_reversion",
   "script": {
     "turn:1": {

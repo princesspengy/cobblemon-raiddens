@@ -14,6 +14,7 @@
   "raid_tier": "TIER_SIX",
   "raid_type": "DARK",
   "raid_feature": "MEGA_GREATER",
+  "key": "cobblemonraiddens:pitch_black_charm",
   "music": "cobblemonraiddens:battle.raid.mega_darkrai",
   "script": {
     "turn:1": [

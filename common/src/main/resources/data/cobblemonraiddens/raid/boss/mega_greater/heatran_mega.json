@@ -14,6 +14,7 @@
   "raid_tier": "TIER_SIX",
   "raid_type": "FIRE",
   "raid_feature": "MEGA_GREATER",
+  "key": "cobblemonraiddens:lava_charm",
   "music": "cobblemonraiddens:battle.raid.pokken_regi_ruins",
   "script": {
     "turn:1": [

@@ -19,6 +19,7 @@
   "raid_tier": "TIER_SIX",
   "raid_type": "DRAGON",
   "raid_feature": "LEGEND_GREATER",
+  "key": "cobblemonraiddens:fused_black_charm",
   "music": "cobblemonraiddens:battle.raid.kyurem_fused",
   "script": {
     "hp:0.6": {

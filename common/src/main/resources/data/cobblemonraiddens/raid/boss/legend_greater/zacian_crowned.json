@@ -11,6 +11,7 @@
   "raid_tier": "TIER_SIX",
   "raid_type": "FAIRY",
   "raid_feature": "LEGEND_GREATER",
+  "key": "cobblemonraiddens:blue_warrior_charm",
   "music": "cobblemonraiddens:battle.raid.zacian_zamazenta_2",
   "script": {
     "turn:1": {
