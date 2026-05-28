@@ -223,11 +223,13 @@ public class RaidBoss {
         this.displayAspects = aspects;
     }
 
+    @SuppressWarnings("ConstantConditions")
     public void applyDefaults() {
         if (this.reward == null) throw new JsonSyntaxException("Missing required field: \"pokemon\"");
         if (this.reward.getSpecies() == null || this.reward.getSpecies().isBlank()) throw new JsonSyntaxException("Missing required field: \"pokemon.species\"");
         if (this.raidTier == null) throw new JsonSyntaxException("Missing required field: \"raid_tier\"");
         if (this.raidType == null) throw new JsonSyntaxException("Missing required field: \"raid_type\"");
+        if (this.reward.getEvs() != null && this.reward.getEvs().total() > 0) ((IEVExtension) (Object) this.reward.getEvs()).crd_validate();
 
         TierConfig tierConfig = CobblemonRaidDens.TIER_CONFIG.get(this.raidTier);
 
@@ -285,7 +287,6 @@ public class RaidBoss {
 
         Pokemon pokemon;
         if (aspects != null) {
-            CobblemonRaidDens.LOGGER.info("Setting aspects from cache");
             properties.setAspects(aspects);
             pokemon = properties.create();
             pokemon.setShiny(aspects.contains("shiny"));
@@ -297,7 +298,6 @@ public class RaidBoss {
             else if (aspects.contains("radiant-regular")) new StringSpeciesFeature("radiant", "regular").apply(pokemon);
         }
         else if (CobblemonRaidDens.CONFIG.sync_rewards && properties.getShiny() == null) {
-            CobblemonRaidDens.LOGGER.info("Aspects is null. Rolling for shiny");
             pokemon = new Pokemon();
             properties.apply(pokemon);
             pokemon.initialize();
