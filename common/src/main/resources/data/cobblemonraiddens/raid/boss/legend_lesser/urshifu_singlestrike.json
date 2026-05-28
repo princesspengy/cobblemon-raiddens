@@ -19,6 +19,7 @@
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIGHTING",
   "raid_feature": "LEGEND_LESSER",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/urshifu_singlestrike" },
   "music": "cobblemonraiddens:battle.raid.mustard_final",
   "script": {
     "hp:0.5": {

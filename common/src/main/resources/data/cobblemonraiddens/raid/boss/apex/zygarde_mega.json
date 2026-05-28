@@ -16,6 +16,7 @@
   "raid_type": "DRAGON",
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:order_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/zygarde_mega" },
   "music": "cobblemonraiddens:battle.raid.plza_zygarde_complete",
   "script": {
     "turn:1": {

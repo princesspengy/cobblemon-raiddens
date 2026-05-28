@@ -12,6 +12,7 @@
   "raid_type": "DRAGON",
   "raid_feature": "APEX",
   "key": "mega_showdown:adamant_orb",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/dialga_origin" },
   "music": "cobblemonraiddens:battle.raid.pla_dialga_palkia_origin",
   "script": {
     "turn:1": [

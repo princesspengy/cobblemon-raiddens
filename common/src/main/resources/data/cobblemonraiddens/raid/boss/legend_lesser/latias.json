@@ -12,6 +12,7 @@
   "raid_type": "DRAGON",
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/latias" },
   "music": "cobblemonraiddens:battle.raid.oras_rival",
   "script": {
     "turn:1": {

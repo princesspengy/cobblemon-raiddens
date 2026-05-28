@@ -12,6 +12,7 @@
   "raid_type": "FIGHTING",
   "raid_feature": "LEGEND_GREATER",
   "key": "cobblemonraiddens:red_warrior_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/zamazenta_crowned" },
   "music": "cobblemonraiddens:battle.raid.zacian_zamazenta_2",
   "script": {
     "turn:1": {

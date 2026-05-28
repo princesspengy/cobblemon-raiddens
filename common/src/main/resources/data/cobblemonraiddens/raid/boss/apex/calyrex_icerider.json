@@ -20,6 +20,7 @@
   "raid_type": "ICE",
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:high_king_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/calyrex_fused" },
   "music": "cobblemonraiddens:battle.raid.calyrex_2",
   "script": {
     "hp:0.8": {

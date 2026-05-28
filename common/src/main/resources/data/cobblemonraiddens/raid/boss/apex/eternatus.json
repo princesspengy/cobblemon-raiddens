@@ -12,6 +12,7 @@
   "raid_type": "POISON",
   "raid_feature": "APEX",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/eternatus" },
   "music": "cobblemonraiddens:battle.raid.eternatus",
   "script": {
     "hp:0.8": {

@@ -20,6 +20,7 @@
   "raid_type": "DRAGON",
   "raid_feature": "LEGEND_GREATER",
   "key": "cobblemonraiddens:fused_white_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/kyurem_fused" },
   "music": "cobblemonraiddens:battle.raid.kyurem_fused",
   "script": {
     "hp:0.6": {

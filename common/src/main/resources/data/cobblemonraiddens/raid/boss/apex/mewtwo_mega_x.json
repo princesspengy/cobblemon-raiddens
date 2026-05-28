@@ -15,6 +15,7 @@
   "raid_type": "PSYCHIC",
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:genetic_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/mewtwo_mega_x" },
   "music": "cobblemonraiddens:battle.raid.usum_giovanni",
   "script": {
     "turn:1": {

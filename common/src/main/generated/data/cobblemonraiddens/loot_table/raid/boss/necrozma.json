@@ -22,6 +22,15 @@
           "name": "mega_showdown:sparkling_stone_dark"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:prism_charm"
+        }
+      ]
     }
   ]
 }

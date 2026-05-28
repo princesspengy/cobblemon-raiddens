@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 50,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "mega_showdown:tera_shard",
+          "expand": false
+        }
+      ]
+    }
+  ]
+}

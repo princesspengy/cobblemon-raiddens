@@ -12,6 +12,7 @@
   "raid_type": "NORMAL",
   "raid_feature": "APEX",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/arceus" },
   "music": "cobblemonraiddens:battle.raid.pla_arceus",
   "den": [
     "cobblemonraiddens:raid_den/basic"

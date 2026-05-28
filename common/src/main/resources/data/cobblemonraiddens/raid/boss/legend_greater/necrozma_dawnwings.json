@@ -20,6 +20,7 @@
   "raid_type": "GHOST",
   "raid_feature": "LEGEND_GREATER",
   "key": "cobblemonraiddens:prism_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/necrozma_dawnwings" },
   "music": "cobblemonraiddens:battle.raid.usum_necrozma",
   "script": {
     "hp:0.6": {

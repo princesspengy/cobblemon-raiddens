@@ -12,6 +12,7 @@
   "raid_type": "BUG",
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/genesect" },
   "music": "cobblemonraiddens:battle.raid.colress",
   "script": {
     "hp:0.5": {

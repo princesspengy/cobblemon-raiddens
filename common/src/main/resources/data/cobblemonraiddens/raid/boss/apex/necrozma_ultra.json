@@ -12,6 +12,7 @@
   "raid_type": "PSYCHIC",
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:zenith_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/necrozma_ultra" },
   "music": "cobblemonraiddens:battle.raid.ultra_necrozma",
   "script": {
     "turn:1": {

@@ -12,6 +12,7 @@
   "raid_type": "WATER",
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:continent_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/kyogre_primal" },
   "music": "cobblemonraiddens:battle.raid.primal_reversion",
   "script": {
     "turn:1": {

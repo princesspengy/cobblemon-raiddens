@@ -12,6 +12,7 @@
   "raid_type": "STELLAR",
   "raid_feature": "APEX",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/terapagos" },
   "music": "cobblemonraiddens:battle.raid.terapagos",
   "script": {
     "turn:1": {

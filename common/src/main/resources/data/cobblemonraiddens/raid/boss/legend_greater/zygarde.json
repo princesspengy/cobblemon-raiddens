@@ -12,6 +12,7 @@
   "raid_tier": "TIER_SIX",
   "raid_type": "DRAGON",
   "raid_feature": "LEGEND_GREATER",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/zygarde" },
   "music": "cobblemonraiddens:battle.raid.plza_zygarde_50",
   "script": {
     "hp:0.6": {

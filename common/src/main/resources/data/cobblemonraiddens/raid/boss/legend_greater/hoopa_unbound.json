@@ -12,6 +12,7 @@
   "raid_type": "PSYCHIC",
   "raid_feature": "LEGEND_GREATER",
   "key": "cobblemonraiddens:djinn_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/hoopa_unbound" },
   "music": "cobblemonraiddens:battle.raid.hyperspace_lumiose_alpha_battle",
   "script": {
     "turn:1": {

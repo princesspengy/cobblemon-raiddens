@@ -12,6 +12,7 @@
   "raid_type": "STEEL",
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/solgaleo" },
   "music": "cobblemonraiddens:battle.raid.light_trio",
   "script": {
     "hp:0.5": {

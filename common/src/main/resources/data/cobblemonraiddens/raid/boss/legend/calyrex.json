@@ -12,6 +12,7 @@
   "raid_type": "PSYCHIC",
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/calyrex" },
   "music": "cobblemonraiddens:battle.raid.calyrex_1",
   "script": {
     "hp:0.5": {

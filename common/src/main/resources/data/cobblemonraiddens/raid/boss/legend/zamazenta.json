@@ -12,6 +12,7 @@
   "raid_type": "FIGHTING",
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/zamazenta" },
   "music": "cobblemonraiddens:battle.raid.zacian_zamazenta_1",
   "script": {
     "hp:0.5": {

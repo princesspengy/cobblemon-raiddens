@@ -12,6 +12,7 @@
   "raid_type": "FIRE",
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/heatran" },
   "music": "cobblemonraiddens:battle.raid.pla_legendary",
   "script": {
     "hp:0.5": [
