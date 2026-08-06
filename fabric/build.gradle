@@ -61,7 +61,7 @@ dependencies {
     modImplementation "curse.maven:radical-cobblemon-trainers-api-1152792:7257754"
 
     modRuntimeOnly "io.wispforest:accessories-fabric:1.1.0-beta.52+1.21.1"
-    modImplementation "curse.maven:cobblemon-mega-showdown-1189523:8519043"
+    modImplementation "curse.maven:cobblemon-mega-showdown-1189523:7833505"
     modRuntimeOnly "maven.modrinth:supermartijn642s-config-lib:1.1.8-fabric-mc1.21"
     modRuntimeOnly "dev.architectury:architectury-fabric:13.0.8"
 
@@ -83,7 +83,7 @@ dependencies {
     modCompileOnly "dev.emi:emi-fabric:1.1.22+1.21.1:api"
     // modRuntimeOnly "dev.emi:emi-fabric:1.1.22+1.21.1"
 
-    modCompileOnly "maven.modrinth:navas-zamega:1.7.5-hotfix"
+    modCompileOnly "maven.modrinth:navas-zamega:x5u68zHH"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
