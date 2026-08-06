@@ -14,7 +14,7 @@
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.lugia",
   "den": [
-    "cobblemonraiddens:raid_den/basic"
+    "cobblemonraiddens:raid_den/lugia"
   ],
   "movement": "flying",
   "script": {

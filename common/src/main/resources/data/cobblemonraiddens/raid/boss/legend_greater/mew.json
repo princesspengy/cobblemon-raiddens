@@ -11,7 +11,7 @@
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.xy_kanto_legendary",
   "den": [
-    "cobblemonraiddens:raid_den/basic"
+    "cobblemonraiddens:raid_den/mew"
   ],
   "dimension": "day",
   "script": {

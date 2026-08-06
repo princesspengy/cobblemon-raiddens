@@ -15,7 +15,7 @@
   "loot_table": { "id": "cobblemonraiddens:raid/boss/arceus" },
   "music": "cobblemonraiddens:battle.raid.pla_arceus",
   "den": [
-    "cobblemonraiddens:raid_den/basic"
+    "cobblemonraiddens:raid_den/arceus"
   ],
   "health_multi": 36,
   "script": {
