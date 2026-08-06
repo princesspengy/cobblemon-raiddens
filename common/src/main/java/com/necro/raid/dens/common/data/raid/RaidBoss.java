@@ -14,6 +14,7 @@ import com.cobblemon.mod.common.api.pokemon.feature.*;
 import com.cobblemon.mod.common.api.properties.CustomPokemonProperty;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.cobblemon.mod.common.pokemon.Gender;
+import com.cobblemon.mod.common.pokemon.IVs;
 import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.cobblemon.mod.common.pokemon.Species;
 import com.cobblemon.mod.common.pokemon.abilities.HiddenAbility;
@@ -276,13 +277,13 @@ public class RaidBoss {
 
         this.boss.setAspects(aspects);
         this.boss.setCustomProperties(customProperties);
-        this.reward.setTeraType(this.raidType.getSerializedName());
     }
 
     public PokemonEntity getBossEntity(ServerLevel level, Set<String> aspects) {
         PokemonProperties properties = this.getBossProperties().copy();
         TierConfig tierConfig = CobblemonRaidDens.TIER_CONFIG.get(this.getTier());
         if (properties.getLevel() == null) properties.setLevel(tierConfig.bossLevel());
+        if (properties.getTeraType() == null) properties.setTeraType(this.getType().getSerializedName());
         properties.setMinPerfectIVs(6);
 
         Pokemon pokemon;
@@ -367,6 +368,7 @@ public class RaidBoss {
         TierConfig tierConfig = CobblemonRaidDens.TIER_CONFIG.get(this.getTier());
         if (properties.getMinPerfectIVs() == null) properties.setMinPerfectIVs(tierConfig.ivs());
         if (properties.getLevel() == null) properties.setLevel(tierConfig.rewardLevel());
+        if (properties.getTeraType() == null) properties.setTeraType(this.getType().getSerializedName());
 
         Pokemon pokemon = new Pokemon();
         properties.apply(pokemon);
@@ -395,6 +397,16 @@ public class RaidBoss {
 
         CustomRaidRegistries.FEATURE_REGISTRY.get(this.raidFeature).applyToReward(pokemon);
         if (ModCompat.SIZE_VARIATIONS.isLoaded()) RaidDensSizeVariationsCompat.setRandomSize(pokemon, player);
+
+        if (!CobblemonRaidDens.CONFIG.use_natural_ivs) {
+            IVs ivs = pokemon.getIvs();
+            IVs randomIVs = IVs.createRandomIVs(0);
+            pokemon.setIvs$common(randomIVs);
+            ivs.forEach(entry -> {
+                if (entry.getValue() != IVs.MAX_VALUE) return;
+                randomIVs.setHyperTrainedIV(entry.getKey(), entry.getValue());
+            });
+        }
 
         return pokemon;
     }
