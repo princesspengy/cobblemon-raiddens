@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:glimmoranite"
+    "held_item": "mega_showdown:glimmoranite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "POISON",

@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:hawluchanite"
+    "held_item": "mega_showdown:hawluchanite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FLYING",

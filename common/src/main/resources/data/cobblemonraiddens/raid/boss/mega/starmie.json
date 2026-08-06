@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:starminite"
+    "held_item": "mega_showdown:starminite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "WATER",

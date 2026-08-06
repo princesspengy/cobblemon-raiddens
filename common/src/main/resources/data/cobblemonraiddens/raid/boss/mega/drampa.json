@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:drampanite"
+    "held_item": "mega_showdown:drampanite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "DRAGON",

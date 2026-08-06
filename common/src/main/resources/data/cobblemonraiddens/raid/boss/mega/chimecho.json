@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:chimechite"
+    "held_item": "mega_showdown:chimechite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "PSYCHIC",

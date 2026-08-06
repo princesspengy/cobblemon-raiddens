@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:feraligite"
+    "held_item": "mega_showdown:feraligite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "WATER",

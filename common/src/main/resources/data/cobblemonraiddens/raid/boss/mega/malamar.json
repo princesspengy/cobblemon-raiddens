@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:malamarite"
+    "held_item": "mega_showdown:malamarite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "DARK",

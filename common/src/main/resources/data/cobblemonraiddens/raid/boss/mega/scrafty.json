@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:scraftinite"
+    "held_item": "mega_showdown:scraftinite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "DARK",

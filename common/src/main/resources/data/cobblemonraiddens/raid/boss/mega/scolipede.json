@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:scolipite"
+    "held_item": "mega_showdown:scolipite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "BUG",

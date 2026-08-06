@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:staraptite"
+    "held_item": "mega_showdown:staraptite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FLYING",

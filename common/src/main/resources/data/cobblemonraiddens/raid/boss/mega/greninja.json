@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:greninjite"
+    "held_item": "mega_showdown:greninjite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "WATER",

@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:delphoxite"
+    "held_item": "mega_showdown:delphoxite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "FIRE",

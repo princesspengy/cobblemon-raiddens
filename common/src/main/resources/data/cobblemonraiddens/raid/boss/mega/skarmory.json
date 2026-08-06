@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:skarmorite"
+    "held_item": "mega_showdown:skarmorite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "STEEL",

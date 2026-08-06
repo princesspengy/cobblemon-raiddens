@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:eelektrossite"
+    "held_item": "mega_showdown:eelektrossite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "ELECTRIC",

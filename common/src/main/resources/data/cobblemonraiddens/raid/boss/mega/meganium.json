@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:meganiumite"
+    "held_item": "mega_showdown:meganiumite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "GRASS",

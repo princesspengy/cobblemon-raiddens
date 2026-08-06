@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:crabominite"
+    "held_item": "mega_showdown:crabominite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "ICE",

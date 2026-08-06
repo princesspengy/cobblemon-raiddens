@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:golurkite"
+    "held_item": "mega_showdown:golurkite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "GROUND",

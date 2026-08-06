@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:chandelurite"
+    "held_item": "mega_showdown:chandelurite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "GHOST",

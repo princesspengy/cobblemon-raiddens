@@ -9,7 +9,7 @@
     ]
   },
   "boss": {
-    "held_item": "zamega:dragalgite"
+    "held_item": "mega_showdown:dragalgite"
   },
   "raid_tier": "TIER_FOUR",
   "raid_type": "POISON",
