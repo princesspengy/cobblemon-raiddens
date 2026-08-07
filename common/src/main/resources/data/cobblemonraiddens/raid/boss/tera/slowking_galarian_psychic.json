@@ -18,6 +18,9 @@
   "raid_type": "PSYCHIC",
   "raid_feature": "TERA",
   "music": "cobblemonraiddens:battle.raid.tera_raid",
+  "den": [
+    "cobblemonraiddens:raid_den/tera"
+  ],
   "script": {
     "turn:1": [
       {

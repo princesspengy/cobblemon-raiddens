@@ -13,6 +13,10 @@
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.frlg_legendary",
+  "den": [
+    "cobblemonraiddens:raid_den/articuno"
+  ],
+  "movement": "flying",
   "script": {
     "turn:1": {
       "type": "set_weather",
