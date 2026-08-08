@@ -13,6 +13,9 @@
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.sv_final_boss",
+  "den": [
+    "cobblemonraiddens:raid_den/paradox_scarlet"
+  ],
   "script": {
     "hp:0.5": {
       "type": "reset_stats",

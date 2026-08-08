@@ -13,6 +13,9 @@
   "raid_feature": "PARADOX_GREATER",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.paradox_battle",
+  "den": [
+    "cobblemonraiddens:raid_den/paradox_violet"
+  ],
   "script": {
     "turn:1": {
       "type": "set_terrain",
