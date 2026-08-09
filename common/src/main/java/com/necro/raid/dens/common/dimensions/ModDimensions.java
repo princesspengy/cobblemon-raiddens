@@ -16,7 +16,6 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.biome.*;
 import net.minecraft.world.level.dimension.DimensionType;
-import net.minecraft.world.level.dimension.LevelStem;
 
 import java.util.Objects;
 
@@ -32,15 +31,6 @@ public class ModDimensions {
 
     public static final ResourceKey<Biome> RAID_DIM_BIOME = ResourceKey.create(Registries.BIOME,
         ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_den"));
-
-    public static final ResourceKey<LevelStem> RAID_DIM_DAY = ResourceKey.create(Registries.LEVEL_STEM,
-        ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_day"));
-
-    public static final ResourceKey<LevelStem> RAID_DIM_NIGHT = ResourceKey.create(Registries.LEVEL_STEM,
-            ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_night"));
-
-    public static final ResourceKey<LevelStem> RAID_DIM_VOID = ResourceKey.create(Registries.LEVEL_STEM,
-            ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_void"));
 
     public static final ResourceKey<Level> RAID_DIMENSION_DAY = ResourceKey.create(Registries.DIMENSION,
             ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_day"));
