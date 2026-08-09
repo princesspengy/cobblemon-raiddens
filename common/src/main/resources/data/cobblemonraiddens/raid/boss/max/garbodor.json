@@ -15,6 +15,9 @@
   "raid_type": "POISON",
   "raid_feature": "DYNAMAX",
   "music": "cobblemonraiddens:battle.raid.max_raid",
+  "den": [
+    "cobblemonraiddens:raid_den/max"
+  ],
   "script": {
     "turn:1": [
       {
