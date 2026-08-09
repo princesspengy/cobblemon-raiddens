@@ -2,10 +2,12 @@
   "carvers": {},
   "downfall": 1.0,
   "effects": {
-    "fog_color": 12638463,
-    "sky_color": 7907327,
+    "fog_color": 1638432,
+    "sky_color": 0,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 5884220,
+    "foliage_color": 3193611
   },
   "features": [],
   "has_precipitation": true,

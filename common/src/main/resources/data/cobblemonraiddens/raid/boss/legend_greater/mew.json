@@ -13,7 +13,7 @@
   "den": [
     "cobblemonraiddens:raid_den/mew"
   ],
-  "dimension": "day",
+  "dimension": "jungle",
   "script": {
     "hp:0.6": {
       "type": "reset_stats",

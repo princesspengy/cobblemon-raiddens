@@ -1,6 +1,10 @@
 {
   "type": "cobblemonraiddens:raid_dimension_type_void",
   "generator": {
-    "type": "cobblemonraiddens:raid_dimension_chunk"
+    "type": "cobblemonraiddens:raid_dimension_chunk",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "cobblemonraiddens:raid_den"
+    }
   }
 }

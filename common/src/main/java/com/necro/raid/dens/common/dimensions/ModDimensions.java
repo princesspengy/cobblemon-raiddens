@@ -41,11 +41,19 @@ public class ModDimensions {
     public static final ResourceKey<Level> RAID_DIMENSION_VOID = ResourceKey.create(Registries.DIMENSION,
             ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_void"));
 
+    public static final ResourceKey<Level> RAID_DIMENSION_JUNGLE = ResourceKey.create(Registries.DIMENSION,
+            ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_jungle"));
+
+    public static final ResourceKey<Level> RAID_DIMENSION_MAX_DEN = ResourceKey.create(Registries.DIMENSION,
+            ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_max_den"));
+
     public static ServerLevel getRaidDimension(MinecraftServer server, RaidBoss raidBoss) {
         if (server == null) return null;
         String dimension = raidBoss.getDimension();
         if (Objects.equals(dimension, "day")) return server.getLevel(RAID_DIMENSION_DAY);
         if (Objects.equals(dimension, "night")) return server.getLevel(RAID_DIMENSION_NIGHT);
+        if (Objects.equals(dimension, "jungle")) return server.getLevel(RAID_DIMENSION_JUNGLE);
+        if (Objects.equals(dimension, "max_den")) return server.getLevel(RAID_DIMENSION_MAX_DEN);
         else return server.getLevel(RAID_DIMENSION_VOID);
     }
 

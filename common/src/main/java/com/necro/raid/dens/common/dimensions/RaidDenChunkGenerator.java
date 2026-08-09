@@ -3,15 +3,12 @@ package com.necro.raid.dens.common.dimensions;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Holder;
-import net.minecraft.resources.RegistryOps;
 import net.minecraft.server.level.WorldGenRegion;
 import net.minecraft.world.level.LevelHeightAccessor;
 import net.minecraft.world.level.NoiseColumn;
 import net.minecraft.world.level.StructureManager;
-import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.BiomeManager;
-import net.minecraft.world.level.biome.FixedBiomeSource;
+import net.minecraft.world.level.biome.BiomeSource;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.chunk.ChunkAccess;
 import net.minecraft.world.level.chunk.ChunkGenerator;
@@ -26,11 +23,17 @@ import java.util.concurrent.CompletableFuture;
 
 public class RaidDenChunkGenerator extends ChunkGenerator {
     public static final MapCodec<RaidDenChunkGenerator> CODEC = RecordCodecBuilder.mapCodec(instance ->
-        instance.group(RegistryOps.retrieveElement(ModDimensions.RAID_DIM_BIOME)).apply(instance, instance.stable(RaidDenChunkGenerator::new))
+        instance.group(
+                BiomeSource.CODEC.fieldOf("biome_source").forGetter(RaidDenChunkGenerator::getBiomeSource)
+        ).apply(instance, RaidDenChunkGenerator::new)
     );
 
-    public RaidDenChunkGenerator(Holder.Reference<Biome> biome) {
-        super(new FixedBiomeSource(biome));
+    public RaidDenChunkGenerator(BiomeSource biomeSource) {
+        super(biomeSource);
+    }
+
+    public BiomeSource getBiomeSource() {
+        return this.biomeSource;
     }
 
     @Override
