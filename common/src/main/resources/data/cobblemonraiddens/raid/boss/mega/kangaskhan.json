@@ -15,6 +15,9 @@
   "raid_type": "NORMAL",
   "raid_feature": "MEGA",
   "music": "cobblemonraiddens:battle.raid.plza_rogue_mega",
+  "den": [
+    "cobblemonraiddens:raid_den/mega"
+  ],
   "script": {
     "turn:1": [
       {
