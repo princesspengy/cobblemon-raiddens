@@ -1,7 +1,5 @@
 package com.necro.raid.dens.common.data.dimension;
-
 import com.necro.raid.dens.common.blocks.ModBlocks;
-import com.necro.raid.dens.common.dimensions.ModDimensions;
 import com.necro.raid.dens.common.registry.RaidDenRegistry;
 import com.necro.raid.dens.common.util.IRaidTeleporter;
 import com.necro.raid.dens.common.util.RaidUtils;
@@ -96,7 +94,7 @@ public class RaidRegion {
                         Registry<Biome> registry = level.registryAccess().registryOrThrow(Registries.BIOME);
                         chunk.getSections()[i] = new LevelChunkSection(
                             new PalettedContainer<>(Block.BLOCK_STATE_REGISTRY, Blocks.AIR.defaultBlockState(), PalettedContainer.Strategy.SECTION_STATES),
-                            new PalettedContainer<>(registry.asHolderIdMap(), registry.getHolderOrThrow(ModDimensions.RAID_DIM_BIOME), PalettedContainer.Strategy.SECTION_BIOMES)
+                            new PalettedContainer<>(registry.asHolderIdMap(), level.getBiome(this.centre), PalettedContainer.Strategy.SECTION_BIOMES)
                         );
                         section.recalcBlockCounts();
                     }
