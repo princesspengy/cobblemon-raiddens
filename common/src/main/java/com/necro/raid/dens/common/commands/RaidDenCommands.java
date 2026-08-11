@@ -12,7 +12,6 @@ import com.necro.raid.dens.common.blocks.ModBlocks;
 import com.necro.raid.dens.common.blocks.block.RaidCrystalBlock;
 import com.necro.raid.dens.common.blocks.entity.RaidCrystalBlockEntity;
 import com.necro.raid.dens.common.commands.permission.RaidDenPermission;
-import com.necro.raid.dens.common.dimensions.ModDimensions;
 import com.necro.raid.dens.common.events.RaidDenSpawnEvent;
 import com.necro.raid.dens.common.events.RaidEvents;
 import com.necro.raid.dens.common.data.raid.RaidBoss;
@@ -37,6 +36,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
+
+import static com.necro.raid.dens.common.util.RaidUtils.isRaidDimension;
 
 public class RaidDenCommands {
     private static final Permission DENS = new RaidDenPermission("command.dens", PermissionLevel.CHEAT_COMMANDS_AND_COMMAND_BLOCKS);
@@ -409,7 +410,7 @@ public class RaidDenCommands {
 
     @SuppressWarnings("unused")
     private static int createRaidDen(CommandContext<CommandSourceStack> context, BlockPos blockPos, ServerLevel level, ResourceLocation raidBoss, RaidCycleMode cycleMode, boolean canReset) {
-        if (level.getBiome(blockPos).is(ModDimensions.RAID_DIM_BIOME)) return 0;
+        if (isRaidDimension(level)) return 0;
 
         BlockEntity blockEntity = level.getBlockEntity(blockPos);
         if (blockEntity instanceof RaidCrystalBlockEntity raidCrystal) return createRaidDenFromExisting(level, raidCrystal, blockPos, raidBoss, cycleMode, canReset);
@@ -454,7 +455,7 @@ public class RaidDenCommands {
 
     @SuppressWarnings("unused")
     private static int createRaidDenWithBucket(CommandContext<CommandSourceStack> context, BlockPos blockPos, ServerLevel level, ResourceLocation bucket, boolean canReset) {
-        if (level.getBiome(blockPos).is(ModDimensions.RAID_DIM_BIOME)) return 0;
+        if (isRaidDimension(level)) return 0;
 
         BlockEntity blockEntity = level.getBlockEntity(blockPos);
         if (blockEntity instanceof RaidCrystalBlockEntity raidCrystal) return createRaidDenWithBucketFromExisting(level, raidCrystal.getBlockState(), blockPos, bucket, canReset);
