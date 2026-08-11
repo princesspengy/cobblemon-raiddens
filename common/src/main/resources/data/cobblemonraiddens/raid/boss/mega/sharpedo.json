@@ -16,9 +16,9 @@
   "raid_feature": "MEGA",
   "music": "cobblemonraiddens:battle.raid.plza_rogue_mega",
   "den": [
-    "cobblemonraiddens:raid_den/mega"
+    "cobblemonraiddens:raid_den/mega_flyingboss"
   ],
-  "movement": "swimming",
+  "movement": "flying",
   "script": {
     "turn:1": [
       {
