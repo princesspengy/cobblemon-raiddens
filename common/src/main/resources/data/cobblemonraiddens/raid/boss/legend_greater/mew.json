@@ -14,6 +14,7 @@
     "cobblemonraiddens:raid_den/mew"
   ],
   "dimension": "jungle",
+  "no_ai": false,
   "script": {
     "hp:0.6": {
       "type": "reset_stats",
