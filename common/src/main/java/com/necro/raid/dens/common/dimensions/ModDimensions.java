@@ -29,6 +29,9 @@ public class ModDimensions {
     public static final ResourceKey<DimensionType> RAID_DIM_TYPE_VOID = ResourceKey.create(Registries.DIMENSION_TYPE,
             ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_type_void"));
 
+    public static final ResourceKey<DimensionType> RAID_DIM_TYPE_FOGGY = ResourceKey.create(Registries.DIMENSION_TYPE,
+            ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_dimension_type_foggy"));
+
     public static final ResourceKey<Biome> RAID_DIM_BIOME = ResourceKey.create(Registries.BIOME,
         ResourceLocation.fromNamespaceAndPath(CobblemonRaidDens.MOD_ID, "raid_den"));
 

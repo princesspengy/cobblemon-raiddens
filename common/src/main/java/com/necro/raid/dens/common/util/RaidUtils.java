@@ -151,6 +151,7 @@ public class RaidUtils {
         if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_DAY)) return true;
         if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_NIGHT)) return true;
         if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_VOID)) return true;
+        if (level.dimensionTypeRegistration().is(ModDimensions.RAID_DIM_TYPE_FOGGY)) return true;
         else return false;
     }
 
