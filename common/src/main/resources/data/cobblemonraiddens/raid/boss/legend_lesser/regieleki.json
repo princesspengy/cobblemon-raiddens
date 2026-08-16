@@ -13,7 +13,9 @@
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.swsh_regi",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/regieleki"
+  ],
   "script": {
     "hp:0.5": [
       {
