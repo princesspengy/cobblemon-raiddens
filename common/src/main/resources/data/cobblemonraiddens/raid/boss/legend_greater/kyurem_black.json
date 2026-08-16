@@ -22,6 +22,7 @@
   "key": "cobblemonraiddens:fused_black_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/kyurem_fused" },
   "music": "cobblemonraiddens:battle.raid.kyurem_fused",
+  "weight": 0,
   "script": {
     "hp:0.6": {
       "type": "reset_stats",

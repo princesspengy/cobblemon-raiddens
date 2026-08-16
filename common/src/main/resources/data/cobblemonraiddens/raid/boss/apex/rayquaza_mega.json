@@ -13,6 +13,7 @@
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:sky_high_charm",
   "music": "cobblemonraiddens:battle.raid.plza_mega_rayquaza",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "mega_evolve"

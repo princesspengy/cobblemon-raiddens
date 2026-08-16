@@ -13,6 +13,7 @@
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.aether_foundation_battle",
+  "weight": 0,
   "script": {
     "hp:0.5": {
       "type": "reset_stats",

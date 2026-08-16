@@ -13,6 +13,7 @@
   "raid_feature": "ULTRA_BEAST",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.ultra_beast",
+  "weight": 0,
   "script": {
     "hp:0.5": {
       "type": "reset_stats",

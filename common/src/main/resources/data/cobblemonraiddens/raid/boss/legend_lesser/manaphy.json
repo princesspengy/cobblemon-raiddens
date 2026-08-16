@@ -13,6 +13,7 @@
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pbr_waterfall_colosseum",
+  "weight": 0,
   "script": {
     "hp:0.5": [
       {

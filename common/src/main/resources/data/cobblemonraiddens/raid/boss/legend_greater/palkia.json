@@ -14,6 +14,7 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/palkia" },
   "music": "cobblemonraiddens:battle.raid.pla_dialga_palkia",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "use_move",

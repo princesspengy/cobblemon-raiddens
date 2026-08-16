@@ -22,6 +22,7 @@
   "key": "cobblemonraiddens:prism_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/necrozma_duskmane" },
   "music": "cobblemonraiddens:battle.raid.usum_necrozma",
+  "weight": 0,
   "script": {
     "hp:0.6": {
       "type": "reset_stats",

@@ -18,6 +18,7 @@
     "cobblemonraiddens:raid_den/arceus"
   ],
   "health_multi": 36,
+  "weight": 0,
   "script": {
     "hp:0.9445": {
       "type": "forme_change",

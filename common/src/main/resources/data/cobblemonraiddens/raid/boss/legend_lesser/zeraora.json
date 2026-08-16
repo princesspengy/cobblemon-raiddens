@@ -14,6 +14,7 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/zeraora" },
   "music": "cobblemonraiddens:battle.raid.unite_remoat_island",
+  "weight": 0,
   "script": {
     "hp:0.5": {
       "type": "reset_stats",

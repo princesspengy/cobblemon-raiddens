@@ -13,6 +13,7 @@
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pecharunt",
+  "weight": 0,
   "script": {
     "hp:0.99": {
       "type": "use_move",

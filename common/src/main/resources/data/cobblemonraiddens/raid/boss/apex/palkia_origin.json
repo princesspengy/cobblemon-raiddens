@@ -14,6 +14,7 @@
   "key": "mega_showdown:lustrous_orb",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/palkia_origin" },
   "music": "cobblemonraiddens:battle.raid.pla_dialga_palkia_origin",
+  "weight": 0,
   "script": {
     "turn:1": [
       {

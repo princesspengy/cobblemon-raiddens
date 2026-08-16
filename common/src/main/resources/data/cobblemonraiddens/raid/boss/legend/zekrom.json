@@ -14,6 +14,7 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/zekrom" },
   "music": "cobblemonraiddens:battle.raid.tao_trio",
+  "weight": 0,
   "script": {
     "hp:0.5": [
       {

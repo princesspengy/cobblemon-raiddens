@@ -14,6 +14,7 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/diancie" },
   "music": "cobblemonraiddens:battle.raid.xy_elite4",
+  "weight": 0,
   "script": {
     "hp:0.5": [
       {

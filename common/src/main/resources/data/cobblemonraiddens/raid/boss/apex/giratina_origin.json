@@ -14,6 +14,7 @@
   "key": "mega_showdown:griseous_orb",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/giratina_origin" },
   "music": "cobblemonraiddens:battle.raid.pla_giratina",
+  "weight": 0,
   "script": {
     "turn:1": [
       {

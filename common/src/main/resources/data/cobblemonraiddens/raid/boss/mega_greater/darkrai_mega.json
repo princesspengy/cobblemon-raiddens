@@ -16,6 +16,7 @@
   "raid_feature": "MEGA_GREATER",
   "key": "cobblemonraiddens:pitch_black_charm",
   "music": "cobblemonraiddens:battle.raid.mega_darkrai",
+  "weight": 0,
   "script": {
     "turn:1": [
       {

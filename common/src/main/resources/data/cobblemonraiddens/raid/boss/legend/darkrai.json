@@ -14,6 +14,7 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/darkrai" },
   "music": "cobblemonraiddens:battle.raid.pla_legendary",
+  "weight": 0,
   "script": {
     "hp:0.75": {
       "type": "use_move",

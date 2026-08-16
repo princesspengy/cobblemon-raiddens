@@ -16,6 +16,7 @@
   "raid_feature": "MEGA_GREATER",
   "key": "cobblemonraiddens:artificial_charm",
   "music": "cobblemonraiddens:battle.raid.lusamine_2",
+  "weight": 0,
   "script": {
     "turn:1": [
       {

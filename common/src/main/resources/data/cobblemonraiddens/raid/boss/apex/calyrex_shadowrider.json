@@ -22,6 +22,7 @@
   "key": "cobblemonraiddens:high_king_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/calyrex_fused" },
   "music": "cobblemonraiddens:battle.raid.calyrex_2",
+  "weight": 0,
   "script": {
     "hp:0.8": {
       "type": "reset_stats",

@@ -18,6 +18,7 @@
   "key": "cobblemonraiddens:order_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/zygarde_mega" },
   "music": "cobblemonraiddens:battle.raid.plza_zygarde_complete",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "mega_evolve"

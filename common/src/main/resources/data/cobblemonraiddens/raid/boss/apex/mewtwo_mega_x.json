@@ -21,6 +21,7 @@
     "cobblemonraiddens:raid_den/mewtwo"
   ],
   "movement": "flying",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "mega_evolve"

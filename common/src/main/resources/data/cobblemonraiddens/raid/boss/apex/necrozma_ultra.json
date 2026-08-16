@@ -14,6 +14,7 @@
   "key": "cobblemonraiddens:zenith_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/necrozma_ultra" },
   "music": "cobblemonraiddens:battle.raid.ultra_necrozma",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "forme_change",

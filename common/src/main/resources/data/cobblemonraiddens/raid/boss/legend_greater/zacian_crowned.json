@@ -14,6 +14,7 @@
   "key": "cobblemonraiddens:blue_warrior_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/zacian_crowned" },
   "music": "cobblemonraiddens:battle.raid.zacian_zamazenta_2",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "forme_change",

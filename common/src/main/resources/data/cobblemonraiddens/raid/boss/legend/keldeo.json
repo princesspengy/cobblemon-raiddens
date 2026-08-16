@@ -13,6 +13,7 @@
   "raid_feature": "LEGEND",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pokken_tellur_town_autumn",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "boss_stats",

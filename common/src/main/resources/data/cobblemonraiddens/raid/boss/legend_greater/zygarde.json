@@ -14,6 +14,7 @@
   "raid_feature": "LEGEND_GREATER",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/zygarde" },
   "music": "cobblemonraiddens:battle.raid.plza_zygarde_50",
+  "weight": 0,
   "script": {
     "hp:0.6": {
       "type": "reset_stats",

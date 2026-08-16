@@ -14,6 +14,7 @@
   "key": "cobblemonraiddens:continent_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/groudon_primal" },
   "music": "cobblemonraiddens:battle.raid.primal_reversion",
+  "weight": 0,
   "script": {
     "turn:1": {
       "type": "forme_change",

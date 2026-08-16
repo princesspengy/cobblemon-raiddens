@@ -16,6 +16,7 @@
   "raid_feature": "MEGA_GREATER",
   "key": "cobblemonraiddens:lava_charm",
   "music": "cobblemonraiddens:battle.raid.pokken_regi_ruins",
+  "weight": 0,
   "script": {
     "turn:1": [
       {
