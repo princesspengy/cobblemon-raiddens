@@ -532,7 +532,7 @@ public class ShowdownEvents {
                     battle.getSide2().getActivePokemon().forEach(active -> {
                         BattlePokemon battlePokemon = active.getBattlePokemon();
                         if (battlePokemon == null || battlePokemon.getEntity() == null) return;
-                        RaidDensMSDCompat.setupDmax(battlePokemon.getEntity(), battlePokemon.getEffectedPokemon());
+                        RaidDensMSDCompat.setupDmax(battlePokemon.getEffectedPokemon());
                     });
                     return DispatchResultKt.getGO();
                 });

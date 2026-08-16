@@ -5,8 +5,9 @@ import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.cobblemon.mod.common.pokemon.properties.AspectPropertyType;
 import com.cobblemon.mod.common.pokemon.properties.StringProperty;
 import com.github.yajatkaul.mega_showdown.block.MegaShowdownBlocks;
+import com.github.yajatkaul.mega_showdown.config.MegaShowdownConfig;
 import com.github.yajatkaul.mega_showdown.item.MegaShowdownItems;
-import com.github.yajatkaul.mega_showdown.utils.GlowHandler;
+import com.github.yajatkaul.mega_showdown.gimmick.MaxGimmick;
 import com.necro.raid.dens.common.CobblemonRaidDens;
 import com.necro.raid.dens.common.data.raid.RaidType;
 import net.minecraft.resources.ResourceLocation;
@@ -27,14 +28,13 @@ public abstract class RaidDensMSDCompat {
         pokemon.getPersistentData().putBoolean("is_tera", true);
     }
 
-    public static void setupDmax(PokemonEntity pokemonEntity, Pokemon pokemon) {
+    public static void setupDmax(Pokemon pokemon) {
         StringProperty property = AspectPropertyType.INSTANCE.fromString("msd:dmax");
         if (property.matches(pokemon)) return;
         property.apply(pokemon);
         applyEffects(pokemon, "mega_showdown:dynamax", pokemon.getGmaxFactor());
+        MaxGimmick.startGradualScaling(pokemon, MegaShowdownConfig.dynamaxScaleFactor);
         pokemon.getPersistentData().putBoolean("is_max", true);
-        try { GlowHandler.applyDynamaxGlow(pokemonEntity); }
-        catch (NullPointerException ignored) {}
     }
 
     public static ItemStack getTeraShard(RaidType raidType) {
