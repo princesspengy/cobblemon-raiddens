@@ -2,36 +2,28 @@
   "pokemon": {
     "species": "calyrex",
     "moves": [
-      "glaciallance",
-      "zenheadbutt",
-      "highhorsepower",
-      "heavyslam"
+      "astralbarrage",
+      "psychic",
+      "energyball",
+      "darkpulse"
     ]
   },
   "boss": {
     "custom_properties": [
       {
         "name": "king_steed",
-        "value": "ice"
+        "value": "shadow"
       }
     ]
   },
-  "raid_tier": "TIER_SEVEN",
-  "raid_type": "ICE",
+  "raid_tier": "TIER_SIX",
+  "raid_type": "GHOST",
   "raid_feature": "APEX",
   "key": "cobblemonraiddens:high_king_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/calyrex_fused" },
   "music": "cobblemonraiddens:battle.raid.calyrex_2",
   "weight": 0,
   "script": {
-    "hp:0.8": {
-      "type": "reset_stats",
-      "target": "boss"
-    },
-    "hp:0.75": {
-      "type": "reset_stats",
-      "target": "player"
-    },
     "hp:0.6": {
       "type": "reset_stats",
       "target": "boss"
@@ -39,10 +31,6 @@
     "hp:0.5": {
       "type": "reset_stats",
       "target": "player"
-    },
-    "hp:0.4": {
-      "type": "reset_stats",
-      "target": "boss"
     },
     "hp:0.25": {
       "type": "reset_stats",
