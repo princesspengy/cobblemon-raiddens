@@ -18,7 +18,6 @@
   "den": [
     "cobblemonraiddens:raid_den/mega"
   ],
-  "weight": 0,
   "script": {
     "turn:1": [
       {
