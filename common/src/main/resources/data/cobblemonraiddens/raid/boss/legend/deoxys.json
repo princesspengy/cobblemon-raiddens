@@ -14,24 +14,37 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/deoxys" },
   "music": "cobblemonraiddens:battle.raid.deoxys",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/deoxys"
+  ],
   "script": {
-    "hp:0.5": {
-      "type": "reset_stats",
-      "target": "boss"
+    "hp:0.75": {
+      "type": "forme_change",
+      "form": "Deoxys-Attack"
     },
+    "hp:0.5": [
+      {
+        "type": "forme_change",
+        "form": "Deoxys-Speed"
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ],
     "hp:0.4": {
       "type": "reset_stats",
       "target": "player"
     },
-    "hp:0.3": {
-      "type": "use_move",
-      "move": "psychoboost",
-      "target": 1
-    },
-    "hp:0.25": {
-      "type": "reset_stats",
-      "target": "boss"
-    }
+    "hp:0.25": [
+      {
+        "type": "forme_change",
+        "form": "Deoxys-Defense"
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ]
   }
 }
