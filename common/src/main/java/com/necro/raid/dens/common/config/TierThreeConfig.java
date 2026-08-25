@@ -42,7 +42,7 @@ public class TierThreeConfig implements ConfigData, TierConfig {
     @Comment("The default script to add to raid bosses without a script. Default: {}")
     public Map<String, Script> default_scripts = new HashMap<>();
     @Comment("The battle AI used by the raid boss (Options: random, strong, rct). Default: strong")
-    public String raid_ai = "strong";
+    public String raid_ai = "rct";
     @Comment("The list of marks the reward Pokemon will have. Default: [].")
     public String[] marks = {};
     @Comment("The number of lives a player has per raid battle. Default: 1")
