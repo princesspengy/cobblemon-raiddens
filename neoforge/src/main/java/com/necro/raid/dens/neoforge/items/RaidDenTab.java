@@ -58,5 +58,7 @@ public class RaidDenTab {
                 entries.accept(ModItems.THUNDERCLAP_CHARM.value());
                 entries.accept(ModItems.VAST_WHITE_CHARM.value());
                 entries.accept(ModItems.ZENITH_CHARM.value());
+                entries.accept(ModItems.INCARNATE_CHARM.value());
+                entries.accept(ModItems.ABUNDANCE_CHARM.value());
             }).build());
 }

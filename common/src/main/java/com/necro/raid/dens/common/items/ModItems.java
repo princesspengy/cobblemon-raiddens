@@ -39,4 +39,6 @@ public class ModItems {
     public static Holder<Item> THUNDERCLAP_CHARM;
     public static Holder<Item> VAST_WHITE_CHARM;
     public static Holder<Item> ZENITH_CHARM;
+    public static Holder<Item> INCARNATE_CHARM;
+    public static Holder<Item> ABUNDANCE_CHARM;
 }

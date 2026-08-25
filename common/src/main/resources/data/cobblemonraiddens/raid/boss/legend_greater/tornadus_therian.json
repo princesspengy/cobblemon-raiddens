@@ -1,0 +1,48 @@
+{
+  "pokemon": {
+    "species": "tornadus",
+    "moves": [
+      "bleakwindstorm",
+      "chillingwater",
+      "taunt",
+      "focusblast"
+    ]
+  },
+  "boss": {
+    "custom_properties": [
+      {
+        "name": "mirror_forme",
+        "value": "therian"
+      }
+    ]
+  },
+  "raid_tier": "TIER_SIX",
+  "raid_type": "FLYING",
+  "raid_feature": "LEGEND_GREATER",
+  "key": "cobblemonraiddens:abundance_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/therian" },
+  "music": "cobblemonraiddens:battle.raid.pokken_dragons_nest",
+  "den": [
+    "cobblemonraiddens:raid_den/incarnate"
+  ],
+  "movement": "flying",
+  "dimension": "day",
+  "script": {
+    "turn:1": {
+      "type": "set_weather",
+      "weather": "raindance"
+    },
+    "hp:0.6": {
+      "type": "reset_stats",
+      "target": "boss"
+    },
+    "hp:0.5": {
+      "type": "reset_stats",
+      "target": "player"
+    },
+    "hp:0.25": {
+      "type": "reset_stats",
+      "target": "boss"
+    }
+  }
+}

@@ -47,6 +47,8 @@ public class FabricItems {
         ModItems.THUNDERCLAP_CHARM = registerItem("thunderclap_charm", new KeyCharmItem("Zeraora"));
         ModItems.VAST_WHITE_CHARM = registerItem("vast_white_charm", new KeyCharmItem("Reshiram"));
         ModItems.ZENITH_CHARM = registerItem("zenith_charm", new KeyCharmItem("Necrozma's fused form"));
+        ModItems.INCARNATE_CHARM = registerItem("incarnate_charm", new KeyCharmItem("the Forces of Nature"));
+        ModItems.ABUNDANCE_CHARM = registerItem("abundance_charm", new KeyCharmItem("Landorus"));
     }
 
     private static Holder<Item> registerItem(String name, Item item) {

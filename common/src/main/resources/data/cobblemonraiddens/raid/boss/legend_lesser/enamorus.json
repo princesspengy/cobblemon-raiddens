@@ -13,11 +13,15 @@
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pla_legendary",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/enamorus"
+  ],
+  "dimension": "day",
   "script": {
     "turn:1": {
-      "type": "set_weather",
-      "weather": "raindance"
+      "type": "use_move",
+      "move": "tailwind",
+      "target": 2
     },
     "hp:0.5": {
       "type": "reset_stats",

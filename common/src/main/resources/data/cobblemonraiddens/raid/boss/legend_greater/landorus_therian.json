@@ -2,18 +2,26 @@
   "pokemon": {
     "species": "landorus",
     "moves": [
-      "sandsearstorm",
-      "psychic",
+      "earthquake",
       "stoneedge",
-      "focusblast"
+      "outrage",
+      "crunch"
     ]
   },
-  "raid_tier": "TIER_FIVE",
+  "boss": {
+    "custom_properties": [
+      {
+        "name": "mirror_forme",
+        "value": "therian"
+      }
+    ]
+  },
+  "raid_tier": "TIER_SIX",
   "raid_type": "FLYING",
-  "raid_feature": "LEGEND",
-  "key": "cobblemonraiddens:incarnate_charm",
-  "catch_rate": 1.0,
-  "music": "cobblemonraiddens:battle.raid.bw_legendary",
+  "raid_feature": "LEGEND_GREATER",
+  "key": "cobblemonraiddens:abundance_charm",
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/therian" },
+  "music": "cobblemonraiddens:battle.raid.pokken_dragons_nest",
   "den": [
     "cobblemonraiddens:raid_den/landorus"
   ],
@@ -23,11 +31,11 @@
       "type": "set_weather",
       "weather": "sandstorm"
     },
-    "hp:0.5": {
+    "hp:0.6": {
       "type": "reset_stats",
       "target": "boss"
     },
-    "hp:0.4": {
+    "hp:0.5": {
       "type": "reset_stats",
       "target": "player"
     },

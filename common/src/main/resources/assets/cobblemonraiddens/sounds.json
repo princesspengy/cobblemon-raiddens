@@ -655,5 +655,14 @@
                 "volume": 0.3
             }
         ]
+    },
+    "battle.raid.pokken_dragons_nest": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:battle/raid/pokken_dragons_nest",
+                "stream": true,
+                "volume": 0.3
+            }
+        ]
     }
 }

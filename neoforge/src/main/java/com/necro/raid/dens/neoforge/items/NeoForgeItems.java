@@ -48,6 +48,8 @@ public class NeoForgeItems {
         ModItems.THUNDERCLAP_CHARM = ITEMS.register("thunderclap_charm", () -> new KeyCharmItem("Zeraora"));
         ModItems.VAST_WHITE_CHARM = ITEMS.register("vast_white_charm", () -> new KeyCharmItem("Reshiram"));
         ModItems.ZENITH_CHARM = ITEMS.register("zenith_charm", () -> new KeyCharmItem("Necrozma's fused form"));
+        ModItems.INCARNATE_CHARM = ITEMS.register("incarnate_charm", () -> new KeyCharmItem("the Forces of Nature"));
+        ModItems.ABUNDANCE_CHARM = ITEMS.register("abundance_charm", () -> new KeyCharmItem("Landorus"));
     }
 
     public static void registerBlockItem(String name, Supplier<BlockItem> blockItem) {
