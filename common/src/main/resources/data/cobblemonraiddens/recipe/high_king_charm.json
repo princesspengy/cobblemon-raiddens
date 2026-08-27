@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemonraiddens:king_charm"
+    },
+    {
+      "item": "cobblemonraiddens:steed_charm"
+    }
+  ],
+  "result": {
+    "id": "cobblemonraiddens:high_king_charm"
+  }
+}

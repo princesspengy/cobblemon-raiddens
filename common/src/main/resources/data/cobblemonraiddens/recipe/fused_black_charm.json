@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemonraiddens:deep_black_charm"
+    },
+    {
+      "item": "cobblemonraiddens:boundary_charm"
+    }
+  ],
+  "result": {
+    "id": "cobblemonraiddens:fused_black_charm"
+  }
+}

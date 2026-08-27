@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemonraiddens:rock_peak_charm"
+    },
+    {
+      "item": "cobblemonraiddens:iceberg_charm"
+    },
+    {
+      "item": "cobblemonraiddens:iron_charm"
+    },
+    {
+      "item": "cobblemonraiddens:electron_charm"
+    },
+    {
+      "item": "cobblemonraiddens:dragon_orb_charm"
+    }
+  ],
+  "result": {
+    "id": "cobblemonraiddens:colossal_charm"
+  }
+}

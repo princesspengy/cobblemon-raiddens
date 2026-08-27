@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemonraiddens:moon_charm"
+    },
+    {
+      "item": "cobblemonraiddens:prism_charm"
+    }
+  ],
+  "result": {
+    "id": "cobblemonraiddens:prismatic_dawn_charm"
+  }
+}
