@@ -4,8 +4,7 @@
     "moves": [
       "pyroball",
       "bounce",
-      "lowsweep",
-      "protect"
+      "lowsweep"
     ]
   },
   "boss": {

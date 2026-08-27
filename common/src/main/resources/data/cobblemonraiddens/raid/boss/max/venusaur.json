@@ -4,8 +4,7 @@
     "moves": [
       "energyball",
       "sludgebomb",
-      "earthquake",
-      "protect"
+      "earthquake"
     ]
   },
   "boss": {

@@ -4,8 +4,7 @@
     "moves": [
       "hydropump",
       "blizzard",
-      "dragonpulse",
-      "protect"
+      "dragonpulse"
     ]
   },
   "boss": {

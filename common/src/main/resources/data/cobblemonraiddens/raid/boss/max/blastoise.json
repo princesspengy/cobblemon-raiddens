@@ -4,8 +4,7 @@
     "moves": [
       "hydropump",
       "flashcannon",
-      "earthquake",
-      "protect"
+      "earthquake"
     ]
   },
   "boss": {

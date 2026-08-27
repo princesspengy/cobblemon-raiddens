@@ -4,8 +4,7 @@
     "moves": [
       "doubleedge",
       "earthquake",
-      "seedbomb",
-      "protect"
+      "seedbomb"
     ]
   },
   "boss": {
