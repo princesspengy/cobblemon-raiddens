@@ -8,9 +8,10 @@
       "zenheadbutt"
     ]
   },
-  "raid_tier": "TIER_FIVE",
+  "raid_tier": "TIER_SIX",
   "raid_type": "NORMAL",
-  "raid_feature": "LEGEND",
+  "raid_feature": "LEGEND_GREATER",
+  "key": "cobblemonraiddens:colossal_charm",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.pla_legendary",
   "weight": 0,
@@ -25,11 +26,11 @@
         "apply": true
       }
     ],
-    "hp:0.5": {
+    "hp:0.6": {
       "type": "reset_stats",
       "target": "boss"
     },
-    "hp:0.4": {
+    "hp:0.5": {
       "type": "reset_stats",
       "target": "player"
     },

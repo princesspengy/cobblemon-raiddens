@@ -60,5 +60,12 @@ public class RaidDenTab {
                 entries.accept(ModItems.ZENITH_CHARM.value());
                 entries.accept(ModItems.INCARNATE_CHARM.value());
                 entries.accept(ModItems.ABUNDANCE_CHARM.value());
+                entries.accept(ModItems.ROCK_PEAK_CHARM.value());
+                entries.accept(ModItems.ICEBERG_CHARM.value());
+                entries.accept(ModItems.IRON_CHARM.value());
+                entries.accept(ModItems.ELECTRON_CHARM.value());
+                entries.accept(ModItems.DRAGON_ORB_CHARM.value());
+                entries.accept(ModItems.COLOSSAL_CHARM.value());
+
             }).build());
 }

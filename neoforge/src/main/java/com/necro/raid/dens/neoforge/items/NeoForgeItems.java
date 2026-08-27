@@ -50,6 +50,12 @@ public class NeoForgeItems {
         ModItems.ZENITH_CHARM = ITEMS.register("zenith_charm", () -> new KeyCharmItem("Necrozma's fused form"));
         ModItems.INCARNATE_CHARM = ITEMS.register("incarnate_charm", () -> new KeyCharmItem("the Forces of Nature"));
         ModItems.ABUNDANCE_CHARM = ITEMS.register("abundance_charm", () -> new KeyCharmItem("Landorus"));
+        ModItems.ROCK_PEAK_CHARM = ITEMS.register("rock_peak_charm", () -> new KeyCharmItem("Regirock"));
+        ModItems.ICEBERG_CHARM = ITEMS.register("iceberg_charm", () -> new KeyCharmItem("Regice"));
+        ModItems.IRON_CHARM = ITEMS.register("iron_charm", () -> new KeyCharmItem("Registeel"));
+        ModItems.ELECTRON_CHARM = ITEMS.register("electron_charm", () -> new KeyCharmItem("Regieleki"));
+        ModItems.DRAGON_ORB_CHARM = ITEMS.register("dragon_orb_charm", () -> new KeyCharmItem("Regidrago"));
+        ModItems.COLOSSAL_CHARM = ITEMS.register("colossal_charm", () -> new KeyCharmItem("Regigigas"));
     }
 
     public static void registerBlockItem(String name, Supplier<BlockItem> blockItem) {

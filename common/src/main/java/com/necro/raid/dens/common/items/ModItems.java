@@ -41,4 +41,10 @@ public class ModItems {
     public static Holder<Item> ZENITH_CHARM;
     public static Holder<Item> INCARNATE_CHARM;
     public static Holder<Item> ABUNDANCE_CHARM;
+    public static Holder<Item> ROCK_PEAK_CHARM;
+    public static Holder<Item> ICEBERG_CHARM;
+    public static Holder<Item> IRON_CHARM;
+    public static Holder<Item> ELECTRON_CHARM;
+    public static Holder<Item> DRAGON_ORB_CHARM;
+    public static Holder<Item> COLOSSAL_CHARM;
 }

@@ -12,6 +12,7 @@
   "raid_type": "DRAGON",
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/regidrago" },
   "music": "cobblemonraiddens:battle.raid.swsh_regi",
   "den": [
     "cobblemonraiddens:raid_den/regidrago"
