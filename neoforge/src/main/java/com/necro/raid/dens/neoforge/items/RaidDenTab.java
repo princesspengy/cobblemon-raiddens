@@ -3,11 +3,9 @@ package com.necro.raid.dens.neoforge.items;
 import com.necro.raid.dens.common.CobblemonRaidDens;
 import com.necro.raid.dens.common.items.ModItems;
 import com.necro.raid.dens.neoforge.blocks.NeoForgeBlocks;
-import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -66,6 +64,18 @@ public class RaidDenTab {
                 entries.accept(ModItems.ELECTRON_CHARM.value());
                 entries.accept(ModItems.DRAGON_ORB_CHARM.value());
                 entries.accept(ModItems.COLOSSAL_CHARM.value());
+                entries.accept(ModItems.MUSIC_DISC_AREA_ZERO.value());
+                entries.accept(ModItems.MUSIC_DISC_CANALAVE.value());
+                entries.accept(ModItems.MUSIC_DISC_CORONET.value());
+                entries.accept(ModItems.MUSIC_DISC_ECRUTEAK.value());
+                entries.accept(ModItems.MUSIC_DISC_GREAT_CANYON.value());
+                entries.accept(ModItems.MUSIC_DISC_HEARTWOOD.value());
+                entries.accept(ModItems.MUSIC_DISC_LAKES.value());
+                entries.accept(ModItems.MUSIC_DISC_MT_PYRE.value());
+                entries.accept(ModItems.MUSIC_DISC_OBSIDIAN_FIELDLANDS.value());
+                entries.accept(ModItems.MUSIC_DISC_ORAS_SURF.value());
+                entries.accept(ModItems.MUSIC_DISC_POKEMON_LEAGUE_NIGHT.value());
+                entries.accept(ModItems.MUSIC_DISC_ROUTE_216.value());
 
             }).build());
 }

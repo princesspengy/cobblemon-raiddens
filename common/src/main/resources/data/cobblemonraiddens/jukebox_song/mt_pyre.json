@@ -1,0 +1,8 @@
+{
+  "comparator_output": 4,
+  "description": {
+    "translate": "item.cobblemonraiddens.mtpyre.desc"
+  },
+  "length_in_seconds": 117,
+  "sound_event": "cobblemonraiddens:music_disc.mt_pyre"
+}

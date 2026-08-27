@@ -7,8 +7,11 @@ import com.necro.raid.dens.common.showdown.bagitems.CheerBagItem;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 
 public class FabricItems {
     public static void registerItems() {
@@ -55,6 +58,18 @@ public class FabricItems {
         ModItems.ELECTRON_CHARM = registerItem("electron_charm", new KeyCharmItem("Regieleki"));
         ModItems.DRAGON_ORB_CHARM = registerItem("dragon_orb_charm", new KeyCharmItem("Regidrago"));
         ModItems.COLOSSAL_CHARM = registerItem("colossal_charm", new KeyCharmItem("Regigigas"));
+        ModItems.MUSIC_DISC_AREA_ZERO = registerItem("music_disc_area_zero", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "area_zero")))));
+        ModItems.MUSIC_DISC_CANALAVE = registerItem("music_disc_canalave", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "canalave")))));
+        ModItems.MUSIC_DISC_CORONET = registerItem("music_disc_coronet", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "coronet")))));
+        ModItems.MUSIC_DISC_ECRUTEAK = registerItem("music_disc_ecruteak", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "ecruteak")))));
+        ModItems.MUSIC_DISC_GREAT_CANYON = registerItem("music_disc_great_canyon", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "great_canyon")))));
+        ModItems.MUSIC_DISC_HEARTWOOD = registerItem("music_disc_heartwood", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "heartwood")))));
+        ModItems.MUSIC_DISC_LAKES = registerItem("music_disc_lakes", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "lakes")))));
+        ModItems.MUSIC_DISC_MT_PYRE = registerItem("music_disc_mt_pyre", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "mt_pyre")))));
+        ModItems.MUSIC_DISC_OBSIDIAN_FIELDLANDS = registerItem("music_disc_obsidian_fieldlands", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "obsidian_fieldlands")))));
+        ModItems.MUSIC_DISC_ORAS_SURF = registerItem("music_disc_oras_surf", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "oras_surf")))));
+        ModItems.MUSIC_DISC_POKEMON_LEAGUE_NIGHT = registerItem("music_disc_pokemon_league_night", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "pokemon_league_night")))));
+        ModItems.MUSIC_DISC_ROUTE_216 = registerItem("music_disc_route_216", new Item((new Item.Properties()).stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath("cobblemonraiddens", "route_216")))));
     }
 
     private static Holder<Item> registerItem(String name, Item item) {

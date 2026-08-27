@@ -10,14 +10,19 @@ import net.minecraft.sounds.SoundEvent;
 
 public class FabricSounds {
     public static void registerSounds() {
-        ModSounds.RAID_DEFAULT = register("battle.raid.default");
-        ModSounds.RAID_TIER_ONE = register("battle.raid.tier_one");
-        ModSounds.RAID_TIER_TWO = register("battle.raid.tier_two");
-        ModSounds.RAID_TIER_THREE = register("battle.raid.tier_three");
-        ModSounds.RAID_TIER_FOUR = register("battle.raid.tier_four");
-        ModSounds.RAID_TIER_FIVE = register("battle.raid.tier_five");
-        ModSounds.RAID_TIER_SIX = register("battle.raid.tier_six");
-        ModSounds.RAID_TIER_SEVEN = register("battle.raid.tier_seven");
+
+        ModSounds.MUSIC_DISC_AREA_ZERO = register("music_disc.area_zero");
+        ModSounds.MUSIC_DISC_CANALAVE = register("music_disc.canalave");
+        ModSounds.MUSIC_DISC_CORONET = register("music_disc.coronet");
+        ModSounds.MUSIC_DISC_ECRUTEAK = register("music_disc.ecruteak");
+        ModSounds.MUSIC_DISC_GREAT_CANYON = register("music_disc.great_canyon");
+        ModSounds.MUSIC_DISC_HEARTWOOD = register("music_disc.heartwood");
+        ModSounds.MUSIC_DISC_LAKES = register("music_disc.lakes");
+        ModSounds.MUSIC_DISC_MT_PYRE = register("music_disc.mt_pyre");
+        ModSounds.MUSIC_DISC_OBSIDIAN_FIELDLANDS = register("music_disc.obsidian_fieldlands");
+        ModSounds.MUSIC_DISC_ORAS_SURF = register("music_disc.oras_surf");
+        ModSounds.MUSIC_DISC_POKEMON_LEAGUE_NIGHT = register("music_disc.pokemon_league_night");
+        ModSounds.MUSIC_DISC_ROUTE_216 = register("music_disc.route_216");
     }
 
     private static Holder<SoundEvent> register(String name) {

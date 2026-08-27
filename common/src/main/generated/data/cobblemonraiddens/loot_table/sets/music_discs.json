@@ -71,6 +71,66 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_precipice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_area_zero",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_canalave",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_coronet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_ecruteak",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_great_canyon",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_heartwood",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_lakes",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_mt_pyre",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_obsidian_fieldlands",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_oras_surf",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_pokemon_league_night",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:music_disc_route_216",
+          "weight": 2
         }
       ]
     }

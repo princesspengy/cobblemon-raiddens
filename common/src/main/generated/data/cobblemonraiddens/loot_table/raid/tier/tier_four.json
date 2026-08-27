@@ -86,7 +86,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "cobblemonraiddens:sets/music_discs",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",

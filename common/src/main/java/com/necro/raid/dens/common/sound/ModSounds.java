@@ -4,12 +4,16 @@ import net.minecraft.core.Holder;
 import net.minecraft.sounds.SoundEvent;
 
 public class ModSounds {
-    public static Holder<SoundEvent> RAID_DEFAULT;
-    public static Holder<SoundEvent> RAID_TIER_ONE;
-    public static Holder<SoundEvent> RAID_TIER_TWO;
-    public static Holder<SoundEvent> RAID_TIER_THREE;
-    public static Holder<SoundEvent> RAID_TIER_FOUR;
-    public static Holder<SoundEvent> RAID_TIER_FIVE;
-    public static Holder<SoundEvent> RAID_TIER_SIX;
-    public static Holder<SoundEvent> RAID_TIER_SEVEN;
+    public static Holder<SoundEvent> MUSIC_DISC_AREA_ZERO;
+    public static Holder<SoundEvent> MUSIC_DISC_CANALAVE;
+    public static Holder<SoundEvent> MUSIC_DISC_CORONET;
+    public static Holder<SoundEvent> MUSIC_DISC_ECRUTEAK;
+    public static Holder<SoundEvent> MUSIC_DISC_GREAT_CANYON;
+    public static Holder<SoundEvent> MUSIC_DISC_HEARTWOOD;
+    public static Holder<SoundEvent> MUSIC_DISC_LAKES;
+    public static Holder<SoundEvent> MUSIC_DISC_MT_PYRE;
+    public static Holder<SoundEvent> MUSIC_DISC_OBSIDIAN_FIELDLANDS;
+    public static Holder<SoundEvent> MUSIC_DISC_ORAS_SURF;
+    public static Holder<SoundEvent> MUSIC_DISC_POKEMON_LEAGUE_NIGHT;
+    public static Holder<SoundEvent> MUSIC_DISC_ROUTE_216;
 }

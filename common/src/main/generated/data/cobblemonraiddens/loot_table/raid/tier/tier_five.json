@@ -2,19 +2,19 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:exp_candy_s",
+          "name": "cobblemon:exp_candy_m",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5,
-                "max": 6
+                "min": 3,
+                "max": 4
               }
             }
           ]
@@ -75,7 +75,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "cobblemonraiddens:sets/music_discs",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:tag",

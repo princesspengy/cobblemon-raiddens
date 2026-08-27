@@ -1,0 +1,8 @@
+{
+  "comparator_output": 4,
+  "description": {
+    "translate": "item.cobblemonraiddens.areazero.desc"
+  },
+  "length_in_seconds": 266,
+  "sound_event": "cobblemonraiddens:music_disc.area_zero"
+}

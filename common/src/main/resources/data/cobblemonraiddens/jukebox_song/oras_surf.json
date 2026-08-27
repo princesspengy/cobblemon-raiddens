@@ -1,0 +1,8 @@
+{
+  "comparator_output": 4,
+  "description": {
+    "translate": "item.cobblemonraiddens.orassurf.desc"
+  },
+  "length_in_seconds": 152,
+  "sound_event": "cobblemonraiddens:music_disc.oras_surf"
+}

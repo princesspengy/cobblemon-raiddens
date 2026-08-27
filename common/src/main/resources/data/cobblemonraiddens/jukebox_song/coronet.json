@@ -1,0 +1,8 @@
+{
+  "comparator_output": 4,
+  "description": {
+    "translate": "item.cobblemonraiddens.coronet.desc"
+  },
+  "length_in_seconds": 176,
+  "sound_event": "cobblemonraiddens:music_disc.coronet"
+}

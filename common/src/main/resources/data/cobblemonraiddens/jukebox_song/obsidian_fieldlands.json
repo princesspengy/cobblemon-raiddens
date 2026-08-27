@@ -1,0 +1,8 @@
+{
+  "comparator_output": 4,
+  "description": {
+    "translate": "item.cobblemonraiddens.obsidianfieldlands.desc"
+  },
+  "length_in_seconds": 247,
+  "sound_event": "cobblemonraiddens:music_disc.obsidian_fieldlands"
+}

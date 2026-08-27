@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -86,7 +86,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "cobblemonraiddens:sets/music_discs",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 4,
+  "description": {
+    "translate": "item.cobblemonraiddens.pokemonleaguenight.desc"
+  },
+  "length_in_seconds": 173,
+  "sound_event": "cobblemonraiddens:music_disc.pokemon_league_night"
+}

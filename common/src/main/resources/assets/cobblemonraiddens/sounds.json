@@ -664,5 +664,101 @@
                 "volume": 0.3
             }
         ]
+    },
+    "music_disc.area_zero": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/area_zero",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.canalave": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/canalave",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.coronet": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/coronet",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.ecruteak": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/ecruteak",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.great_canyon": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/great_canyon",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.heartwood": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/heartwood",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.lakes": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/lakes",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.mt_pyre": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/mt_pyre",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.obsidian_fieldlands": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/obsidian_fieldlands",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.oras_surf": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/oras_surf",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.pokemon_league_night": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/pokemon_league_night",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.route_216": {
+        "sounds": [
+            {
+                "name": "cobblemonraiddens:music_disc/route_216",
+                "stream": true
+            }
+        ]
     }
 }
