@@ -14,7 +14,10 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/calyrex" },
   "music": "cobblemonraiddens:battle.raid.calyrex_1",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/crown_shrine"
+  ],
+  "dimension": "snowy",
   "script": {
     "hp:0.5": {
       "type": "reset_stats",

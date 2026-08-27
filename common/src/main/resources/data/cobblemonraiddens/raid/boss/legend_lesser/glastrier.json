@@ -14,7 +14,10 @@
   "catch_rate": 1.0,
   "loot_table": { "id": "cobblemonraiddens:raid/boss/steed" },
   "music": "cobblemonraiddens:battle.raid.glastrier_spectrier",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/crown_shrine"
+  ],
+  "dimension": "snowy",
   "script": {
     "hp:0.5": {
       "type": "reset_stats",

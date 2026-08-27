@@ -18,11 +18,14 @@
   },
   "raid_tier": "TIER_SIX",
   "raid_type": "ICE",
-  "raid_feature": "APEX",
+  "raid_feature": "LEGEND_GREATER",
   "key": "cobblemonraiddens:high_king_charm",
   "loot_table": { "id": "cobblemonraiddens:raid/boss/calyrex_fused" },
   "music": "cobblemonraiddens:battle.raid.calyrex_2",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/crown_shrine"
+  ],
+  "dimension": "snowy",
   "script": {
     "hp:0.6": {
       "type": "reset_stats",
