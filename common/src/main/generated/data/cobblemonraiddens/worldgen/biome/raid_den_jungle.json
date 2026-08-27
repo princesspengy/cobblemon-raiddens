@@ -10,7 +10,7 @@
     "foliage_color": 3193611
   },
   "features": [],
-  "has_precipitation": true,
+  "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
     "ambient": [],
