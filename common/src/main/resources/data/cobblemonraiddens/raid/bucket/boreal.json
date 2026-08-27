@@ -29,15 +29,16 @@
       "cobblemonraiddens:legend/calyrex",
       "cobblemonraiddens:legend/zacian",
       "cobblemonraiddens:legend/zamazenta",
+      "cobblemonraiddens:legend_greater/calyrex_icerider",
+      "cobblemonraiddens:legend_greater/calyrex_shadowrider",
       "cobblemonraiddens:legend_greater/uxie",
       "cobblemonraiddens:legend_greater/zacian_crowned",
-      "cobblemonraiddens:legend_greater/zamazenta_crowned",
-      "cobblemonraiddens:apex/calyrex_icerider",
-      "cobblemonraiddens:apex/calyrex_shadowrider"
+      "cobblemonraiddens:legend_greater/zamazenta_crowned"
     ]
   },
   "biome": [
     "#cobblemon:is_taiga",
+    "biomeswevegone:maple_taiga",
     "#cobblemon:is_tundra"
   ]
 }
