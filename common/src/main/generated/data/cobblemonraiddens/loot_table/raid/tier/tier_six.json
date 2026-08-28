@@ -77,9 +77,8 @@
       "rolls": 2,
       "entries": [
         {
-          "type": "minecraft:tag",
+          "type": "minecraft:loot_table",
           "name": "cobblemonraiddens:reward_tms",
-          "expand": true,
           "weight": 50
         },
         {

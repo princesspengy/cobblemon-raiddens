@@ -1,0 +1,1090 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_charm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_faketears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_agility"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_mudslap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_scaryface"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_protect"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_firefang"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_thunderfang"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_icefang"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_waterpulse"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_lowkick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_acidspray"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_acrobatics"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_strugglebug"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_confuseray"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_thief"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_trailblaze"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_pounce"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_chillingwater"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_chargebeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_firespin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_facade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_poisontail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_aerialace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bulldoze"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hex"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_snarl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_metalclaw"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_swift"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_magicalleaf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_icywind"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_mudshot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_rocktomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_drainingkiss"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_flamecharge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_lowsweep"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_aircutter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_storedpower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_nightshade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_fling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dragontail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_venoshock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_avalanche"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_endure"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_voltswitch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_sunnyday"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_raindance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_sandstorm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_snowscape"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_smartstrike"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psyshock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dig"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bulletseed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_falseswipe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_brickbreak"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_zenheadbutt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_uturn"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_shadowclaw"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_foulplay"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psychicfangs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bulkup"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_airslash"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bodyslam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_firepunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_thunderpunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_icepunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_sleeptalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_seedbomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_electroball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_drainpunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_reflect"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_lightscreen"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_rockblast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_waterfall"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dragonclaw"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dazzlinggleam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_metronome"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_grassknot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_thunderwave"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_poisonjab"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_stompingtantrum"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_rest"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_rockslide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_taunt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_swordsdance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bodypress"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_toxicspikes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_imprison"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_flashcannon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_darkpulse"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_leechlife"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_eerieimpulse"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_fly"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_skillswap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_ironhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dragondance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_powergem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_gunkshot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_substitute"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_irondefense"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_xscissor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_drillrun"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_willowisp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_crunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_trick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_liquidation"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_gigadrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_aurasphere"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_tailwind"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_shadowball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dragonpulse"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_stealthrock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hypervoice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_heatwave"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_energyball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psychic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_heavyslam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_encore"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_surf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_icespinner"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_flamethrower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_thunderbolt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_playrough"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_amnesia"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_calmmind"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_helpinghand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_pollenpuff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_batonpass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_earthpower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_reversal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_icebeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_electricterrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_grassyterrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psychicterrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_mistyterrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_nastyplot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_fireblast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hydropump"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_blizzard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_firepledge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_waterpledge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_grasspledge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_wildcharge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_sludgebomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_earthquake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_stoneedge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_phantomforce"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_gigaimpact"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_blastburn"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hydrocannon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_frenzyplant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_outrage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_overheat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_focusblast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_leafstorm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hurricane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_trickroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bugbuzz"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hyperbeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bravebird"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_flareblitz"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_thunder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_closecombat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_solarbeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dracometeor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_steelbeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_terablast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_roar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_charge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_haze"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_toxic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_sandtomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_spite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_gravity"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_smackdown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_gyroball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_knockoff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bugbite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_superfang"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_vacuumwave"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_lunge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_highhorsepower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_iciclespear"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_scald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_heatcrash"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_solarblade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_uproar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_focuspunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_weatherball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_grassyglide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_burningjealousy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_flipturn"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dualwingbeat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_poltergeist"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_lashout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_scaleshot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_mistyexplosion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_painsplit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psychup"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_doubleedge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_endeavor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_petalblizzard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_temperflare"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_whirlpool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_muddywater"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_supercellslam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_electroweb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_tripleaxel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_coaching"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_sludgewave"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_scorchingsands"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_featherdance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_futuresight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_expandingforce"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_skittersmack"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_meteorbeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_throatchop"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_breakingswipe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_metalsound"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_curse"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_hardpress"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dragoncheer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_alluringvoice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psychicnoise"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_upperhand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_mysticalfire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_brutalswing"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_tailslap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_retaliate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_razorshell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_megapunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_megakick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_payday"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_pinmissile"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_screech"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_safeguard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_selfdestruct"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_steelwing"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_attract"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_beatup"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_revenge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_dive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_bounce"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_brine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_payback"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_assurance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_powerswap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_guardswap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_psychocut"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_wonderroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_crosspoison"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_round"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_return"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_doubleteam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_torment"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_echoedvoice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_skydrop"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_rockpolish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_auroraveil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_infestation"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_naturepower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_confide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_honeclaws"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_secretpower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_poweruppunch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_allyswitch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_shockwave"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_silverwind"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tr_naturalgift"
+        }
+      ]
+    }
+  ]
+}
