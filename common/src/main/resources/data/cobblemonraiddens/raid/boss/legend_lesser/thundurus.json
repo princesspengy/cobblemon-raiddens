@@ -12,6 +12,7 @@
   "raid_type": "FLYING",
   "raid_feature": "LEGEND_LESSER",
   "catch_rate": 1.0,
+  "loot_table": { "id": "cobblemonraiddens:raid/boss/incarnate" },
   "music": "cobblemonraiddens:battle.raid.bw_legendary",
   "den": [
     "cobblemonraiddens:raid_den/incarnate"
