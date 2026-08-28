@@ -79,12 +79,12 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblemonraiddens:reward_trs",
+          "value": "cobblemonraiddens:sets/reward_trs",
           "weight": 45
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblemonraiddens:reward_tms",
+          "value": "cobblemonraiddens:sets/reward_tms",
           "weight": 35
         },
         {
