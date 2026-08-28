@@ -87,7 +87,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "cobblemonraiddens:reward_tms",
+          "value": "cobblemonraiddens:reward_tms",
           "weight": 40
         },
         {
