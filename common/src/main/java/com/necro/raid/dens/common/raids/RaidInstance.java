@@ -36,12 +36,10 @@ import com.necro.raid.dens.common.util.ComponentUtils;
 import com.necro.raid.dens.common.util.IRaidAccessor;
 import com.necro.raid.dens.common.util.IRaidBattle;
 import kotlin.Pair;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerBossEvent;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.Mth;
 import net.minecraft.world.BossEvent;
@@ -235,9 +233,13 @@ public class RaidInstance {
         if (battle != null) {
             this.battles.remove(battle);
             ((IRaidBattle) battle).crd_setRaidBattle(null);
+            this.getBossEntity().setNoAi(true);
+            this.getBossEntity().getBehaviours().clear();
         }
 
         if (this.raidState != RaidState.NOT_STARTED) {
+            this.getBossEntity().setNoAi(true);
+            this.getBossEntity().getBehaviours().clear();
             if (ignoreLives || this.loseLife(player.getUUID())) this.failedPlayers.add(player.getUUID());
             if (this.failedPlayers.size() >= this.playerMap.size()) this.stopRaid(false);
             else if (this.activePlayers.stream().allMatch(p -> p.level() != this.bossEntity.level())) this.stopRaid(false);
@@ -591,10 +593,10 @@ public class RaidInstance {
 
     public void closeRaid(MinecraftServer server, boolean wasCancelled) {
         if (this.shouldClearRaid() && this.isInDen) RaidHelper.clearRaid(this.raid, this.activePlayers);
-        if (!this.bossEntity.isRemoved()) {
-            ((ServerLevel) this.bossEntity.level()).sendParticles(ParticleTypes.EXPLOSION, this.bossEntity.getX(), this.bossEntity.getY(), this.bossEntity.getZ(), 1, 1.0, 0.0, 0.0, 0.0);
-            this.bossEntity.discard();
-        }
+//        if (!this.bossEntity.isRemoved()) {
+//            ((ServerLevel) this.bossEntity.level()).sendParticles(ParticleTypes.EXPLOSION, this.bossEntity.getX(), this.bossEntity.getY(), this.bossEntity.getZ(), 1, 1.0, 0.0, 0.0, 0.0);
+//            this.bossEntity.discard();
+//        }
 
         this.bossEvent.removeAllPlayers();
         this.timerEvent.removeAllPlayers();

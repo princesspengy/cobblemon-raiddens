@@ -230,7 +230,10 @@ public abstract class RaidCrystalBlockEntity extends BlockEntity implements GeoB
             return false;
         }
         pokemonEntity.getPokemon().setScaleModifier((float) (pokemonEntity.getPokemon().getScaleModifier() * scaleModifier));
-        if (raidBoss.getNoAi()) pokemonEntity.setNoAi(true);
+        if (raidBoss.getNoAi()) {
+            pokemonEntity.setNoAi(true);
+            pokemonEntity.getBehaviours().clear();
+        }
         pokemonEntity.setInvulnerable(true);
         pokemonEntity.setPersistenceRequired();
         ((IRaidAccessor) pokemonEntity).crd_setRaidId(this.getUuid());
