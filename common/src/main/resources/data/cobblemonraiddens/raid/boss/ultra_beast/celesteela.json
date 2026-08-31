@@ -13,8 +13,14 @@
   "raid_feature": "ULTRA_BEAST",
   "catch_rate": 1.0,
   "music": "cobblemonraiddens:battle.raid.ultra_beast",
-  "weight": 0,
+  "den": [
+    "cobblemonraiddens:raid_den/celesteela"
+  ],
   "script": {
+    "turn:1": {
+      "type": "boss_stats",
+      "stats": { "def": 2 }
+    },
     "hp:0.5": {
       "type": "reset_stats",
       "target": "boss"
