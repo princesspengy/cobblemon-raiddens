@@ -73,9 +73,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:tag",
-          "name": "cobblemon:fossils",
-          "expand": true,
+          "type": "minecraft:loot_table",
+          "value": "cobblemonraiddens:sets/fossils",
           "weight": 10
         },
         {
