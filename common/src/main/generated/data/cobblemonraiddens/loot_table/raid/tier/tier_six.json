@@ -79,7 +79,13 @@
         {
           "type": "minecraft:loot_table",
           "value": "cobblemonraiddens:sets/reward_tms",
-          "weight": 50
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
