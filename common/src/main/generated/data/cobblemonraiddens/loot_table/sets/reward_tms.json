@@ -4,1087 +4,3786 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_charm"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_faketears"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_agility"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_mudslap"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_scaryface"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_protect"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_firefang"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_thunderfang"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_icefang"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_waterpulse"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_lowkick"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_acidspray"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_acrobatics"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_strugglebug"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_confuseray"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_thief"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_trailblaze"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_pounce"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_chillingwater"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_chargebeam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_firespin"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_facade"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_poisontail"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_aerialace"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bulldoze"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hex"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_snarl"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_metalclaw"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_swift"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_magicalleaf"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_icywind"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_mudshot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_rocktomb"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_drainingkiss"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_flamecharge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_lowsweep"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_aircutter"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_storedpower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_nightshade"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_fling"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dragontail"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_venoshock"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_avalanche"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_endure"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_voltswitch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_sunnyday"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_raindance"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_sandstorm"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_snowscape"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_smartstrike"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psyshock"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dig"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bulletseed"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_falseswipe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_brickbreak"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_zenheadbutt"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_uturn"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_shadowclaw"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_foulplay"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psychicfangs"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bulkup"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_airslash"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bodyslam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_firepunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_thunderpunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_icepunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_sleeptalk"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_seedbomb"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_electroball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_drainpunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_reflect"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_lightscreen"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_rockblast"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_waterfall"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dragonclaw"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dazzlinggleam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_metronome"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_grassknot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_thunderwave"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_poisonjab"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_stompingtantrum"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_rest"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_rockslide"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_taunt"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_swordsdance"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bodypress"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_spikes"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_toxicspikes"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_imprison"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_flashcannon"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_darkpulse"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_leechlife"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_eerieimpulse"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_fly"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_skillswap"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_ironhead"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dragondance"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_powergem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_gunkshot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_substitute"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_irondefense"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_xscissor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_drillrun"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_willowisp"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_crunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_trick"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_liquidation"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_gigadrain"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_aurasphere"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_tailwind"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_shadowball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dragonpulse"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_stealthrock"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hypervoice"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_heatwave"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_energyball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psychic"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_heavyslam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_encore"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_surf"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_icespinner"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_flamethrower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_thunderbolt"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_playrough"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_amnesia"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_calmmind"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_helpinghand"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_pollenpuff"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_batonpass"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_earthpower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_reversal"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_icebeam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_electricterrain"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_grassyterrain"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psychicterrain"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_mistyterrain"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_nastyplot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_fireblast"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hydropump"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_blizzard"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_firepledge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_waterpledge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_grasspledge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_wildcharge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_sludgebomb"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_earthquake"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_stoneedge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_phantomforce"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_gigaimpact"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_blastburn"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hydrocannon"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_frenzyplant"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_outrage"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_overheat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_focusblast"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_leafstorm"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hurricane"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_trickroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bugbuzz"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hyperbeam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bravebird"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_flareblitz"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_thunder"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_closecombat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_solarbeam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dracometeor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_steelbeam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_terablast"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_roar"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_charge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_haze"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_toxic"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_sandtomb"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_spite"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_gravity"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_smackdown"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_gyroball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_knockoff"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bugbite"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_superfang"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_vacuumwave"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_lunge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_highhorsepower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_iciclespear"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_scald"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_heatcrash"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_solarblade"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_uproar"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_focuspunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_weatherball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_grassyglide"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_burningjealousy"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_flipturn"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dualwingbeat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_poltergeist"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_lashout"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_scaleshot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_mistyexplosion"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_painsplit"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psychup"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_doubleedge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_endeavor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_petalblizzard"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_temperflare"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_whirlpool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_muddywater"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_supercellslam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_electroweb"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_tripleaxel"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_coaching"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_sludgewave"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_scorchingsands"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_featherdance"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_futuresight"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_expandingforce"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_skittersmack"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_meteorbeam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_throatchop"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_breakingswipe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_metalsound"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_curse"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_hardpress"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dragoncheer"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_alluringvoice"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psychicnoise"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_upperhand"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_mysticalfire"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_brutalswing"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_tailslap"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_retaliate"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_razorshell"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_megapunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_megakick"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_payday"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_pinmissile"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_screech"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_safeguard"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_selfdestruct"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_steelwing"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_attract"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_beatup"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_revenge"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_dive"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_bounce"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_brine"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_payback"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_assurance"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_powerswap"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_guardswap"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_psychocut"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_wonderroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_crosspoison"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_round"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_return"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_doubleteam"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_torment"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_echoedvoice"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_skydrop"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_rockpolish"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_auroraveil"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_infestation"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_naturepower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_confide"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_honeclaws"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_secretpower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_poweruppunch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_allyswitch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_shockwave"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_silverwind"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "simpletms:tm_naturalgift"
-        }
-      ]
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "charm"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "faketears"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "agility"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "mudslap"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "scaryface"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "protect"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "firefang"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "thunderfang"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "icefang"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "waterpulse"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "lowkick"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "acidspray"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "acrobatics"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "strugglebug"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "confuseray"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "thief"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "trailblaze"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "pounce"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "chillingwater"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "chargebeam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "firespin"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "facade"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "poisontail"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "aerialace"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bulldoze"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hex"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "snarl"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "metalclaw"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "swift"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "magicalleaf"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "icywind"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "mudshot"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "rocktomb"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "drainingkiss"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "flamecharge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "lowsweep"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "aircutter"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "storedpower"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "nightshade"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "fling"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dragontail"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "venoshock"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "avalanche"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "endure"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "voltswitch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "sunnyday"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "raindance"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "sandstorm"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "snowscape"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "smartstrike"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psyshock"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dig"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bulletseed"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "falseswipe"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "brickbreak"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "zenheadbutt"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "uturn"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "shadowclaw"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "foulplay"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psychicfangs"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bulkup"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "airslash"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bodyslam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "firepunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "thunderpunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "icepunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "sleeptalk"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "seedbomb"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "electroball"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "drainpunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "reflect"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "lightscreen"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "rockblast"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "waterfall"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dragonclaw"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dazzlinggleam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "metronome"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "grassknot"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "thunderwave"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "poisonjab"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "stompingtantrum"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "rest"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "rockslide"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "taunt"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "swordsdance"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bodypress"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "spikes"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "toxicspikes"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "imprison"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "flashcannon"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "darkpulse"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "leechlife"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "eerieimpulse"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "fly"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "skillswap"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "ironhead"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dragondance"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "powergem"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "gunkshot"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "substitute"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "irondefense"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "xscissor"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "drillrun"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "willowisp"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "crunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "trick"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "liquidation"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "gigadrain"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "aurasphere"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "tailwind"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "shadowball"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dragonpulse"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "stealthrock"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hypervoice"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "heatwave"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "energyball"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psychic"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "heavyslam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "encore"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "surf"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "icespinner"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "flamethrower"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "thunderbolt"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "playrough"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "amnesia"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "calmmind"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "helpinghand"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "pollenpuff"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "batonpass"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "earthpower"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "reversal"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "icebeam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "electricterrain"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "grassyterrain"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psychicterrain"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "mistyterrain"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "nastyplot"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "fireblast"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hydropump"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "blizzard"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "firepledge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "waterpledge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "grasspledge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "wildcharge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "sludgebomb"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "earthquake"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "stoneedge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "phantomforce"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "gigaimpact"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "blastburn"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hydrocannon"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "frenzyplant"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "outrage"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "overheat"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "focusblast"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "leafstorm"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hurricane"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "trickroom"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bugbuzz"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hyperbeam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bravebird"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "flareblitz"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "thunder"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "closecombat"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "solarbeam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dracometeor"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "steelbeam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "terablast"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "roar"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "charge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "haze"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "toxic"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "sandtomb"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "spite"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "gravity"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "smackdown"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "gyroball"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "knockoff"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bugbite"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "superfang"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "vacuumwave"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "lunge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "highhorsepower"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "iciclespear"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "scald"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "heatcrash"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "solarblade"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "uproar"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "focuspunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "weatherball"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "grassyglide"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "burningjealousy"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "flipturn"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dualwingbeat"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "poltergeist"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "lashout"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "scaleshot"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "mistyexplosion"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "painsplit"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psychup"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "doubleedge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "endeavor"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "petalblizzard"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "temperflare"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "whirlpool"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "muddywater"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "supercellslam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "electroweb"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "tripleaxel"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "coaching"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "sludgewave"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "scorchingsands"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "featherdance"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "futuresight"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "expandingforce"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "skittersmack"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "meteorbeam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "throatchop"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "breakingswipe"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "metalsound"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "curse"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "hardpress"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dragoncheer"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "alluringvoice"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psychicnoise"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "upperhand"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "mysticalfire"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "brutalswing"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "tailslap"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "retaliate"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "razorshell"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "megapunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "megakick"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "payday"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "pinmissile"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "screech"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "safeguard"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "selfdestruct"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "steelwing"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "attract"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "beatup"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "revenge"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "dive"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "bounce"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "brine"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "payback"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "assurance"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "powerswap"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "guardswap"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "psychocut"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "wonderroom"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "crosspoison"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "round"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "return"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "doubleteam"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "torment"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "echoedvoice"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "skydrop"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "rockpolish"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "auroraveil"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "infestation"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "naturepower"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "confide"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "honeclaws"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "secretpower"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "poweruppunch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "allyswitch"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "shockwave"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "silverwind"
+                  }
+              }
+          	}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "cobblemon:technical_machine",
+          "functions":[
+          	{
+              "function": "minecraft:set_components",
+              "components": {
+                "cobblemon:tm_move":{
+				  "move": "naturalgift"
+                  }
+              }
+          	}
+          ]
+        }      ]
     }
   ]
 }
