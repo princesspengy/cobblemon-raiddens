@@ -35,6 +35,7 @@
     ]
   },
   "biome": [
-    "#cobblemon:is_desert"
+    "#cobblemon:is_desert",
+    "biomeswevegone:rugged_badlands"
   ]
 }
