@@ -26,17 +26,49 @@
     "cobblemonraiddens:raid_den/kyurem_fused"
   ],
   "script": {
+    "turn:1": {
+      "type": "player_stats",
+      "stats": { "spe": 2 }
+    },
+    "hp:0.75": [
+      {
+        "type": "player_stats",
+        "stats": { "spe": 2 }
+      },
+      {
+        "type": "use_move",
+        "move": "nobleroar",
+        "target": 1
+      }
+      ],
     "hp:0.6": {
       "type": "reset_stats",
       "target": "boss"
     },
-    "hp:0.5": {
-      "type": "reset_stats",
-      "target": "player"
-    },
-    "hp:0.25": {
-      "type": "reset_stats",
-      "target": "boss"
-    }
+    "hp:0.5": [
+      {
+        "type": "player_stats",
+        "stats": { "spe": 2 }
+      },
+      {
+        "type": "use_move",
+        "move": "nobleroar",
+        "target": 1
+      },
+      {
+        "type": "reset_stats",
+        "target": "player"
+      }
+    ],
+    "hp:0.25": [
+      {
+        "type": "player_stats",
+        "stats": { "spe": 2 }
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ]
   }
 }

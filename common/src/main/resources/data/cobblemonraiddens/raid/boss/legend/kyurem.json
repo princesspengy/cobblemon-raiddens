@@ -18,10 +18,18 @@
     "cobblemonraiddens:raid_den/kyurem"
   ],
   "script": {
+    "turn:1": {
+      "type": "player_stats",
+      "stats": { "spe": 1 }
+    },
+    "hp:0.75": {
+      "type": "player_stats",
+      "stats": { "spe": 1 }
+    },
     "hp:0.5": [
       {
-        "type": "set_weather",
-        "weather": "snow"
+        "type": "player_stats",
+        "stats": { "spe": 1 }
       },
       {
         "type": "reset_stats",
@@ -32,9 +40,15 @@
       "type": "reset_stats",
       "target": "player"
     },
-    "hp:0.25": {
-      "type": "reset_stats",
-      "target": "boss"
-    }
+    "hp:0.25": [
+      {
+        "type": "player_stats",
+        "stats": { "spe": 1 }
+      },
+      {
+        "type": "reset_stats",
+        "target": "boss"
+      }
+    ]
   }
 }
