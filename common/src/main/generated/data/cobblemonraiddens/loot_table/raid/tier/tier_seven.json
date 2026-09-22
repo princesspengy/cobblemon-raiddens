@@ -83,6 +83,21 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 3,
       "entries": [
         {
